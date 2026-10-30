@@ -1,7 +1,7 @@
 # IUG Midterm Study Hub
 
-Lightweight static midterm edition: five subjects, 14-day plan, original question crops, worked explanations, slides and lecture links. Progress is saved in each student's browser.
+Open the website in your browser: https://malikahed.github.io/iug-midterm-hub/
 
-Publish the root of the main branch with GitHub Pages. No Node installation, build step, backend, API key or account is needed to run this package.
+776 questions across five midterm subjects, a 14-day plan, worked explanations, slides and lecture links. Progress saves locally in each student's browser. Lessons and slide files load as they are opened. No ZIP download, installation or account is needed to study.
 
-The full authoring workspace remains local. Run npm run package:midterm there to regenerate this edition.
+This repository contains prebuilt static web files. GitHub Pages uses the included workflow to publish main; Pages Source is GitHub Actions.
