@@ -1,0 +1,168 @@
+{
+  "slides": [
+    {
+      "file": "395951.pdf",
+      "pages": 18,
+      "before": 811179,
+      "after": 757930
+    },
+    {
+      "file": "396704.pdf",
+      "pages": 29,
+      "before": 641181,
+      "after": 578297
+    },
+    {
+      "file": "147397.pdf",
+      "pages": 24,
+      "before": 887370,
+      "after": 251266
+    },
+    {
+      "file": "151718.pdf",
+      "pages": 31,
+      "before": 1010428,
+      "after": 358327
+    },
+    {
+      "file": "392343.pdf",
+      "pages": 64,
+      "before": 5386249,
+      "after": 1248182
+    },
+    {
+      "file": "392349.pdf",
+      "pages": 103,
+      "before": 1613549,
+      "after": 1553917
+    },
+    {
+      "file": "371266.pdf",
+      "pages": 122,
+      "before": 817086,
+      "after": 599627
+    },
+    {
+      "file": "396712.pdf",
+      "pages": 23,
+      "before": 611813,
+      "after": 554525
+    },
+    {
+      "file": "396723.pdf",
+      "pages": 22,
+      "before": 628006,
+      "after": 566106
+    },
+    {
+      "file": "395310.pdf",
+      "pages": 11,
+      "before": 780749,
+      "after": 755399
+    },
+    {
+      "file": "395313.pdf",
+      "pages": 36,
+      "before": 2530555,
+      "after": 2515485
+    },
+    {
+      "file": "395315.pdf",
+      "pages": 57,
+      "before": 4320760,
+      "after": 4273376
+    },
+    {
+      "file": "157252.pdf",
+      "pages": 32,
+      "before": 846848,
+      "after": 285203
+    },
+    {
+      "file": "392357.pdf",
+      "pages": 80,
+      "before": 827528,
+      "after": 781444
+    },
+    {
+      "file": "396728.pdf",
+      "pages": 25,
+      "before": 438211,
+      "after": 374770
+    },
+    {
+      "file": "376360.pdf",
+      "pages": 10,
+      "before": 617453,
+      "after": 603796
+    },
+    {
+      "file": "395314.pdf",
+      "pages": 5,
+      "before": 3469646,
+      "after": 369371
+    },
+    {
+      "file": "392363.pdf",
+      "pages": 117,
+      "before": 2099389,
+      "after": 2038188
+    },
+    {
+      "file": "392329.pdf",
+      "pages": 90,
+      "before": 2237141,
+      "after": 2175813
+    },
+    {
+      "file": "392334.pdf",
+      "pages": 98,
+      "before": 547230,
+      "after": 496869
+    },
+    {
+      "file": "163702.pdf",
+      "pages": 28,
+      "before": 1439904,
+      "after": 879710
+    },
+    {
+      "file": "136371.pdf",
+      "pages": 28,
+      "before": 742418,
+      "after": 257712
+    },
+    {
+      "file": "376361.pdf",
+      "pages": 8,
+      "before": 582157,
+      "after": 569848
+    },
+    {
+      "file": "376544.pdf",
+      "pages": 8,
+      "before": 462121,
+      "after": 450153
+    },
+    {
+      "file": "395945.pdf",
+      "pages": 24,
+      "before": 895876,
+      "after": 837745
+    },
+    {
+      "file": "395948.pdf",
+      "pages": 17,
+      "before": 480330,
+      "after": 427333
+    }
+  ],
+  "pdfEngine": "pymupdf",
+  "images": {
+    "before": 11064974,
+    "after": 9360676,
+    "optimized": 777
+  },
+  "files": 940,
+  "totalBytes": 39398855
+}

@@ -1,0 +1,1 @@
+var e=Object.freeze({"&":`&amp;`,"<":`&lt;`,">":`&gt;`,"'":`&#39;`,'"':`&quot;`});function t(e,t=document){let n=t.querySelector(e);if(!n)throw Error(`Missing required element: ${e}`);return n}function n(t){return String(t??``).replace(/[&<>'"]/g,t=>e[t])}function r(){return window.matchMedia(`(prefers-reduced-motion: reduce)`).matches}export{t as n,r,n as t};
