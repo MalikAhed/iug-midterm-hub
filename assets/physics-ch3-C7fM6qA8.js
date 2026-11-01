@@ -1,16 +1,447 @@
-var e={id:`physics-ch3`,title:`Vectors`,summary:`Serway/Jewett 9e · Chapter 3 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::mcq
+var e={id:`physics-ch3`,title:`Vectors`,summary:`Serway/Jewett 9e · Chapter 3 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::exam-question
+id: phys-ch3-p15
+title: Serway/Jewett · Problem 3.15
+question: Serway/Jewett · Problem 3.15
+reference: [Serway/Jewett 9e · Problem 3.15](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.15
+
+![Serway/Jewett · Problem 3.15 — complete original problem](assets/lessons/physics/recommended/ch3-p15.webp)
+solution:
+**Plan — we are going to…**
+
+1. Read the horizontal and vertical components and locate the vector's quadrant.
+2. Use a right triangle to find its length.
+3. Find a reference angle, then turn it into the direction measured counterclockwise from positive x.
+
+**The trick**
+
+Check the **quadrant before the angle**. Negative x and positive y mean left/up: quadrant II. Inverse tangent alone may give the wrong quadrant.
+
+**What you need to know**
+
+- **Component** = signed amount along an axis.
+- **+x** = right; **+y** = up.
+- **Magnitude** = vector length (the right triangle's hypotenuse).
+
+Use degree mode.
+
+\\[
+|\\vec A|=\\sqrt{A_x^2+A_y^2}.
+\\]
+
+**Step-by-step solution**
+
+1. **Write the given components.** The minus sign in the original question belongs to the horizontal component:
+
+\\[
+A_x=-25.0\\ \\text{units},\\qquad A_y=40.0\\ \\text{units}.
+\\]
+
+2. **Square each component.** A negative number squared becomes positive:
+
+\\[
+(-25.0)^2=625,\\qquad (40.0)^2=1600.
+\\]
+
+3. **Add the squares, then take the square root.**
+
+\\[
+|\\vec A|=\\sqrt{625+1600}
+\\]
+
+\\[
+|\\vec A|=\\sqrt{2225}=47.2\\ \\text{units}.
+\\]
+
+4. **Find the acute reference angle above the negative x axis.** Use positive side lengths here:
+
+\\[
+\\tan\\alpha=\\frac{40.0}{25.0}=1.60
+\\]
+
+\\[
+\\alpha=\\tan^{-1}(1.60)=58.0^\\circ.
+\\]
+
+5. **Measure the final angle from positive x.** Quadrant II lies between 90° and 180°:
+
+\\[
+\\theta=180^\\circ-58.0^\\circ=122^\\circ.
+\\]
+
+The answer is **47.2 units at 122° counterclockwise from positive x**.
+
+**Use this method again**
+
+Component signs → quadrant → magnitude → reference angle → angle from the requested axis.
+
+**Check**
+
+Reconstruct the components from the rounded polar answer:
+
+\\[
+47.2\\cos122^\\circ\\approx-25.0,
+\\]
+
+\\[
+47.2\\sin122^\\circ\\approx40.0.
+\\]
+
+Both the values and their signs match the original vector. The length also exceeds either individual component, as a hypotenuse must.
+:::
+
+:::exam-question
+id: phys-ch3-p19
+title: Serway/Jewett · Problem 3.19
+question: Serway/Jewett · Problem 3.19
+reference: [Serway/Jewett 9e · Problem 3.19](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.19
+
+![Serway/Jewett · Problem 3.19 — complete original problem](assets/lessons/physics/recommended/ch3-p19.webp)
+solution:
+**Plan — we are going to…**
+
+1. Treat each polar pair as a length and an angle from positive x.
+2. Resolve the length into horizontal and vertical components.
+3. Check signs against the quadrant, keeping each part's original unit.
+
+**The trick**
+
+Each part is a separate vector. **Keep its given unit**—meters, centimeters, or inches. These vectors are not being added.
+
+**What you need to know**
+
+- **Polar form** = magnitude and direction.
+- **i-hat** = unit arrow along +x (right).
+- **j-hat** = unit arrow along +y (up).
+
+For an angle measured counterclockwise from +x, use degree mode:
+
+\\[
+x=r\\cos\\theta
+\\]
+
+\\[
+y=r\\sin\\theta.
+\\]
+
+**Unit-vector form:**
+
+\\[
+\\vec r=x\\hat i+y\\hat j.
+\\]
+
+**Step-by-step solution**
+
+1. **Part (a): identify the quadrant.** An angle of 150° points left and up, so x must be negative and y positive.
+
+\\[
+r=12.8\\ \\mathrm m,\\qquad \\theta=150^\\circ.
+\\]
+
+2. **Calculate both components for (a).**
+
+\\[
+x=12.8\\cos150^\\circ=12.8(-0.8660)=-11.1\\ \\mathrm m
+\\]
+
+\\[
+y=12.8\\sin150^\\circ=12.8(0.500)=6.40\\ \\mathrm m.
+\\]
+
+\\[
+\\vec r_a=(-11.1\\hat i+6.40\\hat j)\\ \\mathrm m.
+\\]
+
+3. **Part (b): 60° points right and up.** Both components are positive:
+
+\\[
+x=3.30\\cos60.0^\\circ=3.30(0.500)=1.65\\ \\mathrm{cm}
+\\]
+
+\\[
+y=3.30\\sin60.0^\\circ=3.30(0.8660)=2.86\\ \\mathrm{cm}.
+\\]
+
+\\[
+\\vec r_b=(1.65\\hat i+2.86\\hat j)\\ \\mathrm{cm}.
+\\]
+
+4. **Part (c): 215° points left and down.** Both components are negative:
+
+\\[
+x=22.0\\cos215^\\circ=22.0(-0.8192)=-18.0\\ \\mathrm{in.}
+\\]
+
+\\[
+y=22.0\\sin215^\\circ=22.0(-0.5736)=-12.6\\ \\mathrm{in.}
+\\]
+
+\\[
+\\vec r_c=(-18.0\\hat i-12.6\\hat j)\\ \\mathrm{in.}
+\\]
+
+**Use this method again**
+
+Sketch the quadrant to predict signs. Use x = magnitude × cosine only when the angle starts from x.
+
+**Check**
+
+The component signs are (−,+), (+,+), and (−,−), matching the three quadrants. Check each length from its components:
+
+\\[
+\\sqrt{(-11.1)^2+6.40^2}\\approx12.8\\ \\mathrm m,
+\\]
+
+\\[
+\\sqrt{1.65^2+2.86^2}\\approx3.30\\ \\mathrm{cm},
+\\]
+
+\\[
+\\sqrt{(-18.0)^2+(-12.6)^2}\\approx22.0\\ \\mathrm{in.}
+\\]
+
+Rounding the components explains the small last-digit differences. Each reconstructed length retains its own original unit.
+:::
+
+:::exam-question
+id: phys-ch3-p21
+title: Serway/Jewett · Problem 3.21
+question: Serway/Jewett · Problem 3.21
+reference: [Serway/Jewett 9e · Problem 3.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.21
+
+![Serway/Jewett · Problem 3.21 — complete original problem](assets/lessons/physics/recommended/ch3-p21.webp)
+solution:
+**Plan — we are going to…**
+
+1. Choose east as positive x and north as positive y.
+2. Split the diagonal walk into east and north parts.
+3. Add all signed x components and all signed y components.
+4. Find the length and direction of the single arrow from entrance to endpoint.
+
+**The trick**
+
+**Displacement = start-to-finish arrow.** Adding all walking distances gives path length instead.
+
+**What you need to know**
+
+A diagonal displacement at an angle north of east has components:
+
+\\[
+d_x=d\\cos\\theta,\\qquad d_y=d\\sin\\theta.
+\\]
+
+Add matching components first. Only afterward find the resultant magnitude:
+
+\\[
+R=\\sqrt{R_x^2+R_y^2}.
+\\]
+
+**Step-by-step solution**
+
+1. **Write the first two walks as components.** North contributes only y; east contributes only x:
+
+\\[
+\\vec d_1=(0,75.0)\\ \\mathrm m
+\\]
+
+\\[
+\\vec d_2=(250,0)\\ \\mathrm m.
+\\]
+
+2. **Resolve the third walk.** The 30.0° angle begins at east, so cosine gives east and sine gives north:
+
+\\[
+d_{3x}=125\\cos30.0^\\circ=108.253\\ \\mathrm m
+\\]
+
+\\[
+d_{3y}=125\\sin30.0^\\circ=62.5\\ \\mathrm m.
+\\]
+
+3. **Give the southward walk a negative y component.**
+
+\\[
+\\vec d_4=(0,-150)\\ \\mathrm m.
+\\]
+
+4. **Add the horizontal components.**
+
+\\[
+R_x=0+250+108.253+0=358.253\\ \\mathrm m.
+\\]
+
+5. **Add the vertical components.**
+
+\\[
+R_y=75.0+0+62.5-150=-12.5\\ \\mathrm m.
+\\]
+
+The endpoint is east and slightly south of the entrance.
+
+6. **Find the resultant magnitude.** Keep the extra digits until the last line:
+
+\\[
+R=\\sqrt{(358.253)^2+(-12.5)^2}
+\\]
+
+\\[
+R=358.471\\ \\mathrm m\\approx358\\ \\mathrm m.
+\\]
+
+7. **Find the small angle below east.**
+
+\\[
+\\alpha=\\tan^{-1}\\left(\\frac{12.5}{358.253}\\right)=2.00^\\circ.
+\\]
+
+The displacement is **358 m, 2.00° south of east**.
+
+**Use this method again**
+
+Each leg → signed x/y components → sum components → magnitude and direction.
+
+**Check**
+
+Northward travel totals 137.5 m, while southward travel is 150 m, leaving 12.5 m south. The answer must therefore say south of east.
+:::
+
+:::exam-question
+id: phys-ch3-p23
+title: Serway/Jewett · Problem 3.23
+question: Serway/Jewett · Problem 3.23
+reference: [Serway/Jewett 9e · Problem 3.23](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.23
+
+![Serway/Jewett · Problem 3.23 — complete original problem](assets/lessons/physics/recommended/ch3-p23.webp)
+solution:
+**Plan — we are going to…**
+
+1. Write each vector as an x and y pair.
+2. Add pairs for part (a), then subtract pairs for part (b).
+3. Use those two resulting pairs to find lengths and directions for parts (c)–(e).
+
+**The trick**
+
+**Subtract a vector → reverse every component.** Subtracting a negative component gives a plus.
+
+**What you need to know**
+
+The given vectors are:
+
+\\[
+\\vec A=3\\hat i-2\\hat j,\\qquad \\vec B=-\\hat i-4\\hat j.
+\\]
+
+The coefficient of a bare unit vector is 1, so the x component of B is −1. For any result:
+
+\\[
+|\\vec R|=\\sqrt{R_x^2+R_y^2}.
+\\]
+
+Use the signs of the components to choose the direction's quadrant.
+
+**Step-by-step solution**
+
+1. **Part (a): add x components and y components separately.**
+
+\\[
+(A+B)_x=3+(-1)=2
+\\]
+
+\\[
+(A+B)_y=-2+(-4)=-6
+\\]
+
+\\[
+\\vec A+\\vec B=2\\hat i-6\\hat j.
+\\]
+
+2. **Part (b): subtract every component of B.**
+
+\\[
+(A-B)_x=3-(-1)=3+1=4
+\\]
+
+\\[
+(A-B)_y=-2-(-4)=-2+4=2
+\\]
+
+\\[
+\\vec A-\\vec B=4\\hat i+2\\hat j.
+\\]
+
+3. **Part (c): find the sum's magnitude.**
+
+\\[
+|\\vec A+\\vec B|=\\sqrt{2^2+(-6)^2}
+\\]
+
+\\[
+|\\vec A+\\vec B|=\\sqrt{4+36}=\\sqrt{40}\\approx6.32.
+\\]
+
+4. **Part (d): find the difference's magnitude.**
+
+\\[
+|\\vec A-\\vec B|=\\sqrt{4^2+2^2}
+\\]
+
+\\[
+|\\vec A-\\vec B|=\\sqrt{16+4}=\\sqrt{20}\\approx4.47.
+\\]
+
+5. **Part (e): find the sum's direction.** The sum points right and down, in quadrant IV. Its reference angle below positive x is:
+
+\\[
+\\alpha=\\tan^{-1}\\left(\\frac{6}{2}\\right)=71.6^\\circ.
+\\]
+
+Convert this clockwise reference angle into a counterclockwise direction:
+
+\\[
+\\theta_{A+B}=360^\\circ-71.6^\\circ=288.4^\\circ.
+\\]
+
+6. **Find the difference's direction.** Both components are positive, so the reference angle is already the quadrant-I direction:
+
+\\[
+\\theta_{A-B}=\\tan^{-1}\\left(\\frac{2}{4}\\right)=26.6^\\circ.
+\\]
+
+**Use this method again**
+
+Calculate components first, then magnitude and angle. Label **sum** and **difference** to keep their answers separate.
+
+**Check**
+
+Adding the difference back to B must recover A:
+
+\\[
+(4,2)+(-1,-4)=(3,-2).
+\\]
+
+The sum's negative y component agrees with its quadrant-IV angle.
+:::
+
+:::exam-question
 id: phys-ch3-p26
 title: Serway/Jewett · Problem 3.26
+question: Serway/Jewett · Problem 3.26
 reference: [Serway/Jewett 9e · Problem 3.26](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | \\(C=(5,4), D=(-1,8)\\); polar forms (6.40, 38.7°) and (8.06, 97.1°).
-- [ ] b | \\(C=(5,4), D=(1,-8)\\); polar forms (6.40, 38.7°) and (8.06, 277.1°).
-- [ ] c | \\(C=(-1,8), D=(5,4)\\); polar forms (8.06, 97.1°) and (6.40, 38.7°).
-- [ ] d | \\(C=(6,-12), D=(2/3,-3)\\); polar forms (13.4, 296.6°) and (3.07, 282.5°).
-explanation: With \\(A=(2,6),B=(3,-2)\\), component addition gives \\(C=(5,4)\\) and subtraction gives \\(D=(-1,8)\\). A tip-to-tail drawing gives the same vectors. Their lengths are √41 and √65.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.26
+
 ![Serway/Jewett · Problem 3.26 — complete original problem](assets/lessons/physics/recommended/ch3-p26.webp)
 solution:
 **Plan — we are going to…**
@@ -123,19 +554,124 @@ Subtract the difference from the sum to recover twice B:
 C points right/up and D left/up, agreeing with the reported polar quadrants.
 :::
 
-:::mcq
+:::exam-question
+id: phys-ch3-p31
+title: Serway/Jewett · Problem 3.31
+question: Serway/Jewett · Problem 3.31
+reference: [Serway/Jewett 9e · Problem 3.31](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.31
+
+![Serway/Jewett · Problem 3.31 — complete original problem](assets/lessons/physics/recommended/ch3-p31.webp)
+solution:
+**Plan — we are going to…**
+
+1. Record the three displacement vectors as component pairs.
+2. Add them to get D.
+3. Reverse A and B before adding C to get E.
+4. Calculate each result's length and quadrant-correct direction.
+
+**The trick**
+
+The second expression contains **−A**, not −2A. Reverse A and B; leave C unchanged.
+
+**What you need to know**
+
+Read the original vectors carefully:
+
+\\[
+\\vec A=(3,-3)\\ \\mathrm m
+\\]
+
+\\[
+\\vec B=(1,-4)\\ \\mathrm m
+\\]
+
+\\[
+\\vec C=(-2,5)\\ \\mathrm m.
+\\]
+
+Use the square root of the sum of the squared components for a length. Angles here are counterclockwise from positive x.
+
+**Step-by-step solution**
+
+1. **Part (a): add the x components for D.**
+
+\\[
+D_x=3+1+(-2)=2\\ \\mathrm m.
+\\]
+
+2. **Add the y components.**
+
+\\[
+D_y=-3+(-4)+5=-2\\ \\mathrm m.
+\\]
+
+3. **Find D's magnitude.**
+
+\\[
+D=\\sqrt{2^2+(-2)^2}=\\sqrt8=2.83\\ \\mathrm m.
+\\]
+
+4. **Find D's direction.** It points right and down. Equal horizontal and vertical lengths give a 45° reference angle:
+
+\\[
+\\theta_D=360^\\circ-45^\\circ=315^\\circ.
+\\]
+
+5. **Part (b): reverse A and B, then add C.**
+
+\\[
+-\\vec A=(-3,3)\\ \\mathrm m
+\\]
+
+\\[
+-\\vec B=(-1,4)\\ \\mathrm m
+\\]
+
+\\[
+E_x=-3-1-2=-6\\ \\mathrm m
+\\]
+
+\\[
+E_y=3+4+5=12\\ \\mathrm m.
+\\]
+
+6. **Find E's magnitude.**
+
+\\[
+E=\\sqrt{(-6)^2+12^2}=\\sqrt{180}=13.4\\ \\mathrm m.
+\\]
+
+7. **Find E's direction.** It points left and up, in quadrant II:
+
+\\[
+\\alpha=\\tan^{-1}(12/6)=63.4^\\circ
+\\]
+
+\\[
+\\theta_E=180^\\circ-63.4^\\circ=116.6^\\circ.
+\\]
+
+**Use this method again**
+
+Reverse every component of each negative vector → add matching components → magnitude and direction.
+
+**Check**
+
+D has signs (+,−), matching 315°. E has signs (−,+), matching 116.6°. Both final magnitudes are positive lengths.
+:::
+
+:::exam-question
 id: phys-ch3-p36
 title: Serway/Jewett · Problem 3.36
+question: Serway/Jewett · Problem 3.36
 reference: [Serway/Jewett 9e · Problem 3.36](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) √35 m; (b) √38 m
-- [ ] b | (a) √155 m; (b) √362 m
-- [ ] c | (a) 9 m; (b) 30 m
-- [x] d | (a) √35 m; (b) √362 m
-explanation: \\(C=A+B=(5,-1,-3)\\), so \\(|C|=\\sqrt{35}\\). \\(D=2A-B=(4,-11,15)\\), so \\(|D|=\\sqrt{362}\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.36
+
 ![Serway/Jewett · Problem 3.36 — complete original problem](assets/lessons/physics/recommended/ch3-p36.webp)
 solution:
 **Plan — we are going to…**
@@ -250,19 +786,15 @@ Reverse the operations to recover the original A:
 Each calculated length exceeds the magnitude of each of its own components, as required.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch3-p37
 title: Serway/Jewett · Problem 3.37
+question: Serway/Jewett · Problem 3.37
 reference: [Serway/Jewett 9e · Problem 3.37](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) a=−5, b=−7; (b) the magnitude equation alone fixes both unknowns.
-- [ ] b | (a) infinitely many pairs; (b) vectors cannot determine two unknowns.
-- [x] c | (a) a=5, b=7; (b) one vector equation represents two independent scalar component equations.
-- [ ] d | (a) a=7, b=5; (b) there is only one scalar equation.
-explanation: The components give \\(6a-8b+26=0\\) and \\(-8a+3b+19=0\\). Solving yields a=5, b=7; the equation is a vector equality, so each component must vanish.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.37
+
 ![Serway/Jewett · Problem 3.37 — complete original problem](assets/lessons/physics/recommended/ch3-p37.webp)
 solution:
 **Plan — we are going to…**
@@ -375,19 +907,15 @@ Substitute both values into both components:
 Both components vanish, so the full vector equation is satisfied.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch3-p41
 title: Serway/Jewett · Problem 3.41
+question: Serway/Jewett · Problem 3.41
 reference: [Serway/Jewett 9e · Problem 3.41](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\(E=(7.72,15.1), F=(15.1,7.72), G=(-15.1,-7.72)\\) cm
-- [ ] b | \\(E=(15.1,7.72), F=(-7.72,15.1), G=(7.72,-15.1)\\) cm
-- [ ] c | \\(E=(17,17), F=(17,-17), G=(-17,-17)\\) cm
-- [x] d | \\(E=(15.1,7.72), F=(-7.72,15.1), G=(-7.72,-15.1)\\) cm
-explanation: The respective angles measured counterclockwise from +x are 27°, 117°, and 243°. Apply \\((17\\cos\\theta,17\\sin\\theta)\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.41
+
 ![Serway/Jewett · Problem 3.41 — complete original problem](assets/lessons/physics/recommended/ch3-p41.webp)
 solution:
 **Plan — we are going to…**
@@ -489,19 +1017,15 @@ Starting axis angle → add counterclockwise/subtract clockwise → calculate si
 E points right/up, F left/up, and G left/down. All three reconstructed lengths are 17.0 cm, allowing for rounding.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch3-p45
 title: Serway/Jewett · Problem 3.45
+question: Serway/Jewett · Problem 3.45
 reference: [Serway/Jewett 9e · Problem 3.45](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\(1.11\\times10^4\\) m, 43.4° above +x
-- [ ] b | \\(1.21\\times10^4\\) m, 0°
-- [ ] c | \\(1.90\\times10^4\\) m, 60.0° above +x
-- [x] d | \\(1.43\\times10^4\\) m, 32.2° above +x
-explanation: The horizontal velocity is \\(8040/30=268\\) m/s. At 45 s, \\(r=(12060,7600)\\) m, giving magnitude 14255 m and angle 32.2°.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.45
+
 ![Serway/Jewett · Problem 3.45 — complete original problem](assets/lessons/physics/recommended/ch3-p45.webp)
 solution:
 **Plan — we are going to…**
@@ -596,19 +1120,15 @@ Separate axes → calculate changing coordinates → retain fixed coordinates �
 The plane is 12.06 km horizontally away and 7.60 km high, so its straight-line distance must exceed 12.06 km. The viewing angle decreases as it travels farther away.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch3-p57
 title: Serway/Jewett · Problem 3.57
+question: Serway/Jewett · Problem 3.57
 reference: [Serway/Jewett 9e · Problem 3.57](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | (a) (2,1,3); (b) √14; (c) (57.7°,74.5°,36.7°).
-- [ ] b | (a) (2,1,3); (b) 6; (c) (30°,60°,90°).
-- [ ] c | (a) (3,1,2); (b) √14; (c) (36.7°,74.5°,57.7°).
-- [ ] d | (a) (2,1,3); (b) √6; (c) (35.3°,65.9°,0°).
-explanation: The component magnitudes are 2,1,3 and \\(|R|=\\sqrt{14}\\). Direction cosines are \\(2/\\sqrt{14},1/\\sqrt{14},3/\\sqrt{14}\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.57
+
 ![Serway/Jewett · Problem 3.57 — complete original problem](assets/lessons/physics/recommended/ch3-p57.webp)
 solution:
 **Plan — we are going to…**
@@ -698,19 +1218,15 @@ The largest component is along z, so the smallest angle should be to z. Also the
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch3-p59
 title: Serway/Jewett · Problem 3.59
+question: Serway/Jewett · Problem 3.59
 reference: [Serway/Jewett 9e · Problem 3.59](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | 178.9°
-- [ ] b | 0.573°
-- [x] c | 1.15°
-- [ ] d | 88.9°
-explanation: For equal vector magnitudes, \\(|A+B|/|A-B|=\\cot(\\theta/2)=100\\). Thus \\(\\theta=2\\tan^{-1}(0.01)=1.14588^\\circ\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 3.59
+
 ![Serway/Jewett · Problem 3.59 — complete original problem](assets/lessons/physics/recommended/ch3-p59.webp)
 solution:
 **Plan — we are going to…**
@@ -809,18 +1325,15 @@ Insert the exact cosine into the squared ratio before rounding the angle:
 Taking the positive square root gives the required length ratio 100. The small positive angle also explains near reinforcement in the sum and near cancellation in the difference.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch7-p7
 title: Serway/Jewett · Problem 7.7
+question: Serway/Jewett · Problem 7.7
 reference: [Serway/Jewett 9e · Problem 7.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which identity follows by expanding the scalar product in Cartesian components?
-- [ ] a | \\(\\vec A\\cdot\\vec B=A_xB_y+A_yB_z+A_zB_x\\)
-- [ ] b | \\(\\vec A\\cdot\\vec B=|\\vec A|+|\\vec B|\\)
-- [x] c | \\(\\vec A\\cdot\\vec B=A_xB_x+A_yB_y+A_zB_z\\)
-explanation: Write \\(\\vec A=A_x\\hat i+A_y\\hat j+A_z\\hat k\\) and likewise for B. Distribute the dot product over all nine pairs. Each unit vector dotted with itself gives 1, while distinct perpendicular basis vectors give zero. Only the three matching-component products remain.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 7.7
+
 ![Serway/Jewett · Problem 7.7 — complete original problem](assets/lessons/physics/recommended/ch7-p7.webp)
 solution:
 **Plan — we are going to…**
@@ -903,19 +1416,15 @@ Multiply x with x, y with y, z with z → add the three products. The result is 
 If both vectors lie along x only, the formula reduces to the product of their x components. If one lies along x and the other along y, it gives zero, as perpendicular vectors should.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch7-p9
 title: Serway/Jewett · Problem 7.9
+question: Serway/Jewett · Problem 7.9
 reference: [Serway/Jewett 9e · Problem 7.9](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | −16
-- [ ] b | 20
-- [ ] c | −20
-- [x] d | 16
-explanation: \\(A-B=(4,-1,-6)\\). Dot with \\(C=(0,2,-3)\\): \\(0-2+18=16\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 7.9
+
 ![Serway/Jewett · Problem 7.9 — complete original problem](assets/lessons/physics/recommended/ch7-p9.webp)
 solution:
 **Plan — we are going to…**
@@ -1012,19 +1521,15 @@ The distributive form provides a second check:
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch7-p12
 title: Serway/Jewett · Problem 7.12
+question: Serway/Jewett · Problem 7.12
 reference: [Serway/Jewett 9e · Problem 7.12](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) 45°; (b) 90°; (c) 135°
-- [x] b | (a) 11.3°; (b) 156°; (c) 82.3°
-- [ ] c | (a) 168.7°; (b) 24.0°; (c) 116.6°
-- [ ] d | (a) 11.3°; (b) 24.0°; (c) 63.4°
-explanation: Use \\(\\cos\\theta=A\\cdot B/(|A||B|)\\). The three dot products are 20, −22, and 2, and the respective norm products are \\(\\sqrt{13}\\sqrt{32},\\sqrt{20}\\sqrt{29},3\\sqrt{25}\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 7.12
+
 ![Serway/Jewett · Problem 7.12 — complete original problem](assets/lessons/physics/recommended/ch7-p12.webp)
 solution:
 **Plan — we are going to…**
@@ -1139,19 +1644,15 @@ Record x/y/z → dot product → both lengths → inverse cosine. Keep the dot p
 The positive dot products in (a) and (c) give acute angles. The negative dot product in (b) gives an obtuse angle. Each cosine ratio lies between −1 and 1.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch7-p13
 title: Serway/Jewett · Problem 7.13
+question: Serway/Jewett · Problem 7.13
 reference: [Serway/Jewett 9e · Problem 7.13](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | 7.05 m at 28.4°
-- [ ] b | 6.00 m at 60.0°
-- [ ] c | 7.05 m at 91.6°
-- [ ] d | 6.62 m at 85.0°
-explanation: Let \\(\\alpha=\\theta_A-60^\\circ\\). Then \\(A\\cos\\alpha=6\\) and \\(A\\cos(\\alpha+25^\\circ)=7\\). Thus \\(A\\sin\\alpha=(6\\cos 25^\\circ-7)/\\sin 25^\\circ=-3.697\\). The components give A≈7.05 m and θ≈28.4°.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 7.13
+
 ![Serway/Jewett · Problem 7.13 — complete original problem](assets/lessons/physics/recommended/ch7-p13.webp)
 solution:
 **Plan — we are going to…**
@@ -1284,19 +1785,15 @@ C is closer to B's 60° direction, so its dot product with B should be larger. U
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch11-p1
 title: Serway/Jewett · Problem 11.1
+question: Serway/Jewett · Problem 11.1
 reference: [Serway/Jewett 9e · Problem 11.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | \\(\\hat i+8\\hat j+22\\hat k\\)
-- [ ] b | \\(-\\hat i-8\\hat j-22\\hat k\\)
-- [ ] c | \\(\\hat i-8\\hat j+22\\hat k\\)
-- [ ] d | \\(8\\hat i-15\\hat j-2\\hat k\\)
-explanation: \\(M\\times N=((−3)(−2)-1(5),1(4)-2(−2),2(5)-(−3)(4))=(1,8,22)\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 11.1
+
 ![Serway/Jewett · Problem 11.1 — complete original problem](assets/lessons/physics/recommended/ch11-p1.webp)
 solution:
 **Plan — we are going to…**
@@ -1392,19 +1889,15 @@ Dotting the answer with either input must give zero:
 Both checks pass.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch11-p3
 title: Serway/Jewett · Problem 11.3
+question: Serway/Jewett · Problem 11.3
 reference: [Serway/Jewett 9e · Problem 11.3](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) \\(7\\hat k\\); (b) 119.7°
-- [ ] b | (a) 4; (b) 29.7°
-- [x] c | (a) \\(7\\hat k\\); (b) 60.3°
-- [ ] d | (a) \\(-7\\hat k\\); (b) 60.3°
-explanation: \\(A\\times B=[1(3)-2(-2)]\\hat k=7\\hat k\\). Also \\(A\\cdot B=4\\), so \\(\\theta=\\cos^{-1}(4/\\sqrt{65})=60.3^\\circ\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 11.3
+
 ![Serway/Jewett · Problem 11.3 — complete original problem](assets/lessons/physics/recommended/ch11-p3.webp)
 solution:
 **Plan — we are going to…**
@@ -1510,19 +2003,15 @@ AB\\sin\\theta=\\sqrt{65}\\sin60.3^\\circ\\approx7.
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch11-p7
 title: Serway/Jewett · Problem 11.7
+question: Serway/Jewett · Problem 11.7
 reference: [Serway/Jewett 9e · Problem 11.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | 135°
-- [ ] b | 0°
-- [x] c | 45° (for nonzero vectors)
-- [ ] d | 90°
-explanation: \\(|A\\times B|=AB\\sin\\theta\\) and \\(A\\cdot B=AB\\cos\\theta\\). For nonzero vectors, equality requires sinθ=cosθ and a nonnegative dot product, hence θ=45°. If either vector is zero, its direction angle is undefined.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 11.7
+
 ![Serway/Jewett · Problem 11.7 — complete original problem](assets/lessons/physics/recommended/ch11-p7.webp)
 solution:
 **Plan — we are going to…**
@@ -1605,19 +2094,15 @@ At 45° the sine and cosine are equal:
 Thus both sides have the same positive value.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch11-p10
 title: Serway/Jewett · Problem 11.10
+question: Serway/Jewett · Problem 11.10
 reference: [Serway/Jewett 9e · Problem 11.10](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | No: the proposed product is not perpendicular to the first vector.
-- [ ] b | Yes: every vector can be written as a cross product with any other vector.
-- [ ] c | No: a cross product must have zero magnitude.
-- [ ] d | Yes: the magnitudes of both sides are equal.
-explanation: A cross product with \\(B=(2,-3,4)\\) must be perpendicular to B. But \\(B\\cdot(4,3,-1)=8-9-4=-5\\ne0\\), so no such A exists.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 11.10
+
 ![Serway/Jewett · Problem 11.10 — complete original problem](assets/lessons/physics/recommended/ch11-p10.webp)
 solution:
 **Plan — we are going to…**
@@ -1696,18 +2181,14 @@ Before solving unknown components, test required properties. For a cross product
 The conclusion does not depend on guessing A. The nonzero dot product alone is enough to show the proposed equation has no solution.
 :::
 
-:::mcq
+:::exam-question
 id: past-physics-2007-q2
 title: Past paper · IUG PHYSA 1301 2007 final · Q2 · 2007
-kicker: PAST PAPER · PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007)
-reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
 question: For A=2i−3j and B=i−2j, what is A−2B?
-- [ ] a | −j
-- [ ] b | 4i−7j
-- [ ] c | 4i+j
-- [x] d | j
-explanation: Correct answer: j
-hint: Review the original paper and the lesson concepts before retrying.
+reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
+answer-label: Show answer
+body:
+For A=2i−3j and B=i−2j, what is A−2B?
 solution:
 **Plan — we are going to…**
 
@@ -1777,18 +2258,14 @@ Add twice B back to the answer:
 This recovers the given A.
 :::
 
-:::mcq
+:::exam-question
 id: past-physics-2007-q3
 title: Past paper · IUG PHYSA 1301 2007 final · Q3 · 2007
-kicker: PAST PAPER · PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007)
-reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
 question: For A=2i+6j−3k and B=4i+2j+k, what is A·B?
-- [x] a | 17
-- [ ] b | 23
-- [ ] c | 12i−14j−20k
-- [ ] d | 8i+12j−3k
-explanation: Correct answer: 17
-hint: Review the original paper and the lesson concepts before retrying.
+reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
+answer-label: Show answer
+body:
+For A=2i+6j−3k and B=4i+2j+k, what is A·B?
 solution:
 **Plan — we are going to…**
 

@@ -1,15 +1,12 @@
-var e={id:`physics-ch5`,title:`The Laws of Motion`,summary:`Serway/Jewett 9e · Chapter 5 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::mcq
+var e={id:`physics-ch5`,title:`The Laws of Motion`,summary:`Serway/Jewett 9e · Chapter 5 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::exam-question
 id: phys-ch5-p15
 title: Serway/Jewett · Problem 5.15
+question: Serway/Jewett · Problem 5.15
 reference: [Serway/Jewett 9e · Problem 5.15](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Velocity (−15.0, 55.0) m/s; displacement (−75.0, 275) m; final position (−77.0, 279) m
-- [ ] b | Velocity (−90.0, 30.0) m/s; displacement (−450, 150) m; final position (−452, 154) m
-- [x] c | Velocity (−45.0, 15.0) m/s; displacement (−225, 75.0) m; final position (−227, 79.0) m
-explanation: The net force is \\((-9,+3)\\) N, hence \\(\\vec a=(-4.5,+1.5)\\) m/s². (a) \\(\\vec v=\\vec{a}t=(-45,15)\\) m/s. (b) Its direction is 161.6° counterclockwise from +x, or 18.4° north of west. (c) \\(\\Delta\\vec r=\\vec{a}t^2/2=(-225,75)\\) m. (d) Add the initial position (−2,+4) m to obtain (−227,79) m.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.15
+
 ![Serway/Jewett · Problem 5.15 — complete original problem](assets/lessons/physics/recommended/ch5-p15.webp)
 solution:
 **Plan — we are going to…**
@@ -120,18 +117,15 @@ For constant acceleration from rest, average velocity is half the final velocity
 This independently reproduces the displacement. Both velocity and displacement point left and up.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p21
 title: Serway/Jewett · Problem 5.21
+question: Serway/Jewett · Problem 5.21
 reference: [Serway/Jewett 9e · Problem 5.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | (a) 15.0 lb upward; (b) 25.0 lb upward; (c) 35.0 lb upward
-- [ ] b | (a) 15.0 lb upward; (b) 5.00 lb upward; (c) −5.00 lb
-- [x] c | (a) 15.0 lb upward; (b) 5.00 lb upward; (c) zero
-explanation: Without the rope, normal force balances the block’s 15-lb weight. With a stationary 10-lb hanging object, tension is 10 lb and N=15−10=5 lb. A 20-lb hanging object lifts the 15-lb block off the floor; contact is lost and N=0. A floor cannot pull downward on the block.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.21
+
 ![Serway/Jewett · Problem 5.21 — complete original problem](assets/lessons/physics/recommended/ch5-p21.webp)
 solution:
 **Plan — we are going to…**
@@ -215,19 +209,15 @@ T=\\frac{2(15.0)(20.0)}{15.0+20.0}=17.1\\ \\mathrm{lb}.
 This exceeds the lighter block's 15.0-lb weight, confirming upward lift and zero floor contact.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p23
 title: Serway/Jewett · Problem 5.23
+question: Serway/Jewett · Problem 5.23
 reference: [Serway/Jewett 9e · Problem 5.23](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) 0; (b) 0; (c) 0; (d) 12.7 kN downward.
-- [x] b | (a) 2.15 kN forward; (b) 645 N forward; (c) 645 N backward; (d) 2.80 kN backward and 9.80 kN downward, magnitude 10.2 kN.
-- [ ] c | (a) 2.80 kN forward; (b) 645 N forward; (c) 645 N backward; (d) 2.15 kN downward.
-- [ ] d | (a) 2.15 kN forward; (b) 645 N backward; (c) 645 N forward; (d) 9.80 kN upward.
-explanation: Use net force ma separately for car and trailer. The car needs traction \\(F=1000(2.15)+300(2.15)=2795\\) N. Its force on the road is the opposite of the road force on the car: (−2795,−9800) N, of magnitude 10.19 kN.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.23
+
 ![Serway/Jewett · Problem 5.23 — complete original problem](assets/lessons/physics/recommended/ch5-p23.webp)
 solution:
 **Plan — we are going to…**
@@ -315,18 +305,15 @@ F_{\\text{external},x}=(1000+300)(2.15)=2795\\ \\mathrm N.
 This matches traction, while the car alone still has the smaller 2150-N net force.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p28
 title: Serway/Jewett · Problem 5.28
+question: Serway/Jewett · Problem 5.28
 reference: [Serway/Jewett 9e · Problem 5.28](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | (a) 49.0 N; (b) 49.0 N; (c) 98.0 N; (d) 49.0 N
-- [x] b | (a) 49.0 N; (b) 49.0 N; (c) 98.0 N; (d) 24.5 N
-- [ ] c | (a) 98.0 N; (b) 49.0 N; (c) 49.0 N; (d) 24.5 N
-explanation: In (a) and (b) each scale measures one string tension, mg=49.0 N, not the sum of opposing pulls. In (c) the scale supports two downward string tensions, so it reads 2mg=98.0 N. In (d) tension balances the downslope weight component, \\(mg\\sin30°=24.5\\) N.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.28
+
 ![Serway/Jewett · Problem 5.28 — complete original problem](assets/lessons/physics/recommended/ch5-p28.webp)
 solution:
 **Plan — we are going to…**
@@ -400,18 +387,15 @@ In part (c), the scale supports both hanging masses, whose combined weight is:
 In part (d), the reading is half the weight because sine of 30° is one half.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p29
 title: Serway/Jewett · Problem 5.29
+question: Serway/Jewett · Problem 5.29
 reference: [Serway/Jewett 9e · Problem 5.29](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | Acceleration 7.0 m/s²; cord tension 21 N; contact force on 2-kg block 14 N
-- [ ] b | Acceleration 7.0 m/s²; cord tension 42 N; contact force 14 N
-- [ ] c | Acceleration 14 m/s²; cord tension 21 N; contact force 7.0 N
-explanation: All three blocks accelerate together: a=42/(1+2+3)=7.0 m/s² rightward. For the 3-kg block, 42−T=3a, giving T=21 N. The only horizontal force on the 2-kg block is the contact force from the 1-kg block, equal to 2a=14 N rightward.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.29
+
 ![Serway/Jewett · Problem 5.29 — complete original problem](assets/lessons/physics/recommended/ch5-p29.webp)
 solution:
 **Plan — we are going to…**
@@ -475,18 +459,15 @@ T-F_{2\\text{ on }1}=21-14=7\\ \\mathrm N=(1.0)(7.0).
 All three separate block equations therefore give the same acceleration.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p31
 title: Serway/Jewett · Problem 5.31
+question: Serway/Jewett · Problem 5.31
 reference: [Serway/Jewett 9e · Problem 5.31](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 4.90 N
-- [x] b | 613 N
-- [ ] c | 24.5 N
-explanation: The bird’s force diagram has weight mg downward and two equal wire tensions upward along the two sloping segments. Each segment makes \\(\\alpha=\\tan^{-1}(0.200/25.0)\\) with horizontal. Balance gives \\(2T\\sin\\alpha=mg\\), so T=612.52 N≈613 N. The horizontal tension components cancel.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.31
+
 ![Serway/Jewett · Problem 5.31 — complete original problem](assets/lessons/physics/recommended/ch5-p31.webp)
 solution:
 **Plan — we are going to…**
@@ -554,18 +535,15 @@ T\\sin\\alpha=(612.5)(0.00800)\\approx4.90\\ \\mathrm N.
 Two such vertical contributions supply the 9.80-N weight. The large horizontal components cancel each other.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p33
 title: Serway/Jewett · Problem 5.33
+question: Serway/Jewett · Problem 5.33
 reference: [Serway/Jewett 9e · Problem 5.33](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | T₁=165 N, T₂=253 N, T₃=325 N
-- [ ] b | T₁=325 N, T₂=325 N, T₃=650 N
-- [x] c | T₁=253 N, T₂=165 N, T₃=325 N
-explanation: The bag gives T₃=325 N. At the junction, \\(T_1\\cos60°=T_2\\cos40°\\) and \\(T_1\\sin60°+T_2\\sin40°=325\\). Thus \\(T_1=325\\cos40°/\\sin100°=252.805\\) N and \\(T_2=325\\cos60°/\\sin100°=165.007\\) N.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.33
+
 ![Serway/Jewett · Problem 5.33 — complete original problem](assets/lessons/physics/recommended/ch5-p33.webp)
 solution:
 **Plan — we are going to…**
@@ -653,18 +631,15 @@ The vertical components add to the load:
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p40
 title: Serway/Jewett · Problem 5.40
+question: Serway/Jewett · Problem 5.40
 reference: [Serway/Jewett 9e · Problem 5.40](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Acceleration 2.80 m/s²; tension 63.0 N
-- [x] b | Acceleration 6.30 m/s²; tension 31.5 N
-- [ ] c | Acceleration 9.80 m/s²; tension 49.0 N
-explanation: The table block has normal upward, weight downward, and tension toward the pulley. The hanging mass has tension upward and weight downward. With m₂ moving down, T=m₁a and m₂g−T=m₂a, so \\(a=m_2g/(m_1+m_2)=6.30\\) m/s² and T=31.5 N.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.40
+
 ![Serway/Jewett · Problem 5.40 — complete original problem](assets/lessons/physics/recommended/ch5-p40.webp)
 solution:
 **Plan — we are going to…**
@@ -736,18 +711,15 @@ m_2a=(9.00)(6.30)=56.7\\ \\mathrm N.
 Tension is positive and less than the 88.2-N weight, as downward acceleration requires.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p42
 title: Serway/Jewett · Problem 5.42
+question: Serway/Jewett · Problem 5.42
 reference: [Serway/Jewett 9e · Problem 5.42](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Acceleration 4.90 m/s²; tension 29.4 N; speed at 2.00 s is 9.80 m/s
-- [ ] b | Acceleration 3.57 m/s²; tension 12.5 N; speed at 2.00 s is 7.14 m/s
-- [x] c | Acceleration 3.57 m/s²; tension 26.7 N; speed at 2.00 s is 7.14 m/s
-explanation: For m₁, draw tension upward and weight downward. For m₂, draw normal perpendicular to the incline, tension uphill, and weight vertically downward. m₂ accelerates downhill while m₁ accelerates up. Equations are \\(m_2g\\sin55°-T=m_2a\\) and \\(T-m_1g=m_1a\\), giving a=3.57077 m/s², T=26.7415 N. From rest, v=a(2.00)=7.14154 m/s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.42
+
 ![Serway/Jewett · Problem 5.42 — complete original problem](assets/lessons/physics/recommended/ch5-p42.webp)
 solution:
 **Plan — we are going to…**
@@ -835,18 +807,15 @@ The slope-block net downhill force is:
 The hanging mass has upward net force of 7.14 N, equal to its mass times the same acceleration.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p43
 title: Serway/Jewett · Problem 5.43
+question: Serway/Jewett · Problem 5.43
 reference: [Serway/Jewett 9e · Problem 5.43](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | T₁=68.6 N, T₂=34.3 N; maximum upward acceleration 12.1 m/s²
-- [x] b | T₁=79.8 N, T₂=39.9 N; maximum upward acceleration 2.34 m/s²
-- [ ] c | T₁=39.9 N, T₂=79.8 N; maximum upward acceleration 14.5 m/s²
-explanation: The lower string supports/accelerates one block: T₂=m(g+a)=39.9 N. The upper string supports/accelerates both: T₁=2m(g+a)=79.8 N. It reaches 85.0 N first, at \\(a=85.0/(2m)-g=2.34286\\) m/s² upward.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.43
+
 ![Serway/Jewett · Problem 5.43 — complete original problem](assets/lessons/physics/recommended/ch5-p43.webp)
 solution:
 **Plan — we are going to…**
@@ -918,18 +887,15 @@ T_2=m(g+a_{\\max})=\\frac{85.0}{2}=42.5\\ \\mathrm N.
 It is still safely below 85.0 N while the upper string is exactly at its limit.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p44
 title: Serway/Jewett · Problem 5.44
+question: Serway/Jewett · Problem 5.44
 reference: [Serway/Jewett 9e · Problem 5.44](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | \\(T_1=2m(g+a),T_2=m(g+a)\\); upper string breaks first; both zero in free fall
-- [ ] b | \\(T_1=T_2=m(g+a)\\); both break together; both equal mg in free fall
-- [ ] c | \\(T_1=m(g-a),T_2=2m(g-a)\\); lower string breaks first; both zero in free fall
-explanation: For the lower block, T₂−mg=ma. For the upper block, T₁−T₂−mg=ma. Therefore T₁=2T₂=2m(g+a). With equal breaking strengths the upper string fails first. If the elevator cable breaks, a=−g, so both tensions vanish during free fall.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.44
+
 ![Serway/Jewett · Problem 5.44 — complete original problem](assets/lessons/physics/recommended/ch5-p44.webp)
 
 ![Original Problem 5.43 — referenced context](assets/lessons/physics/recommended/ch5-p43.webp)
@@ -1013,18 +979,15 @@ T_2=mg,\\qquad T_1=2mg.
 Those are exactly the weights each string supports. Free-fall zero tension also leaves gravity alone to produce downward gravitational acceleration.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p45
 title: Serway/Jewett · Problem 5.45
+question: Serway/Jewett · Problem 5.45
 reference: [Serway/Jewett 9e · Problem 5.45](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: When does the hanging mass accelerate upward, and when is the cord slack?
-- [ ] a | Upward for Fₓ>78.4 N; slack for Fₓ≤−19.6 N
-- [ ] b | Upward for every positive Fₓ; the cord never goes slack
-- [x] c | Upward for Fₓ>19.6 N; slack for Fₓ≤−78.4 N
-explanation: Take right/up positive. While taut, \\(F_x-T=8a\\), \\(T-19.6=2a\\), hence \\(a=(F_x-19.6)/10\\) and \\(T=(F_x+78.4)/5\\). The hanging mass accelerates upward for Fₓ>19.6 N. Tension reaches zero at Fₓ=−78.4 N; below that the cord is slack and the table block has a=Fₓ/8. The requested graph has two joined straight segments: a=Fₓ/8 for −100≤Fₓ≤−78.4, and a=(Fₓ−19.6)/10 for −78.4≤Fₓ≤100, passing through (−100,−12.5), (−78.4,−9.8), (19.6,0), (100,8.04). Axes are N and m/s².
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.45
+
 ![Serway/Jewett · Problem 5.45 — complete original problem](assets/lessons/physics/recommended/ch5-p45.webp)
 solution:
 **Plan — we are going to…**
@@ -1129,18 +1092,15 @@ At the join, both branches agree:
 At zero applied force, the taut solution gives negative acceleration, correctly showing the hanging weight pulls the table block left.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p46
 title: Serway/Jewett · Problem 5.46
+question: Serway/Jewett · Problem 5.46
 reference: [Serway/Jewett 9e · Problem 5.46](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which acceleration relation and value are correct?
-- [ ] a | \\(a_2=a_1\\), \\(a_1=m_1g/(m_1+2m_2)\\)
-- [x] b | \\(a_2=2a_1\\), \\(a_1=m_1g/(m_1+4m_2)\\)
-- [ ] c | \\(a_1=2a_2\\), \\(a_1=m_1g/(m_1+m_2)\\)
-explanation: The fixed first cord makes P₂’s rightward displacement equal m₁’s downward displacement. The second cord requires m₂ to move twice as far right: a₂=2a₁. Let T₁ be the first-cord tension and T₂ the table-block cord tension. The massless movable pulley gives T₁=2T₂. With \\(m_1g-T_1=m_1a_1\\) and \\(T_2=m_2a_2\\), \\(a_1=m_1g/(m_1+4m_2)\\) downward, \\(a_2=2m_1g/(m_1+4m_2)\\) rightward, \\(T_1=4m_1m_2g/(m_1+4m_2)\\), and \\(T_2=2m_1m_2g/(m_1+4m_2)\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.46
+
 ![Serway/Jewett · Problem 5.46 — complete original problem](assets/lessons/physics/recommended/ch5-p46.webp)
 solution:
 **Plan — we are going to…**
@@ -1236,18 +1196,15 @@ m_1g-T_1
 The hanging acceleration is less than gravitational acceleration for positive masses, and the two-tension balance is satisfied.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p47
 title: Serway/Jewett · Problem 5.47
+question: Serway/Jewett · Problem 5.47
 reference: [Serway/Jewett 9e · Problem 5.47](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | 3.73 m
-- [ ] b | 1.28 m
-- [ ] c | 7.46 m
-explanation: The constant downslope acceleration is \\(g\\sin20°\\). From \\(0=v_i^2-2g\\sin20°\\,s\\), \\(s=25/[2(9.8)\\sin20°]=3.729\\) m.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.47
+
 ![Serway/Jewett · Problem 5.47 — complete original problem](assets/lessons/physics/recommended/ch5-p47.webp)
 solution:
 **Plan — we are going to…**
@@ -1325,19 +1282,15 @@ s=\\frac{5.00+0}{2}(1.492)=3.73\\ \\mathrm m.
 This agrees without reusing the squared-speed equation.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p49
 title: Serway/Jewett · Problem 5.49
+question: Serway/Jewett · Problem 5.49
 reference: [Serway/Jewett 9e · Problem 5.49](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) 3.84 m/s²; (b) 44.1 N
-- [x] b | (a) 2.20 m/s², 8.00 kg block down its incline; (b) 27.4 N
-- [ ] c | (a) 5.62 m/s²; (b) 0 N
-- [ ] d | (a) 2.20 m/s², 3.50 kg block down its incline; (b) 27.4 N
-explanation: Along the two 35° inclines, \\(a=(m_2-m_1)g\\sin35^\\circ/(m_1+m_2)=2.20\\) m/s². Then \\(T=m_1(g\\sin35^\\circ+a)=27.4\\) N.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.49
+
 ![Serway/Jewett · Problem 5.49 — complete original problem](assets/lessons/physics/recommended/ch5-p49.webp)
 solution:
 **Plan — we are going to…**
@@ -1408,18 +1361,15 @@ T=8.00\\left(9.80\\sin35.0^\\circ-2.19954\\right)=27.4\\ \\mathrm N.
 The tension lies between the two downhill weight components, allowing the lighter mass to go up and the heavier mass to go down.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p55
 title: Serway/Jewett · Problem 5.55
+question: Serway/Jewett · Problem 5.55
 reference: [Serway/Jewett 9e · Problem 5.55](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | μₛ=3.00, μₖ=2.40
-- [x] b | μₛ=0.306, μₖ=0.245
-- [ ] c | μₛ=0.245, μₖ=0.306
-explanation: The normal force is mg=245 N. At the threshold of motion, μₛN=75.0 N; during constant-speed sliding, μₖN=60.0 N. Dividing gives 0.306 and 0.245.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.55
+
 ![Serway/Jewett · Problem 5.55 — complete original problem](assets/lessons/physics/recommended/ch5-p55.webp)
 solution:
 **Plan — we are going to…**
@@ -1499,18 +1449,15 @@ Recover the given forces from the coefficients:
 The static coefficient exceeds the kinetic coefficient, consistent with the greater force needed to start motion.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p60
 title: Serway/Jewett · Problem 5.60
+question: Serway/Jewett · Problem 5.60
 reference: [Serway/Jewett 9e · Problem 5.60](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Strap angle 34.8°; normal force 176 N
-- [ ] b | Strap angle 55.2°; normal force 225 N
-- [x] c | Strap angle 55.2°; normal force 167 N
-explanation: The suitcase force diagram has weight downward, normal upward, 35-N strap tension forward/up at θ, and 20-N friction backward. Horizontal equilibrium gives \\(35\\cos\\theta=20\\), so θ=55.15°. Vertical equilibrium gives \\(N=20(9.8)-35\\sin\\theta=167.277\\) N.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.60
+
 ![Serway/Jewett · Problem 5.60 — complete original problem](assets/lessons/physics/recommended/ch5-p60.webp)
 solution:
 **Plan — we are going to…**
@@ -1588,18 +1535,15 @@ N=196-28.72=167.28\\ \\mathrm N.
 This confirms the result without using the rounded angle.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p63
 title: Serway/Jewett · Problem 5.63
+question: Serway/Jewett · Problem 5.63
 reference: [Serway/Jewett 9e · Problem 5.63](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 31.5 N
-- [ ] b | 88.2 N
-- [x] c | 37.8 N
-explanation: Kinetic friction on the 5-kg block is \\(0.200(5)(9.8)=9.80\\) N. Combining T−9.80=5a and 88.2−T=9a gives a=5.60 m/s² and T=37.8 N.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.63
+
 ![Serway/Jewett · Problem 5.63 — complete original problem](assets/lessons/physics/recommended/ch5-p63.webp)
 
 ![Original shared Figure P5.40](assets/lessons/physics/recommended/figure-ch5-p40.webp)
@@ -1679,18 +1623,15 @@ T=m_2(g-a)=9.00(9.80-5.60)=37.8\\ \\mathrm N.
 The acceleration is smaller than the frictionless value of 6.30 m/s², and the table block needs more tension relative to its acceleration because friction must also be overcome.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p64
 title: Serway/Jewett · Problem 5.64
+question: Serway/Jewett · Problem 5.64
 reference: [Serway/Jewett 9e · Problem 5.64](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Acceleration 2.31 m/s² toward the 2-kg side; tensions 48.4 N and 15.0 N
-- [x] b | Acceleration 2.31 m/s² toward the 4-kg side; tensions 30.0 N and 24.2 N
-- [ ] c | Acceleration 2.80 m/s² toward the 4-kg side; tensions 28.0 N and 25.2 N
-explanation: For hanging m₁ and m₃ draw tension up and weight down. For m₂ draw mg down, N up, left-cord tension left, right-cord tension right, and friction right (opposing leftward motion). The 4-kg block descends, the table block moves left, and the 2-kg block rises. \\(a=[(4-2)g-0.350(1)g]/7=2.31\\) m/s². Left tension \\(T_1=4(g-a)=29.96\\) N; right tension \\(T_3=2(g+a)=24.22\\) N. Without friction a rises to 2.80 m/s²: the left tension decreases to 28.0 N while the right tension increases to 25.2 N.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.64
+
 ![Serway/Jewett · Problem 5.64 — complete original problem](assets/lessons/physics/recommended/ch5-p64.webp)
 solution:
 **Plan — we are going to…**
@@ -1790,18 +1731,15 @@ Check the table-block equation numerically:
 The left tension is below the descending mass's weight; the right tension exceeds the rising mass's weight. Both directions are consistent.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p65
 title: Serway/Jewett · Problem 5.65
+question: Serway/Jewett · Problem 5.65
 reference: [Serway/Jewett 9e · Problem 5.65](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | Acceleration 1.29 m/s²; tension 27.2 N
-- [ ] b | Acceleration 2.27 m/s²; tension 27.2 N
-- [ ] c | Acceleration 1.29 m/s²; tension 40.8 N
-explanation: Both blocks have weight downward, normal upward, and kinetic friction left. On m₁, tension acts right; on m₂, applied F acts right and tension left. For the whole system, \\(a=68/(12+18)-0.100g=1.28667\\) m/s² right. For m₁, \\(T-\\mu m_1g=m_1a\\), giving T=27.2 N.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.65
+
 ![Serway/Jewett · Problem 5.65 — complete original problem](assets/lessons/physics/recommended/ch5-p65.webp)
 solution:
 **Plan — we are going to…**
@@ -1875,18 +1813,15 @@ m_2a=(18.0)(1.28667)=23.16\\ \\mathrm N.
 The force balance agrees for each block.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p66
 title: Serway/Jewett · Problem 5.66
+question: Serway/Jewett · Problem 5.66
 reference: [Serway/Jewett 9e · Problem 5.66](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | At 50°: P≥31.7 N with no upper limit; at 13°: 62.7≤P≤1577 N
-- [ ] b | At 50°: 48.6≤P≤62.7 N; at 13°: P≤31.7 N
-- [x] c | At 50°: 31.7≤P≤48.6 N; at 13°: P≥62.7 N
-explanation: Normal force is \\(N=P\\cos\\theta\\). Static friction adjusts so \\(|mg-P\\sin\\theta|\\le\\mu_sP\\cos\\theta\\). At 50°, this gives \\(mg/(\\sin50°+\\mu_s\\cos50°)\\le P\\le mg/(\\sin50°-\\mu_s\\cos50°)\\), or 31.724–48.567 N. Below this range the block slips down; above it, it slips up. At 13°, \\(\\sin13°-\\mu_s\\cos13°<0\\), so there is no positive upper bound: P≥62.748 N. Below the lower bound it slips down; for any larger P it can remain at rest because available downward friction grows faster than the upward force component.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.66
+
 ![Serway/Jewett · Problem 5.66 — complete original problem](assets/lessons/physics/recommended/ch5-p66.webp)
 solution:
 **Plan — we are going to…**
@@ -1988,18 +1923,15 @@ mg-P_{\\max}\\sin50^\\circ=-\\mu_sP_{\\max}\\cos50^\\circ.
 At 13°, the downward-friction capacity per newton of push exceeds the upward component per newton, which confirms why increasing the push cannot force upward slip.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p70
 title: Serway/Jewett · Problem 5.70
+question: Serway/Jewett · Problem 5.70
 reference: [Serway/Jewett 9e · Problem 5.70](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Tension 29.4 N; lower-block acceleration 1.56 m/s²
-- [x] b | Tension 9.80 N; lower-block acceleration 0.580 m/s²
-- [ ] c | Tension 9.80 N; lower-block acceleration 3.52 m/s²
-explanation: The upper block has weight down, contact normal up, kinetic friction right and string tension left. The lower block has weight and upper-block normal down, floor normal up, F right, and both friction forces left. The interblock normal forces are an action–reaction pair, as are the opposite interblock friction forces. Interblock friction is 0.200(5g)=9.80 N, balancing the string tension. Floor friction is 0.200(15g)=29.4 N. The lower block’s net force is 45−9.8−29.4=5.8 N, so a=0.580 m/s².
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.70
+
 ![Serway/Jewett · Problem 5.70 — complete original problem](assets/lessons/physics/recommended/ch5-p70.webp)
 solution:
 **Plan — we are going to…**
@@ -2077,18 +2009,15 @@ F-T-f_{\\text{floor}}=45.0-9.80-29.4=5.80\\ \\mathrm N.
 Only the 10.0-kg block accelerates, so this equals its mass times 0.580 m/s², not the total mass times that acceleration.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p83
 title: Serway/Jewett · Problem 5.83
+question: Serway/Jewett · Problem 5.83
 reference: [Serway/Jewett 9e · Problem 5.83](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | Acceleration 2.00 m/s²; resultant forces 4.00, 6.00, 8.00 N; contact forces 14.0 and 8.00 N
-- [ ] b | Acceleration 2.00 m/s²; resultant forces all 18.0 N; contact forces both 18.0 N
-- [ ] c | Acceleration 6.00 m/s²; resultant forces 12.0, 18.0, 24.0 N; contact forces 6.00 and 8.00 N
-explanation: Each block has its weight down and a balancing surface normal up. Horizontally: m₁ has applied F right and contact from m₂ left; m₂ has contact from m₁ right and m₃ left; m₃ has contact from m₂ right. \\(a=18/(2+3+4)=2\\) m/s², so net forces ma are 4,6,8 N rightward. The m₂–m₃ contact is 8 N; the m₁–m₂ contact accelerates the last two blocks and is (3+4)a=14 N. For the same applied blow force in this model, inserting a heavy middle block increases total inertia and reduces the transmitted force to the person, modeled by \\(m_3F/(m_1+m_2+m_3)\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.83
+
 ![Serway/Jewett · Problem 5.83 — complete original problem](assets/lessons/physics/recommended/ch5-p83.webp)
 solution:
 **Plan — we are going to…**
@@ -2180,18 +2109,15 @@ Check all horizontal balances:
 The resultant forces add to the applied 18.0 N.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p85
 title: Serway/Jewett · Problem 5.85
+question: Serway/Jewett · Problem 5.85
 reference: [Serway/Jewett 9e · Problem 5.85](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | \\(T_1=T_2=T_3=F=Mg/3\\), \\(T_4=Mg\\), \\(T_5=Mg\\)
-- [x] b | \\(T_1=T_2=T_3=F=Mg/2\\), \\(T_4=3Mg/2\\), \\(T_5=Mg\\)
-- [ ] c | \\(T_1=T_2=T_3=F=Mg\\), \\(T_4=2Mg\\), \\(T_5=Mg\\)
-explanation: The lower pulley has T₂ and T₃ upward, and T₅ downward. The hanging mass gives T₅=Mg, so each segment of the single massless rope has T₁=T₂=T₃=Mg/2. The upper pulley/support assembly has T₁ and T₃ downward from the rim plus T₂ downward at the rope attachment, balanced by T₄ upward; hence T₄=3Mg/2. The applied force F equals the free-end tension T₁=Mg/2.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.85
+
 ![Serway/Jewett · Problem 5.85 — complete original problem](assets/lessons/physics/recommended/ch5-p85.webp)
 solution:
 **Plan — we are going to…**
@@ -2273,18 +2199,15 @@ T_4=Mg+F=Mg+\\frac{Mg}{2}=\\frac{3Mg}{2}.
 This independently confirms the less obvious ceiling-support tension.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p88
 title: Serway/Jewett · Problem 5.88
+question: Serway/Jewett · Problem 5.88
 reference: [Serway/Jewett 9e · Problem 5.88](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which masses and tensions give the initial frictionless equilibrium?
-- [ ] a | Equilibrium: \\(M=3m\\cos\\theta\\), \\(T_1=2mg\\cos\\theta\\), \\(T_2=3mg\\cos\\theta\\)
-- [x] b | Equilibrium: \\(M=3m\\sin\\theta\\), \\(T_1=2mg\\sin\\theta\\), \\(T_2=3mg\\sin\\theta\\)
-- [ ] c | Equilibrium: \\(M=m\\sin\\theta\\), \\(T_1=mg\\sin\\theta\\), \\(T_2=2mg\\sin\\theta\\)
-explanation: Let s=sinθ and c=cosθ. (a–b) Balance the lower incline block: T₁=2mgs; then T₂=T₁+mgs=3mgs and M=T₂/g=3ms. (c) When M is doubled to 6ms, the incline blocks accelerate uphill and M downward with \\(a=g s/(1+2s)\\). (d) \\(T_1=2m(gs+a)=4mgs(1+s)/(1+2s)\\), \\(T_2=3m(gs+a)=6mgs(1+s)/(1+2s)\\). (e) At impending upward motion, friction acts downhill, giving \\(M_{\\max}=3m(s+\\mu_sc)\\). (f) At impending downward motion, friction acts uphill, giving \\(M_{\\min}=3m(s-\\mu_sc)\\), or zero if this expression is negative. (g) In equilibrium T₂=Mg, so its maximum-case value is larger: \\(3mg(s+\\mu_sc)\\) versus \\(3mg(s-\\mu_sc)\\), with the latter clipped to zero when applicable.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.88
+
 ![Serway/Jewett · Problem 5.88 — complete original problem](assets/lessons/physics/recommended/ch5-p88.webp)
 solution:
 **Plan — we are going to…**
@@ -2454,18 +2377,15 @@ T_2=6m\\sin\\theta\\left(g-\\frac{g\\sin\\theta}{1+2\\sin\\theta}\\right)
 This agrees with the incline-system result. Setting the friction coefficient to zero also reduces both equilibrium bounds to the original equilibrium mass.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p89
 title: Serway/Jewett · Problem 5.89
+question: Serway/Jewett · Problem 5.89
 reference: [Serway/Jewett 9e · Problem 5.89](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | \\(P_{\\min}=\\mu_sF_g/(\\cos\\theta-\\mu_s\\sin\\theta)\\); impossible if \\(\\tan\\theta\\ge1/\\mu_s\\)
-- [ ] b | \\(P_{\\min}=\\mu_sF_g/(\\cos\\theta+\\mu_s\\sin\\theta)\\); always possible
-- [ ] c | \\(P_{\\min}=\\mu_sF_g\\cos\\theta\\); impossible if \\(\\tan\\theta\\le\\mu_s\\)
-explanation: The downward component of the push increases normal force to \\(N=F_g+P\\sin\\theta\\). At the threshold, \\(P\\cos\\theta=\\mu_s(F_g+P\\sin\\theta)\\). Solve for P and divide numerator and denominator by cosθ to obtain exactly \\(\\mu_sF_g\\sec\\theta/(1-\\mu_s\\tan\\theta)\\). A positive finite P is possible only if \\(\\cos\\theta-\\mu_s\\sin\\theta>0\\). Thus motion cannot be initiated by this push when \\(\\theta\\ge\\tan^{-1}(1/\\mu_s)\\), for the shown downward angles.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.89
+
 ![Serway/Jewett · Problem 5.89 — complete original problem](assets/lessons/physics/recommended/ch5-p89.webp)
 solution:
 **Plan — we are going to…**
@@ -2565,19 +2485,15 @@ P_{\\min}=\\frac{\\mu_sF_g}{1}=\\mu_sF_g.
 As the downward angle increases toward the critical angle, the denominator tends to zero from above, so the required force grows without bound, matching the physical obstruction.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p93
 title: Serway/Jewett · Problem 5.93
+question: Serway/Jewett · Problem 5.93
 reference: [Serway/Jewett 9e · Problem 5.93](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\(F=(m_1+m_2)g\\)
-- [ ] b | \\(F=Mg\\)
-- [x] c | \\(F=(M+m_1+m_2)m_1g/m_2\\)
-- [ ] d | \\(F=(M+m_1+m_2)m_2g/m_1\\)
-explanation: The original figure labels the hanging block m_1 and the top block m_2. Constant height gives T=m_1g, and horizontal motion of the top block gives T=m_2a. Thus a=m_1g/m_2 and F=(M+m_1+m_2)m_1g/m_2.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.93
+
 ![Serway/Jewett · Problem 5.93 — complete original problem](assets/lessons/physics/recommended/ch5-p93.webp)
 solution:
 **Plan — we are going to…**
@@ -2665,19 +2581,15 @@ F-m_2a-m_1a=Ma,
 which reproduces the whole-system result. If the hanging mass tends to zero, the required acceleration and applied force tend to zero, as the formula predicts.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p101
 title: Serway/Jewett · Problem 5.101
+question: Serway/Jewett · Problem 5.101
 reference: [Serway/Jewett 9e · Problem 5.101](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | (a) 4.90 m/s²; (b) 3.13 m/s; (c) 1.35 m; (d) 1.14 s; (e) independent of mass.
-- [ ] b | (a) 4.90 m/s²; (b) 3.13 m/s; (c) 2.00 m; (d) 0.639 s; (e) proportional to mass.
-- [ ] c | (a) 9.80 m/s²; (b) 4.43 m/s; (c) 1.35 m; (d) 1.14 s; (e) independent of mass.
-- [ ] d | (a) 4.90 m/s²; (b) 1.57 m/s; (c) 0.677 m; (d) 2.28 s; (e) inversely proportional to mass.
-explanation: Along the 30° incline, \\(a=g\\sin30^\\circ=4.90\\) and the path length is 1.00 m, so \\(v=\\sqrt{2gh}=3.13\\) m/s and \\(t_1=v/a=0.639\\) s. From the edge, \\(2=v\\sin30^\\circ t_2+gt_2^2/2\\) gives \\(t_2=0.499\\) s. Thus \\(R=v\\cos30^\\circ t_2=1.35\\) m and total time≈1.14 s. Mass cancels.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.101
+
 ![Serway/Jewett · Problem 5.101 — complete original problem](assets/lessons/physics/recommended/ch5-p101.webp)
 solution:
 **Plan — we are going to…**
@@ -2792,19 +2704,15 @@ v^2=2gh=2(9.80)(0.500)=9.80.
 Both agree with the two-stage solution.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch5-p103
 title: Serway/Jewett · Problem 5.103
+question: Serway/Jewett · Problem 5.103
 reference: [Serway/Jewett 9e · Problem 5.103](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) 2.13 s; (b) 3.00 m
-- [ ] b | (a) 4.53 s; (b) 7.53 m
-- [x] c | (a) 2.13 s; (b) 1.66 m
-- [ ] d | (a) 1.10 s; (b) 0.445 m
-explanation: The top block acceleration is \\(10/2-0.300g=2.06\\) m/s². The bottom block acceleration is \\(0.300(2)g/8=0.735\\). Relative acceleration is 1.325, so \\(3=\\tfrac12(1.325)t^2\\), giving t=2.13 s. The bottom moves \\(0.5(0.735)t^2=1.66\\) m.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 5.103
+
 ![Serway/Jewett · Problem 5.103 — complete original problem](assets/lessons/physics/recommended/ch5-p103.webp)
 solution:
 **Plan — we are going to…**

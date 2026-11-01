@@ -1,16 +1,12 @@
-var e={id:`physics-ch1`,title:`Physics and Measurement`,summary:`Serway/Jewett 9e · Chapter 1 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::mcq
+var e={id:`physics-ch1`,title:`Physics and Measurement`,summary:`Serway/Jewett 9e · Chapter 1 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::exam-question
 id: phys-ch1-p1
 title: Serway/Jewett · Problem 1.1
+question: Serway/Jewett · Problem 1.1
 reference: [Serway/Jewett 9e · Problem 1.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\(\\rho_E\\approx2.7\\times10^3\\,\\mathrm{kg/m^3}\\): equal to granite.
-- [x] b | \\(\\rho_E\\approx5.5\\times10^3\\,\\mathrm{kg/m^3}\\): between aluminum and iron, about twice granite.
-- [ ] c | \\(\\rho_E\\approx5.5\\times10^2\\,\\mathrm{kg/m^3}\\): below water and granite.
-- [ ] d | \\(\\rho_E\\approx5.5\\times10^4\\,\\mathrm{kg/m^3}\\): above gold.
-explanation: Use \\(\\rho=M/(4\\pi R^3/3)\\), with the book endpapers \\(M=5.97\\times10^{24}\\) kg and \\(R=6.37\\times10^6\\) m. This gives about \\(5.51\\times10^3\\) kg/m³; granite is approximately \\(2.7\\times10^3\\) kg/m³.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.1
+
 ![Serway/Jewett · Problem 1.1 — complete original problem](assets/lessons/physics/recommended/ch1-p1.webp)
 
 ![Original endpaper physical data, including Earth mass and radius](assets/lessons/physics/recommended/support-physical-data.webp)
@@ -107,19 +103,15 @@ Multiplying the computed density by Earth's spherical volume recovers the given 
 The units cancel to kilograms. A value near surface-granite density would not reproduce Earth's mass for this radius.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p3
 title: Serway/Jewett · Problem 1.3
+question: Serway/Jewett · Problem 1.3
 reference: [Serway/Jewett 9e · Problem 1.3](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | 3.81 kg
-- [ ] b | 9.35 kg
-- [ ] c | 184 kg
-- [x] d | 23.0 kg
-explanation: The dies fix the volume. Thus \\(m_{Au}=m_{Fe}\\rho_{Au}/\\rho_{Fe}=9.35(19.3/7.86)=23.0\\) kg.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.3
+
 ![Serway/Jewett · Problem 1.3 — complete original problem](assets/lessons/physics/recommended/ch1-p3.webp)
 
 ![Original Table 14.1 — densities of common substances](assets/lessons/physics/recommended/support-density-table.webp)
@@ -217,19 +209,15 @@ The density ratio predicts the same mass ratio because both models have the same
 The denser gold model must be heavier, not lighter, than the iron model.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p7
 title: Serway/Jewett · Problem 1.7
+question: Serway/Jewett · Problem 1.7
 reference: [Serway/Jewett 9e · Problem 1.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | 0.200 nm
-- [ ] b | 0.283 nm
-- [ ] c | 0.100 nm
-- [x] d | 0.141 nm
-explanation: The diagonal-plane separation is \\(d=L/\\sqrt2=0.200/\\sqrt2=0.141\\) nm.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.7
+
 ![Serway/Jewett · Problem 1.7 — complete original problem](assets/lessons/physics/recommended/ch1-p7.webp)
 solution:
 **Plan — we are going to turn the crystal drawing into a square, then measure the perpendicular spacing between diagonal planes.**
@@ -315,19 +303,15 @@ Identify the **perpendicular spacing** first. Then use a right triangle or two e
 The answer is smaller than the side length 0.200 nm. The value 0.283 nm would be the face diagonal, which is a different distance.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p13
 title: Serway/Jewett · Problem 1.13
+question: Serway/Jewett · Problem 1.13
 reference: [Serway/Jewett 9e · Problem 1.13](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\(m=2, n=1\\); dimensional analysis cannot determine \\(k\\).
-- [ ] b | \\(m=1, n=2\\); dimensional analysis proves \\(k=1/2\\).
-- [x] c | \\(m=1, n=2\\); dimensional analysis cannot determine \\(k\\).
-- [ ] d | \\(m=1, n=1\\); \\(k=1/2\\).
-explanation: \\(L=(LT^{-2})^mT^n=L^mT^{n-2m}\\). Matching powers gives \\(m=1,n=2\\). A dimensionless factor is not fixed by this argument.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.13
+
 ![Serway/Jewett · Problem 1.13 — complete original problem](assets/lessons/physics/recommended/ch1-p13.webp)
 solution:
 **Plan — we are going to replace every physical quantity by its dimensions, then match the powers of length and time.**
@@ -427,19 +411,15 @@ With the exponents we found:
 The final dimension is length, as required for position.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p21
 title: Serway/Jewett · Problem 1.21
+question: Serway/Jewett · Problem 1.21
 reference: [Serway/Jewett 9e · Problem 1.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\(5.00\\times10^6\\) lb
-- [ ] b | \\(1.00\\times10^7\\) lb
-- [ ] c | \\(4.00\\times10^9\\) lb
-- [x] d | \\(1.00\\times10^{10}\\) lb
-explanation: \\(W=(2.0\\times10^6)(2.50)(2000)=1.00\\times10^{10}\\) lb, using a US short ton.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.21
+
 ![Serway/Jewett · Problem 1.21 — complete original problem](assets/lessons/physics/recommended/ch1-p21.webp)
 
 ![Original Problem 1.20 — referenced context](assets/lessons/physics/recommended/ch1-p20.webp)
@@ -505,19 +485,15 @@ Item count → total in given units → requested units. Arrange conversion fact
 Even one block weighs about 5 000 lb. Multiplying by 2 million must produce a number much larger than a few million pounds.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p35
 title: Serway/Jewett · Problem 1.35
+question: Serway/Jewett · Problem 1.35
 reference: [Serway/Jewett 9e · Problem 1.35](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\((31.1\\pm0.3)\\,\\mathrm{cm^2}\\)
-- [ ] b | \\((209\\pm20)\\,\\mathrm{cm^2}\\)
-- [x] c | \\((209\\pm4)\\,\\mathrm{cm^2}\\)
-- [ ] d | \\((209\\pm0.3)\\,\\mathrm{cm^2}\\)
-explanation: \\(A=21.3(9.8)=208.74\\). First-order maximum uncertainty is \\(9.8(0.2)+21.3(0.1)=4.09\\) cm², giving \\((209\\pm4)\\) cm².
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.35
+
 ![Serway/Jewett · Problem 1.35 — complete original problem](assets/lessons/physics/recommended/ch1-p35.webp)
 solution:
 **Plan — we are going to calculate the rectangular area, then estimate how uncertainty in each side changes that area.**
@@ -621,19 +597,15 @@ A_{\\min}=(21.1)(9.7)=204.67\\ \\mathrm{cm^2}.
 Compared with the central 208.74 cm², the deviations are +4.11 cm² and −4.07 cm². The first-order estimate ±4.09 cm² lies between these; the tiny difference is the neglected uncertainty product, 0.02 cm².
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p37
 title: Serway/Jewett · Problem 1.37
+question: Serway/Jewett · Problem 1.37
 reference: [Serway/Jewett 9e · Problem 1.37](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | 31 556 926.0 s
-- [ ] b | 31 536 000 s
-- [ ] c | 8 765.81278 s
-- [ ] d | 525 948.767 s
-explanation: \\(365.242199\\times24\\times60\\times60=31\\,556\\,925.9936\\) s; nine significant figures give 31 556 926.0 s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.37
+
 ![Serway/Jewett · Problem 1.37 — complete original problem](assets/lessons/physics/recommended/ch1-p37.webp)
 solution:
 **Plan — we are going to convert a tropical year from days to seconds in three small unit conversions.**
@@ -709,19 +681,15 @@ Starting value → conversion factors → cancel units → round once at the end
 A year contains about 3.16 × 10⁷ s. A result of only 8 766 or 525 949 would still be in hours or minutes, respectively.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p38
 title: Serway/Jewett · Problem 1.38
+question: Serway/Jewett · Problem 1.38
 reference: [Serway/Jewett 9e · Problem 1.38](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) 796.03; (b) 1.14016; (c) 17.6557507
-- [ ] b | (a) 796; (b) 1.140; (c) 17.7
-- [ ] c | (a) 800; (b) 1; (c) 18
-- [x] d | (a) 796; (b) 1.1; (c) 17.66
-explanation: Addition is limited to the ones place: 796. Multiplication in (b) is limited to two significant figures: 1.1. In (c), \\(\\pi\\) is exact and 5.620 has four significant figures: 17.66.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.38
+
 ![Serway/Jewett · Problem 1.38 — complete original problem](assets/lessons/physics/recommended/ch1-p38.webp)
 solution:
 **Plan — we are going to do each calculation, then apply the precision rule appropriate to its operation.**
@@ -802,19 +770,15 @@ Choose by operation:
 The rounded results stay close to their calculator values. Reporting 796.03 or 1.14016 would claim more precision than the measurements support.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p41
 title: Serway/Jewett · Problem 1.41
+question: Serway/Jewett · Problem 1.41
 reference: [Serway/Jewett 9e · Problem 1.41](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | 108.8%
-- [x] b | 8.80%
-- [ ] c | 11.0%
-- [ ] d | 8.09%
-explanation: Tax is \\(1.36-1.25=0.11\\) dollars. The effective rate is \\(100(0.11/1.25)=8.80\\%\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.41
+
 ![Serway/Jewett · Problem 1.41 — complete original problem](assets/lessons/physics/recommended/ch1-p41.webp)
 solution:
 **Plan — we are going to find the extra money paid, compare it with the original price, then convert the fraction to a percentage.**
@@ -890,19 +854,15 @@ Calculate the tax from the answer, then add it back:
 This reproduces the actual payment.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p49
 title: Serway/Jewett · Problem 1.49
+question: Serway/Jewett · Problem 1.49
 reference: [Serway/Jewett 9e · Problem 1.49](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\(t/r=\\pm\\sqrt3\\)
-- [x] b | \\(t/r=\\pm2\\sqrt3\\); for positive values, approximately 3.46.
-- [ ] c | \\(t/r=3\\)
-- [ ] d | \\(t/r=12\\)
-explanation: For nonzero q and r, \\(p=3q\\) and \\(pr=qs\\) give \\(s=3r\\). Then \\(3r^2+9r^2=t^2\\). The positive textbook branch is \\(2\\sqrt3\\), and algebra also allows the negative branch.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.49
+
 ![Serway/Jewett · Problem 1.49 — complete original problem](assets/lessons/physics/recommended/ch1-p49.webp)
 solution:
 **Plan — we are going to eliminate p and s so the equations contain only the ratio t/r.**
@@ -1011,19 +971,15 @@ Eliminate unwanted variables to find the ratio. Before dividing by an unknown, s
 Choose q = 1 and r = 1. Then p = 3, s = 3, and the third equation becomes 1.5 + 4.5 = 6, so the square of t is 12, matching the derived ratio.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p51
 title: Serway/Jewett · Problem 1.51
+question: Serway/Jewett · Problem 1.51
 reference: [Serway/Jewett 9e · Problem 1.51](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | (a) +0.015 g; (b) about 8%; (c) about 5.2 g/m²; (d–f) mass is proportional to area for uniform paper, and slope is areal density.
-- [ ] b | (a) +0.015 g; (b) about 8%; (c) about 5.2 g/m²; (d–f) slope is volume density in g/m³.
-- [ ] c | (a) +0.15 g; (b) about 80%; (c) about 52 g/m²; mass is proportional to area.
-- [ ] d | (a) 0 g; (b) 0%; (c) 0 g/m²; mass is independent of area.
-explanation: Read the fourth point and fitted line: the approximate residual is +0.015 g, about 8% of the fitted mass. The slope is about 0.00052 g/cm² = 5.2 g/m². For constant thickness and density, mass = areal density × area, regardless of shape. Graph readings have finite uncertainty.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.51
+
 ![Serway/Jewett · Problem 1.51 — complete original problem](assets/lessons/physics/recommended/ch1-p51.webp)
 solution:
 **Plan — we are going to read the graph's vertical difference, convert that difference to a percentage, and interpret the line's slope.**
@@ -1136,19 +1092,15 @@ Read axes → compare point/line at the same x → fitted-line rise ÷ run → i
 At area 600 cm², this slope predicts about 0.31 g, consistent with the rightmost graph points. Extra decimal places would be misleading because the graph readings are approximate.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p53
 title: Serway/Jewett · Problem 1.53
+question: Serway/Jewett · Problem 1.53
 reference: [Serway/Jewett 9e · Problem 1.53](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\((5.22\\pm1.5)\\,\\mathrm{m^3}\\)
-- [ ] b | \\((58.0\\pm0.15)\\,\\mathrm{m^3}\\)
-- [x] c | \\((5.22\\pm0.15)\\,\\mathrm{m^3}\\), about 3% uncertainty
-- [ ] d | \\((15.3\\pm0.15)\\,\\mathrm{m^3}\\)
-explanation: \\(V=h[(a+2w)(b+2w)-ab]=0.09(58)=5.22\\) m³. First-order additive uncertainty is \\(2wh(\\delta a+\\delta b)+[2(a+b)+8w]h\\delta w+[2w(a+b)+4w^2]\\delta h=0.1498\\) m³.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.53
+
 ![Serway/Jewett · Problem 1.53 — complete original problem](assets/lessons/physics/recommended/ch1-p53.webp)
 solution:
 **Plan — we are going to find the area of the sidewalk ring, multiply by its thickness, then add the uncertainty contributions.**
@@ -1323,19 +1275,15 @@ Outside area − inside area → multiply by depth → simplify → add first-or
 The sidewalk area is 58 m² and its thickness is slightly less than 0.1 m, so its volume should be slightly less than 5.8 m³. The answer 5.22 m³ passes this size check.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch1-p65
 title: Serway/Jewett · Problem 1.65
+question: Serway/Jewett · Problem 1.65
 reference: [Serway/Jewett 9e · Problem 1.65](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: For an illustrative Fermi estimate, use Earth area 5×10¹⁴ m², a 1-km habitat layer, cell-volume fraction 10⁻⁵, cubic 1-μm cells, and wet cell density 10³ kg/m³. Which count and wet mass follow?
-- [ ] a | Approximately \\(5\\times10^{24}\\) cells and \\(5\\times10^9\\) kg
-- [ ] b | Approximately \\(5\\times10^{18}\\) cells and \\(5\\times10^3\\) kg
-- [ ] c | Approximately \\(5\\times10^{30}\\) cells and \\(5\\times10^{30}\\) kg
-- [x] d | Approximately \\(5\\times10^{30}\\) cells and \\(5\\times10^{15}\\) kg
-explanation: This estimate is conditional on the stated assumptions; the original prompt has no unique numeric answer. Habitat volume is \\((5\\times10^{14})(10^3)=5\\times10^{17}\\) m³. Cells occupy \\(10^{-5}\\) of it, or \\(5\\times10^{12}\\) m³. A cubic 1-μm cell occupies \\(10^{-18}\\) m³, giving \\(N\\sim5\\times10^{30}\\). Wet mass is occupied volume times density: \\(M\\sim(5\\times10^{12})(10^3)=5\\times10^{15}\\) kg. Different defensible habitat/fraction assumptions produce other estimates; wet mass is not carbon biomass.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 1.65
+
 ![Serway/Jewett · Problem 1.65 — complete original problem](assets/lessons/physics/recommended/ch1-p65.webp)
 solution:
 **Plan — we are going to build an explicit estimate of the habitat volume, estimate how much of it is occupied by cells, then calculate cell count and wet mass.**

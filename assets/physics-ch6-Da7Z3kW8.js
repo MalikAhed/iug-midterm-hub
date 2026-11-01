@@ -1,15 +1,12 @@
-var e={id:`physics-ch6`,title:`Circular Motion and Other Applications of Newton’s Laws`,summary:`Serway/Jewett 9e · Chapter 6 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::mcq
+var e={id:`physics-ch6`,title:`Circular Motion and Other Applications of Newton’s Laws`,summary:`Serway/Jewett 9e · Chapter 6 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::exam-question
 id: phys-ch6-p1
 title: Serway/Jewett · Problem 6.1
+question: Serway/Jewett · Problem 6.1
 reference: [Serway/Jewett 9e · Problem 6.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | 0≤v≤8.08 m/s, with breaking threshold at 8.08 m/s
-- [ ] b | 0≤v≤2.86 m/s, with breaking threshold at 2.86 m/s
-- [ ] c | 0≤v≤25.0 m/s, with breaking threshold at 25.0 m/s
-explanation: The limiting tension is \\(T_{\\max}=25.0g=245\\) N. On the horizontal table, tension supplies \\(mv^2/r\\). Therefore \\(v_{\\max}=\\sqrt{245(0.800)/3.00}=8.08\\) m/s. Stay below that threshold to avoid breaking; v=0 is the limiting stationary case.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.1
+
 ![Serway/Jewett · Problem 6.1 — complete original problem](assets/lessons/physics/recommended/ch6-p1.webp)
 solution:
 **Plan — we are going to…**
@@ -83,18 +80,15 @@ T=\\frac{(3.00)(65.333)}{0.800}=245\\ \\mathrm N.
 This equals the string’s supported-load limit. A smaller speed gives a smaller tension because tension is proportional to speed squared.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p8
 title: Serway/Jewett · Problem 6.8
+question: Serway/Jewett · Problem 6.8
 reference: [Serway/Jewett 9e · Problem 6.8](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Horizontal 784 N inward; vertical 68.6 N upward; radial acceleration 9.80 m/s²
-- [ ] b | Horizontal 68.6 N inward; vertical 784 N upward; radial acceleration 9.80 m/s²
-- [x] c | Horizontal 68.6 N inward; vertical 784 N upward; radial acceleration 0.857 m/s²
-explanation: Vertical equilibrium gives \\(T\\cos5°=mg=784\\) N. The horizontal component is \\(T\\sin5°=mg\\tan5°=68.591\\) N, inward. The radial acceleration is this divided by 80.0 kg: \\(g\\tan5°=0.85739\\) m/s².
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.8
+
 ![Serway/Jewett · Problem 6.8 — complete original problem](assets/lessons/physics/recommended/ch6-p8.webp)
 solution:
 **Plan — we are going to…**
@@ -166,18 +160,15 @@ v=\\sqrt{a_r r}=\\sqrt{(0.85739)(0.87156)}=0.864\\ \\frac{\\mathrm m}{\\mathrm s
 Then speed squared divided by radius returns 0.857 m/s². Also the tension is slightly greater than 784 N, as required to have an upward component of 784 N while tilted.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p9
 title: Serway/Jewett · Problem 6.9
+question: Serway/Jewett · Problem 6.9
 reference: [Serway/Jewett 9e · Problem 6.9](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | An outward centrifugal force; μₛ=0.850
-- [x] b | Static friction, directed inward; μₛ=0.0850
-- [ ] c | Kinetic friction, directed inward; μₖ=0.0850
-explanation: The coin does not slip relative to the surface before the threshold, so the radial force is static friction. At impending slip, \\(\\mu_smg=mv^2/r\\); with v=0.500 m/s and r=0.300 m, \\(\\mu_s=0.500^2/(0.300g)=0.0850\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.9
+
 ![Serway/Jewett · Problem 6.9 — complete original problem](assets/lessons/physics/recommended/ch6-p9.webp)
 solution:
 **Plan — we are going to…**
@@ -249,18 +240,15 @@ The required acceleration and the friction limit per unit mass agree:
 A slightly greater speed would demand more friction than this surface can supply.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p10
 title: Serway/Jewett · Problem 6.10
+question: Serway/Jewett · Problem 6.10
 reference: [Serway/Jewett 9e · Problem 6.10](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | The lower string would require negative tension; possible for planetary g below 7.71 m/s²
-- [ ] b | The upper string would require negative tension; possible only for planetary g above 12.6 m/s²
-- [ ] c | The geometry cannot form a circle on any planet
-explanation: The circle radius is \\(r=\\sqrt{2^2-1.5^2}=\\sqrt{1.75}\\) m. Radial balance gives \\(T_u+T_l=mv^2\\ell/r^2=41.143\\) N. Vertical balance gives \\(T_u-T_l=mg\\ell/(d/2)=52.267\\) N on Earth, so \\(T_l=-5.56\\) N, impossible for a string. Nonnegative lower tension requires \\(g\\le v^2(d/2)/r^2=7.714\\) m/s². Both tensions are strictly positive for smaller g; equality is the slack threshold.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.10
+
 ![Serway/Jewett · Problem 6.10 — complete original problem](assets/lessons/physics/recommended/ch6-p10.webp)
 solution:
 **Plan — we are going to…**
@@ -348,18 +336,15 @@ For an illustrative planet with gravity 5.00 m/s², the tension difference is 26
 This demonstrates that reduced gravity really can satisfy both equations.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p11
 title: Serway/Jewett · Problem 6.11
+question: Serway/Jewett · Problem 6.11
 reference: [Serway/Jewett 9e · Problem 6.11](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 18.5 m/s (66.7 km/h)
-- [ ] b | 5.86 m/s (21.1 km/h)
-- [x] c | 14.3 m/s (51.6 km/h)
-explanation: At the largest no-slip speed, static friction supplies the radial force: \\(\\mu_smg=mv^2/R\\). Thus \\(v_{\\max}=\\sqrt{0.600(9.8)(35.0)}=14.346\\) m/s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.11
+
 ![Serway/Jewett · Problem 6.11 — complete original problem](assets/lessons/physics/recommended/ch6-p11.webp)
 solution:
 **Plan — we are going to…**
@@ -429,18 +414,15 @@ At the unrounded threshold:
 The result has speed units because gravity times radius has units of speed squared. A larger turn radius permits a larger safe speed.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p15
 title: Serway/Jewett · Problem 6.15
+question: Serway/Jewett · Problem 6.15
 reference: [Serway/Jewett 9e · Problem 6.15](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | \\(v=\\sqrt{R(2T+mg)/m}\\); seat force \\(2T-mg\\) upward
-- [x] b | \\(v=\\sqrt{R(2T-mg)/m}\\); seat force \\(2T\\) upward
-- [ ] c | \\(v=\\sqrt{R(T-mg)/m}\\); seat force \\(T\\) upward
-explanation: Both chains pull up at the bottom. For the massless seat their total 2T is the upward seat force on the child. The child’s radial equation is \\(2T-mg=mv^2/R\\), giving the stated speed, with 2T≥mg.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.15
+
 ![Serway/Jewett · Problem 6.15 — complete original problem](assets/lessons/physics/recommended/ch6-p15.webp)
 solution:
 **Plan — we are going to…**
@@ -510,18 +492,15 @@ Substitute the speed back into the radial-force expression:
 If the speed tends to zero, the total chain tension tends to the weight, giving zero radial acceleration as expected.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p16
 title: Serway/Jewett · Problem 6.16
+question: Serway/Jewett · Problem 6.16
 reference: [Serway/Jewett 9e · Problem 6.16](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | At A: 24.9 kN upward; at B: maximum speed 12.1 m/s
-- [ ] b | At A: 15.1 kN upward; at B: maximum speed 12.1 m/s
-- [ ] c | At A: 24.9 kN downward; at B: maximum speed 17.1 m/s
-explanation: A is at the bottom of the valley: \\(N-mg=mv^2/r_1\\), so N=500(9.8+20²/10)=24900 N upward. At the crest B, \\(mg-N=mv^2/r_2\\). Contact ends at N=0, so \\(v_{\\max}=\\sqrt{gr_2}=12.124\\) m/s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.16
+
 ![Serway/Jewett · Problem 6.16 — complete original problem](assets/lessons/physics/recommended/ch6-p16.webp)
 solution:
 **Plan — we are going to…**
@@ -589,18 +568,15 @@ Draw the local radius toward the center before choosing signs. At a crest, conta
 At A, the upward net force is 24900 minus 4900, or 20000 N. Dividing by 500 kg gives 40.0 m/s², exactly the required speed squared divided by 10.0 m. At B’s limiting speed, gravity alone supplies the required 9.80 m/s² downward acceleration.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p17
 title: Serway/Jewett · Problem 6.17
+question: Serway/Jewett · Problem 6.17
 reference: [Serway/Jewett 9e · Problem 6.17](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Top radius 17.2 m; rail force 2Mg downward; circular top maintains contact
-- [ ] b | Top radius 8.62 m; rail force Mg upward; circular top maintains contact
-- [x] c | Top radius 8.62 m; rail force Mg downward; a 20-m circular top cannot maintain inside contact at 13.0 m/s
-explanation: (a) \\(r=v^2/(2g)=169/19.6=8.622\\) m. (b) At the top, \\(Mg+N=M(2g)\\), so N=Mg downward. (c) A circular 20.0-m top gives \\(a_r=169/20=8.45\\) m/s²=0.862g. (d) Its inside normal force would have to be N=M(8.45−9.8)<0, impossible for ordinary contact; the car would lose contact (unless held by a separate restraint). A tighter teardrop top keeps sufficient radial acceleration at modest speed while a broader bottom avoids excessive bottom normal forces.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.17
+
 ![Serway/Jewett · Problem 6.17 — complete original problem](assets/lessons/physics/recommended/ch6-p17.webp)
 solution:
 **Plan — we are going to…**
@@ -676,18 +652,15 @@ v_{\\min}=\\sqrt{gr}=\\sqrt{(9.80)(20.0)}=14.0\\ \\frac{\\mathrm m}{\\mathrm s}.
 The actual 13.0 m/s is below this value, independently confirming the contact problem. For the teardrop radius, the sum of weight and rail force is twice weight, giving the stipulated twice-gravity acceleration.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p18
 title: Serway/Jewett · Problem 6.18
+question: Serway/Jewett · Problem 6.18
 reference: [Serway/Jewett 9e · Problem 6.18](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Tension 20.6 N; tangential magnitude 9.80 m/s²; radial 32.0 m/s²; total 41.8 m/s²
-- [x] b | Tension 20.6 N; tangential magnitude 3.35 m/s²; radial 32.0 m/s²; total 32.2 m/s²
-- [ ] c | Tension 11.4 N; tangential magnitude 3.35 m/s²; radial 32.0 m/s²; total 28.6 m/s²
-explanation: (a) \\(T-mg\\cos20°=mv^2/R\\), so T=20.6045 N. (b) The radial acceleration is 32.0 m/s² toward the pivot; tangential acceleration is \\(g\\sin20°=3.3518\\) m/s² toward the lowest point. (c) Their perpendicular sum has magnitude 32.175 m/s² and points 5.98° from the inward radius toward the downhill tangent. (d–e) At the same location and speed, reversing velocity does not change these forces or acceleration vectors: the radial term depends on v² and gravity’s tangential component depends on position. Only whether the tangential acceleration speeds up or slows down the object changes.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.18
+
 ![Serway/Jewett · Problem 6.18 — complete original problem](assets/lessons/physics/recommended/ch6-p18.webp)
 solution:
 **Plan — we are going to…**
@@ -769,18 +742,15 @@ The net radial force from the calculated tension is:
 Dividing by 0.500 kg gives 32.0 m/s². The tangential force is 1.6759 N, giving 3.3518 m/s². The total acceleration is only slightly larger than 32.0 because the tangential part is much smaller.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p21
 title: Serway/Jewett · Problem 6.21
+question: Serway/Jewett · Problem 6.21
 reference: [Serway/Jewett 9e · Problem 6.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 73.0° from vertical; tension 1.50 N
-- [x] b | 17.0° from vertical; tension 5.12 N
-- [ ] c | 17.0° from vertical; tension 4.90 N
-explanation: The mass accelerates horizontally with the truck: \\(T\\sin\\theta=ma\\), \\(T\\cos\\theta=mg\\). Thus \\(\\theta=\\tan^{-1}(3.00/9.80)=17.02°\\), tilted opposite the truck’s acceleration, and \\(T=m\\sqrt{g^2+a^2}=5.12445\\) N.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.21
+
 ![Serway/Jewett · Problem 6.21 — complete original problem](assets/lessons/physics/recommended/ch6-p21.webp)
 solution:
 **Plan — we are going to…**
@@ -842,18 +812,15 @@ Choose an inertial ground frame → write horizontal acceleration and vertical e
 Using the unrounded result, the tension’s vertical component is 4.90 N, exactly the weight. Its horizontal component is 1.50 N; dividing by 0.500 kg returns the given 3.00 m/s². Total tension exceeds the weight because it must also pull horizontally.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p23
 title: Serway/Jewett · Problem 6.23
+question: Serway/Jewett · Problem 6.23
 reference: [Serway/Jewett 9e · Problem 6.23](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Weight 100 N; mass 10.2 kg; acceleration magnitude 9.80 m/s²
-- [ ] b | Weight 591 N; mass 60.3 kg; acceleration magnitude 3.32 m/s²
-- [x] c | Weight 491 N; mass 50.1 kg; acceleration magnitude 2.00 m/s²
-explanation: At starting, N=mg+ma=591 N; at stopping, N=mg−ma=391 N. Add to get mg=491 N and mass 491/9.8=50.102 kg. Subtract to get ma=100 N, hence a=1.99593 m/s². Acceleration is upward while starting and downward while stopping, so the trip is upward.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.23
+
 ![Serway/Jewett · Problem 6.23 — complete original problem](assets/lessons/physics/recommended/ch6-p23.webp)
 solution:
 **Plan — we are going to…**
@@ -933,18 +900,15 @@ N_{\\mathrm{stop}}=491-100=391\\ \\mathrm N.
 Both reproduce the measurements. True weight remains 491 N in each case.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p37
 title: Serway/Jewett · Problem 6.37
+question: Serway/Jewett · Problem 6.37
 reference: [Serway/Jewett 9e · Problem 6.37](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | At A: velocity east, acceleration south; at B: velocity south, acceleration west
-- [ ] b | At A: velocity south, acceleration east; at B: velocity west, acceleration south
-- [ ] c | At A: velocity east, acceleration north; at B: velocity south, acceleration east
-explanation: For clockwise motion the velocity is tangent to the drawn road: east at its top A, south at its rightmost point B. At constant speed there is no tangential acceleration; acceleration points inward toward the center, south at A and west at B.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.37
+
 ![Serway/Jewett · Problem 6.37 — complete original problem](assets/lessons/physics/recommended/ch6-p37.webp)
 solution:
 **Plan — we are going to…**
@@ -986,18 +950,15 @@ First trace the direction of travel to choose the tangent. Then ignore the trave
 At both locations the chosen velocity and acceleration directions are perpendicular. That is required for constant speed: perpendicular acceleration changes direction without changing the speed. An outward acceleration would turn the car away from the curve’s center and cannot describe the road shown.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p39
 title: Serway/Jewett · Problem 6.39
+question: Serway/Jewett · Problem 6.39
 reference: [Serway/Jewett 9e · Problem 6.39](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 313 N
-- [x] b | 781 N
-- [ ] c | 125 N
-explanation: The same mass obeys \\(T=mv^2/r\\) in both stated circular-motion conditions. Hence \\(T_f=50.0(51.0/20.4)^2(2.50/1.00)=781.25\\) N. This uses the problem’s radial force model for the two specified instants.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.39
+
 ![Serway/Jewett · Problem 6.39 — complete original problem](assets/lessons/physics/recommended/ch6-p39.webp)
 solution:
 **Plan — we are going to…**
@@ -1071,18 +1032,15 @@ T_f=(50.0)(15.625)=781.25\\ \\mathrm N.
 This agrees with the mass-based calculation.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p40
 title: Serway/Jewett · Problem 6.40
+question: Serway/Jewett · Problem 6.40
 reference: [Serway/Jewett 9e · Problem 6.40](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | Road force 11.5 kN upward; maximum speed 14.1 m/s (50.9 km/h)
-- [ ] b | Road force 23.8 kN upward; maximum speed 14.1 m/s
-- [ ] c | Road force 17.6 kN upward; maximum speed 30.0 m/s
-explanation: At the crest, inward is downward: \\(mg-N=mv^2/R\\). With v=30/3.6 m/s, \\(N=1800[9.8-(30/3.6)^2/20.4]=11512.55\\) N upward. Contact is lost at N=0, giving \\(v_{\\max}=\\sqrt{9.8(20.4)}=14.139\\) m/s=50.90 km/h.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.40
+
 ![Serway/Jewett · Problem 6.40 — complete original problem](assets/lessons/physics/recommended/ch6-p40.webp)
 solution:
 **Plan — we are going to…**
@@ -1150,19 +1108,15 @@ At a crest, choose down as inward, subtract the upward support force, and enforc
 The weight is 17640 N. Subtracting the unrounded normal force of 11512.55 N gives 6127.45 N downward. Dividing by 1800 kg gives 3.40414 m/s², equal to speed squared divided by radius. The normal force is less than weight, as expected at a crest.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p42
 title: Serway/Jewett · Problem 6.42
+question: Serway/Jewett · Problem 6.42
 reference: [Serway/Jewett 9e · Problem 6.42](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | \\(v=\\sqrt{gL\\cos\\theta}\\)
-- [ ] b | \\(v=\\sqrt{gL/\\sin\\theta}\\)
-- [ ] c | \\(v=gL\\sin\\theta\\)
-- [x] d | \\(v=\\sqrt{gL\\sin\\theta}\\)
-explanation: The circular radius is \\(r=L\\cos\\theta\\). Vertical balance gives \\(N\\cos\\theta=mg\\); radial force gives \\(N\\sin\\theta=mv^2/r\\). Combining them yields \\(v^2=gL\\sin\\theta\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.42
+
 ![Serway/Jewett · Problem 6.42 — complete original problem](assets/lessons/physics/recommended/ch6-p42.webp)
 solution:
 **Plan — we are going to…**
@@ -1238,19 +1192,15 @@ Substitution gives the required radial acceleration:
 Meanwhile the force equations give the same acceleration as the horizontal normal component divided by mass. The quantity under the root has units of speed squared, and the speed tends to zero as the wedge angle tends to zero.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p45
 title: Serway/Jewett · Problem 6.45
+question: Serway/Jewett · Problem 6.45
 reference: [Serway/Jewett 9e · Problem 6.45](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | (a–b) tension and gravity: both downward at the top, tension upward/gravity downward at the bottom; (c) 6.05 N; (d) 7.82 m/s.
-- [ ] b | (a–b) tension only at the top; (c) 8.75 N; (d) 8.85 m/s.
-- [ ] c | (a–b) tension and gravity both upward at the top; (c) 11.4 N; (d) 7.82 m/s.
-- [ ] d | (a–b) gravity disappears at the bottom; (c) 6.05 N; (d) 8.34 m/s.
-explanation: The inward top equation is \\(T+mg=mv^2/R\\), giving T=6.05 N for v=5.20 m/s. At the bottom, \\(T-mg=mv^2/R\\); with T=22.5 N, \\(v=\\sqrt{R(T/m-g)}=7.82\\) m/s. There is no extra centripetal force: it is the net radial force.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.45
+
 ![Serway/Jewett · Problem 6.45 — complete original problem](assets/lessons/physics/recommended/ch6-p45.webp)
 solution:
 **Plan — we are going to…**
@@ -1316,18 +1266,15 @@ For a vertical circle, draw gravity down at every position, tension toward the c
 At the top, the unrounded tension plus weight is 6.05324 plus 2.695, or 8.74824 N. This equals mass times speed squared divided by radius. At the bottom threshold, the inward resultant is 22.5 minus 2.695, or 19.805 N; using the unrounded speed in the radial expression gives the same value.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p54
 title: Serway/Jewett · Problem 6.54
+question: Serway/Jewett · Problem 6.54
 reference: [Serway/Jewett 9e · Problem 6.54](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | \\(T=m_2g\\), \\(F_r=m_1g\\), \\(v=\\sqrt{m_1gR/m_2}\\); increasing the hanging load slows the puck
-- [x] b | \\(T=F_r=m_2g\\), \\(v=\\sqrt{m_2gR/m_1}\\); increasing the hanging load initially pulls the puck inward and speeds it up
-- [ ] c | \\(T=F_r=m_1g\\), \\(v=\\sqrt{gR}\\); increasing the hanging load leaves the puck unchanged
-explanation: (a) Equilibrium of the hanging mass gives T=m₂g. (b) This tension is the inward radial force on the puck. (c) Set \\(m_1v^2/R=m_2g\\). (d) Increasing the hanging mass (the mass m₂ specified in the question) produces an initial inward radial response, reducing the puck’s radius and increasing its tangential speed by angular-momentum conservation. (e) Decreasing the hanging mass initially lets the puck move outward and reduces its tangential speed. Without damping these changes can involve radial oscillations rather than an immediate new circular equilibrium.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.54
+
 ![Serway/Jewett · Problem 6.54 — complete original problem](assets/lessons/physics/recommended/ch6-p54.webp)
 solution:
 **Plan — we are going to…**
@@ -1395,18 +1342,15 @@ For the original steady state, putting the speed expression back gives:
 For the change in motion, a central string force has no turning effect about the hole, so the product of radius and tangential speed remains constant. This confirms increasing tangential speed during contraction and decreasing tangential speed during expansion; it does not imply that the new radius is instantly constant.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p57
 title: Serway/Jewett · Problem 6.57
+question: Serway/Jewett · Problem 6.57
 reference: [Serway/Jewett 9e · Problem 6.57](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Seat speed 5.19 m/s; chain tension with child 490 N
-- [x] b | Seat speed 5.19 m/s; chain tension with child 555 N
-- [ ] c | Seat speed 3.61 m/s; chain tension with child 111 N
-explanation: The seat’s circular radius is \\(r=D/2+d\\sin28°=5.17368\\) m. Horizontal/vertical tension components give \\(v^2/r=g\\tan28°\\), so v=5.19218 m/s. For the child-and-seat diagram draw total weight 50.0g downward and chain tension up/inward along the chain. Its vertical component is T cos28°=50.0g, giving T=554.959 N. Mass cancels from the speed relation.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.57
+
 ![Serway/Jewett · Problem 6.57 — complete original problem](assets/lessons/physics/recommended/ch6-p57.webp)
 solution:
 **Plan — we are going to…**
@@ -1480,18 +1424,15 @@ Build the radius from the central support outward. Then divide horizontal and ve
 Using the loaded tension, the inward component is approximately 260.5 N. The radial acceleration is speed squared divided by 5.17368 m, or 5.2108 m/s²; multiplying by 50.0 kg gives the same 260.5 N. The vertical component is exactly 490 N before rounding.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p59
 title: Serway/Jewett · Problem 6.59
+question: Serway/Jewett · Problem 6.59
 reference: [Serway/Jewett 9e · Problem 6.59](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | \\(T_{\\max}=2\\pi\\sqrt{R/(g\\mu_s)}\\); faster rotation raises both weight and friction
-- [ ] b | \\(T_{\\max}=2\\pi\\sqrt{g/(R\\mu_s)}\\); slower rotation raises normal force
-- [x] c | \\(T_{\\max}=2\\pi\\sqrt{R\\mu_s/g}\\); faster rotation raises normal force but static friction remains mg
-explanation: (a) The wall normal supplies radial acceleration: \\(N=mv^2/R=4\\pi^2mR/T^2\\). To stay up requires static friction mg≤μₛN, yielding \\(T\\le2\\pi\\sqrt{R\\mu_s/g}\\). (b) Above the threshold rotation rate, N increases, weight remains mg, and actual static friction remains mg (only its maximum possible value increases); the person stays at fixed height and circles faster. (c) Below the threshold rate, N and the available static-friction maximum decrease, and friction cannot balance weight. The person slides downward while circling; once sliding, friction is kinetic rather than static and its value requires μₖ. Weight remains unchanged.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.59
+
 ![Serway/Jewett · Problem 6.59 — complete original problem](assets/lessons/physics/recommended/ch6-p59.webp)
 solution:
 **Plan — we are going to…**
@@ -1565,18 +1506,15 @@ N=\\frac{4\\pi^2mR}{4\\pi^2R\\mu_s/g}=\\frac{mg}{\\mu_s}.
 Thus the maximum friction is exactly enough to support the person. Increasing the coefficient allows a longer period, consistent with a grippier wall permitting slower rotation.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p61
 title: Serway/Jewett · Problem 6.61
+question: Serway/Jewett · Problem 6.61
 reference: [Serway/Jewett 9e · Problem 6.61](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which upper-speed bound and condition for zero minimum speed are correct?
-- [x] a | \\(v_{\\max}^2=Rg(\\sin\\theta+\\mu_s\\cos\\theta)/(\\cos\\theta-\\mu_s\\sin\\theta)\\); zero minimum speed requires \\(\\mu_s\\ge\\tan\\theta\\)
-- [ ] b | \\(v_{\\max}^2=Rg\\tan\\theta\\); zero minimum speed requires \\(\\mu_s=0\\)
-- [ ] c | \\(v_{\\max}^2=Rg(\\sin\\theta-\\mu_s\\cos\\theta)/(\\cos\\theta+\\mu_s\\sin\\theta)\\); zero minimum speed requires \\(\\mu_s\\ge\\cot\\theta\\)
-explanation: At impending outward slip friction acts down the bank. Resolving inward and vertical forces gives \\(v_{\\max}^2=Rg(\\sin\\theta+\\mu_s\\cos\\theta)/(\\cos\\theta-\\mu_s\\sin\\theta)\\) if the denominator is positive. If \\(\\mu_s\\ge\\cot\\theta\\), this ideal model has no finite upper speed bound. At impending inward slip friction acts up the bank, giving \\(v_{\\min}^2=Rg(\\sin\\theta-\\mu_s\\cos\\theta)/(\\cos\\theta+\\mu_s\\sin\\theta)\\) when the numerator is positive; otherwise vmin=0. Thus (b) the smallest coefficient permitting zero minimum speed is \\(\\mu_s=\\tan\\theta\\). At μₛ=0 the bounds coincide at \\(\\sqrt{Rg\\tan\\theta}\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.61
+
 ![Serway/Jewett · Problem 6.61 — complete original problem](assets/lessons/physics/recommended/ch6-p61.webp)
 
 ![Original Figure 6.5 — banked road and force diagram](assets/lessons/physics/recommended/support-figure-6-5.webp)
@@ -1684,18 +1622,15 @@ For a flat road, the upper formula reduces to the usual friction-limited speed a
 Finally, at zero speed the ordinary incline condition is friction at least weight times sine divided by normal weight component; this independently gives the tangent condition in part (b).
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch6-p68
 title: Serway/Jewett · Problem 6.68
+question: Serway/Jewett · Problem 6.68
 reference: [Serway/Jewett 9e · Problem 6.68](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | At both periods an off-axis equilibrium is 70.4° up from the bottom
-- [ ] b | At 0.450 s the only equilibrium is the bottom; at 0.850 s an off-axis equilibrium is 70.4°
-- [x] c | At 0.450 s an off-axis equilibrium is 70.4° up from the bottom; at 0.850 s only bottom/top axial equilibria remain
-explanation: Project forces along the circular wire. Relative equilibrium requires \\(\\sin\\theta(\\omega^2R\\cos\\theta-g)=0\\). (a) The off-axis solution has \\(\\cos\\theta=gT^2/(4\\pi^2R)\\), giving θ=70.420° at T=0.450 s, with a symmetric location on the other side. The bottom (θ=0) and top (θ=180°) also remain exact axial equilibria. (b) At T=0.850 s the cosine expression exceeds 1, so there is no off-axis solution; bottom and top are the only exact equilibria. (c) The bottom is stable for the slower rotation; for the fast case the stable locations move off-axis. The top is unstable. (d) Yes, at least the bottom and top are always exact equilibria. (e) Yes: when \\(T<2\\pi\\sqrt{R/g}=0.77734\\) s there are three distinct angle magnitudes (0, θ,180°), corresponding to four positions if the two symmetric off-axis sides are counted separately. At the threshold the off-axis locations merge into the bottom.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 6.68
+
 ![Serway/Jewett · Problem 6.68 — complete original problem](assets/lessons/physics/recommended/ch6-p68.webp)
 solution:
 **Plan — we are going to…**

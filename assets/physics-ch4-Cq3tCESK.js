@@ -1,15 +1,12 @@
-var e={id:`physics-ch4`,title:`Motion in Two Dimensions`,summary:`Serway/Jewett 9e · Chapter 4 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::mcq
+var e={id:`physics-ch4`,title:`Motion in Two Dimensions`,summary:`Serway/Jewett 9e · Chapter 4 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::exam-question
 id: phys-ch4-p1
 title: Serway/Jewett · Problem 4.1
+question: Serway/Jewett · Problem 4.1
 reference: [Serway/Jewett 9e · Problem 4.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Displacement (−4.27, −4.87) km; average speed 23.3 m/s; average velocity (−11.9, −13.5) m/s
-- [ ] b | Displacement (−3.00, −3.60) km; average speed 13.5 m/s; average velocity (−8.33, −10.0) m/s
-- [x] c | Displacement (−4.27, −2.33) km; average speed 23.3 m/s; average velocity (−11.9, −6.46) m/s
-explanation: With east +x and north +y, the three displacements are \\((0,-3600),(-3000,0),(-1800/\\sqrt2,+1800/\\sqrt2)\\) m. Their sum is \\((-4272.79,-2327.21)\\) m, magnitude 4.87 km at 28.6° south of west. Total distance is 8400 m in 360 s, giving average speed 23.3 m/s. Divide the vector displacement by 360 s for average velocity; its magnitude is 13.5 m/s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.1
+
 ![Serway/Jewett · Problem 4.1 — complete original problem](assets/lessons/physics/recommended/ch4-p1.webp)
 solution:
 **Plan — we are going to…**
@@ -175,18 +172,15 @@ Leg lengths → signed components → summed displacement → divide by total ti
 The trip ends west and south of the start, matching both negative components. The displacement length is smaller than the distance travelled, so 13.5 m/s is correctly smaller than 23.3 m/s.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p3
 title: Serway/Jewett · Problem 4.3
+question: Serway/Jewett · Problem 4.3
 reference: [Serway/Jewett 9e · Problem 4.3](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | Average velocity (1.00, 0.750) m/s; at 2 s, velocity (1.00, 0.500) m/s and speed 1.12 m/s
-- [ ] b | Average velocity (1.00, 0.500) m/s; at 2 s, velocity (1.00, 0.750) m/s and speed 1.25 m/s
-- [ ] c | Average velocity (2.00, 1.50) m/s; at 2 s, velocity (1.00, 0.500) m/s and speed 1.50 m/s
-explanation: \\(\\Delta x/\\Delta t=a=1\\) and \\(\\Delta y/\\Delta t=c(4^2-2^2)/(4-2)=0.750\\). Differentiating gives \\(\\vec v=a\\hat i+2ct\\hat j\\). At 2 s this is \\((1,0.5)\\) m/s, with magnitude \\(\\sqrt{1.25}=1.12\\) m/s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.3
+
 ![Serway/Jewett · Problem 4.3 — complete original problem](assets/lessons/physics/recommended/ch4-p3.webp)
 solution:
 **Plan — we are going to…**
@@ -348,18 +342,15 @@ v(2)=\\sqrt{1.00+0.250}=\\sqrt{1.250}
 At 4 seconds the vertical velocity is 1.00 m/s. The interval average of 0.750 m/s lies between the endpoint values 0.500 and 1.00 m/s. The speed 1.12 m/s is larger than either individual component, as a diagonal vector length should be.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p4
 title: Serway/Jewett · Problem 4.4
+question: Serway/Jewett · Problem 4.4
 reference: [Serway/Jewett 9e · Problem 4.4](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: What path does the particle follow?
-- [ ] a | Circle of radius 4.00 m centered at (0, 5.00 m), initially moving toward +x
-- [ ] b | Ellipse centered at the origin with semiaxes 4.00 and 5.00 m
-- [x] c | Circle of radius 5.00 m centered at (0, 4.00 m), initially moving toward −x
-explanation: Writing the printed angular constant as \\(\\omega\\), \\(\\vec r=-5\\sin(\\omega t)\\hat i+[4-5\\cos(\\omega t)]\\hat j\\) m. Differentiate: \\(\\vec v=-5\\omega\\cos(\\omega t)\\hat i+5\\omega\\sin(\\omega t)\\hat j\\), and \\(\\vec a=5\\omega^2\\sin(\\omega t)\\hat i+5\\omega^2\\cos(\\omega t)\\hat j\\). At t=0, velocity is \\((-5\\omega,0)\\) and acceleration \\((0,5\\omega^2)\\). Eliminating t gives \\(x^2+(y-4)^2=25\\); for positive \\(\\omega\\), the motion is clockwise starting at (0,−1).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.4
+
 ![Serway/Jewett · Problem 4.4 — complete original problem](assets/lessons/physics/recommended/ch4-p4.webp)
 solution:
 **Plan — we are going to…**
@@ -534,18 +525,145 @@ Differentiate each coordinate → differentiate again → evaluate times → eli
 At the bottom of a circle centred above the particle, inward acceleration must point upward. Our initial acceleration does. The speed is constant with magnitude five times the absolute value of omega, even though its direction changes.
 :::
 
-:::mcq
+:::exam-question
+id: phys-ch4-p7
+title: Serway/Jewett · Problem 4.7
+question: Serway/Jewett · Problem 4.7
+reference: [Serway/Jewett 9e · Problem 4.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.7
+
+![Serway/Jewett · Problem 4.7 — complete original problem](assets/lessons/physics/recommended/ch4-p7.webp)
+solution:
+**Plan — we are going to…**
+
+1. Read the x and y coordinates from the position vector.
+2. Differentiate once for velocity and again for acceleration.
+3. Put in 1.00 second to calculate the requested position and velocity.
+
+**The trick**
+
+**x = 3.00 m is a fixed position**, not a velocity. Its derivative is zero, so motion is vertical only.
+
+**What you need to know**
+
+- **i-hat** = unit arrow along +x.
+- **j-hat** = unit arrow along +y.
+- **Position:** meters; **time:** seconds.
+
+\\[
+\\vec r(t)=3.00\\hat i-6.00t^2\\hat j
+\\]
+
+Therefore:
+
+\\[
+x(t)=3.00,\\qquad y(t)=-6.00t^2
+\\]
+
+**Velocity** = position's rate of change.
+
+**Acceleration** = velocity's rate of change.
+
+\\[
+\\vec v=\\frac{d\\vec r}{dt}
+\\]
+
+\\[
+\\vec a=\\frac{d\\vec v}{dt}
+\\]
+
+**Power rule:** keep the coefficient, multiply by the exponent, then reduce the exponent by 1. A constant differentiates to 0.
+
+**Step-by-step solution**
+
+1. **Part (a): differentiate the x coordinate.**
+
+\\[
+v_x=\\frac{d}{dt}(3.00)=0
+\\]
+
+2. **Differentiate the y coordinate.** The derivative of squared time is twice time.
+
+\\[
+v_y=\\frac{d}{dt}(-6.00t^2)=-6.00(2t)
+\\]
+
+\\[
+v_y=-12.0t
+\\]
+
+So the velocity is:
+
+\\[
+\\boxed{\\vec v(t)=-12.0t\\hat j}
+\\]
+
+With time entered in seconds, these velocity components are in m/s. For positive time the negative y velocity means motion downward.
+
+3. **Part (b): differentiate the velocity components.**
+
+\\[
+a_x=\\frac{d}{dt}(0)=0
+\\]
+
+\\[
+a_y=\\frac{d}{dt}(-12.0t)=-12.0
+\\]
+
+\\[
+\\boxed{\\vec a=-12.0\\hat j\\ \\mathrm{m/s^2}}
+\\]
+
+The acceleration is constant because the velocity is a linear function of time.
+
+4. **Part (c): put 1.00 second into the original position equation.**
+
+\\[
+x(1.00)=3.00\\ \\mathrm{m}
+\\]
+
+\\[
+y(1.00)=-6.00(1.00)^2=-6.00\\ \\mathrm{m}
+\\]
+
+\\[
+\\boxed{\\vec r(1.00)=(3.00\\hat i-6.00\\hat j)\\ \\mathrm{m}}
+\\]
+
+5. **Put the same time into the velocity expression.**
+
+\\[
+v_x(1.00)=0
+\\]
+
+\\[
+v_y(1.00)=-12.0(1.00)=-12.0\\ \\mathrm{m/s}
+\\]
+
+\\[
+\\boxed{\\vec v(1.00)=-12.0\\hat j\\ \\mathrm{m/s}}
+\\]
+
+**Use this method again**
+
+Separate components → differentiate → substitute time. A constant coordinate gives zero velocity along that axis.
+
+**Check**
+
+The particle stays on the vertical line through x = 3.00 m. Starting with zero vertical velocity and constant downward acceleration of 12.0 m/s squared gives a downward displacement of 6.00 m in the first second, agreeing with the original position.
+:::
+
+:::exam-question
 id: phys-ch4-p9
 title: Serway/Jewett · Problem 4.9
+question: Serway/Jewett · Problem 4.9
 reference: [Serway/Jewett 9e · Problem 4.9](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | Acceleration (0.800, −0.300) m/s²; at 25 s, position (360, −72.8) m, moving 15.2° below +x
-- [ ] b | Acceleration (1.20, −0.200) m/s²; at 25 s, position (485, −41.5) m, moving 6.71° below +x
-- [ ] c | Acceleration (0.800, +0.300) m/s²; at 25 s, position (360, 115) m, moving 19.5° above +x
-explanation: \\(\\vec a=[(20,-5)-(4,1)]/20=(0.800,-0.300)\\) m/s², directed 20.6° below +x. At 25 s, \\(\\vec r=(10,-4)+(4,1)25+\\tfrac12(0.8,-0.3)25^2=(360,-72.75)\\) m. Velocity is \\((24,-6.5)\\) m/s, directed \\(\\tan^{-1}(6.5/24)=15.2°\\) below +x.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.9
+
 ![Serway/Jewett · Problem 4.9 — complete original problem](assets/lessons/physics/recommended/ch4-p9.webp)
 solution:
 **Plan — we are going to…**
@@ -699,18 +817,15 @@ Velocity change → acceleration components → new position/velocity → direct
 Substituting 20.0 seconds into the velocity equations reproduces the given final components: 20.0 m/s horizontally and −5.00 m/s vertically. At 25 seconds the vertical velocity is more negative, which is consistent with the constant negative y acceleration.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p18
 title: Serway/Jewett · Problem 4.18
+question: Serway/Jewett · Problem 4.18
 reference: [Serway/Jewett 9e · Problem 4.18](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | \\(\\theta=76.0°\\), \\(R_{\\max}=17R/8\\); the angle is unchanged on another planet
-- [ ] b | \\(\\theta=45.0°\\), \\(R_{\\max}=R\\); the angle is unchanged on another planet
-- [ ] c | \\(\\theta=63.4°\\), \\(R_{\\max}=5R/4\\); the angle depends on g
-explanation: Set \\(v^2\\sin^2\\theta/(2g)=v^2\\sin(2\\theta)/g\\). For the nonzero flight, \\(\\tan\\theta=4\\), hence 75.96°. At this angle \\(\\sin2\\theta=8/17\\), whereas the maximum-range angle gives \\(\\sin2\\theta=1\\), so \\(R_{\\max}=17R/8\\). The same g cancels from the height/range relation, so the angle does not depend on the planet.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.18
+
 ![Serway/Jewett · Problem 4.18 — complete original problem](assets/lessons/physics/recommended/ch4-p18.webp)
 solution:
 **Plan — we are going to…**
@@ -867,18 +982,15 @@ Express both lengths using the same launch data → equate → cancel common fac
 A steep launch should give a large height compared with its range, so an angle near 76 degrees is sensible. Changing that angle to 45 degrees increases the range by a factor greater than one, as our factor 2.125 does.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p19
 title: Serway/Jewett · Problem 4.19
+question: Serway/Jewett · Problem 4.19
 reference: [Serway/Jewett 9e · Problem 4.19](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 54.7°
-- [ ] b | 30.0°
-- [x] c | 67.8°
-explanation: At maximum height the speed is \\(v_x\\). At half the maximum height, \\(v_y^2=v_{y0}^2/2\\). The speed condition gives \\(v_x^2=(v_x^2+v_{y0}^2/2)/4\\), hence \\(\\tan^2\\theta=6\\) and \\(\\theta=67.8°\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.19
+
 ![Serway/Jewett · Problem 4.19 — complete original problem](assets/lessons/physics/recommended/ch4-p19.webp)
 solution:
 **Plan — we are going to…**
@@ -1034,18 +1146,128 @@ v_{\\mathrm{half}}=\\sqrt{u^2+\\frac{6u^2}{2}}=\\sqrt{4u^2}=2u
 The top speed is u, exactly one-half this value, as required.
 :::
 
-:::mcq
+:::exam-question
+id: phys-ch4-p21
+title: Serway/Jewett · Problem 4.21
+question: Serway/Jewett · Problem 4.21
+reference: [Serway/Jewett 9e · Problem 4.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.21
+
+![Serway/Jewett · Problem 4.21 — complete original problem](assets/lessons/physics/recommended/ch4-p21.webp)
+solution:
+**Plan — we are going to…**
+
+1. Split the hose's launch velocity into horizontal and vertical components.
+2. Use the horizontal distance to calculate when the water reaches the building.
+3. Put that same time into the vertical motion equation.
+4. Simplify the result to obtain the striking height.
+
+**The trick**
+
+**Both axes use the same flight time.** Horizontal distance gives that time; substitute it into the height equation. The requested height is measured from the nozzle's level.
+
+**What you need to know**
+
+**Model:** each water parcel follows ideal projectile motion after leaving the nozzle; ignore drag and stream interactions.
+
+- **Origin:** nozzle.
+- **+x:** toward wall; **+y:** upward.
+- **v-i:** launch speed; **theta-i:** angle above horizontal.
+- **d:** horizontal nozzle-to-wall distance.
+
+\\[
+v_{0x}=v_i\\cos\\theta_i
+\\]
+
+\\[
+v_{0y}=v_i\\sin\\theta_i
+\\]
+
+Gravity changes the vertical motion but not the horizontal motion.
+
+\\[
+x(t)=v_i\\cos\\theta_i\\,t
+\\]
+
+\\[
+y(t)=v_i\\sin\\theta_i\\,t-\\frac12gt^2
+\\]
+
+**Step-by-step solution**
+
+1. **Set the horizontal position equal to the distance to the building.**
+
+\\[
+d=v_i\\cos\\theta_i\\,t_{\\mathrm{wall}}
+\\]
+
+2. **Divide both sides by the horizontal velocity.** This assumes the water has a nonzero velocity component toward the wall.
+
+\\[
+t_{\\mathrm{wall}}=\\frac{d}{v_i\\cos\\theta_i}
+\\]
+
+3. **Use this time in the vertical equation.** At the wall, the vertical position is the requested height h.
+
+\\[
+h=v_i\\sin\\theta_i\\left(\\frac{d}{v_i\\cos\\theta_i}\\right)-\\frac12g\\left(\\frac{d}{v_i\\cos\\theta_i}\\right)^2
+\\]
+
+4. **Simplify the first term.** Cancel the launch speed. Sine divided by cosine is tangent.
+
+\\[
+v_i\\sin\\theta_i\\left(\\frac{d}{v_i\\cos\\theta_i}\\right)=d\\frac{\\sin\\theta_i}{\\cos\\theta_i}=d\\tan\\theta_i
+\\]
+
+5. **Simplify the gravity term.** Squaring the fraction squares both its numerator and its entire denominator.
+
+\\[
+\\frac12g\\left(\\frac{d}{v_i\\cos\\theta_i}\\right)^2=\\frac{gd^2}{2v_i^2\\cos^2\\theta_i}
+\\]
+
+6. **Combine the two terms, keeping the minus sign for the downward gravitational effect.**
+
+\\[
+\\boxed{h=d\\tan\\theta_i-\\frac{gd^2}{2v_i^2\\cos^2\\theta_i}}
+\\]
+
+- **First term:** height along the initial straight direction.
+- **Second term:** gravity's drop below that line by the wall.
+
+A real above-ground strike must occur before the stream hits the ground.
+
+**Use this method again**
+
+Known horizontal target distance → travel time → height → compare with target. Add nozzle height if ground height is requested.
+
+**Check**
+
+Both terms have units of length. In the zero-gravity limit, the trajectory should follow the initial straight line:
+
+\\[
+g\\to0\\quad\\Longrightarrow\\quad h\\to d\\tan\\theta_i.
+\\]
+
+For a horizontal launch the straight-line rise is zero:
+
+\\[
+\\theta_i=0\\quad\\Longrightarrow\\quad h=-\\frac{gd^2}{2v_i^2}.
+\\]
+
+The negative result means the stream has fallen below nozzle height by the wall. These two limits agree with the expected motion.
+:::
+
+:::exam-question
 id: phys-ch4-p23
 title: Serway/Jewett · Problem 4.23
+question: Serway/Jewett · Problem 4.23
 reference: [Serway/Jewett 9e · Problem 4.23](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Clears by 3.94 m while falling
-- [x] b | Clears by 0.889 m while falling
-- [ ] c | Falls short by 0.889 m while rising
-explanation: The flight time to x=36 m is \\(t=36/(20\\cos53°)=2.991\\) s. Its height is \\(20\\sin53°\\,t-4.9t^2=3.939\\) m, so the clearance is 0.889 m. Vertical velocity is \\(20\\sin53°-9.8t=-13.34\\) m/s, so it is falling.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.23
+
 ![Serway/Jewett · Problem 4.23 — complete original problem](assets/lessons/physics/recommended/ch4-p23.webp)
 solution:
 **Plan — we are going to…**
@@ -1164,18 +1386,15 @@ t_{\\mathrm{top}}=\\frac{15.9727}{9.80}=1.63\\ \\mathrm{s}
 The ball reaches the goal later, at 2.99 seconds, confirming that it is descending.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p25
 title: Serway/Jewett · Problem 4.25
+question: Serway/Jewett · Problem 4.25
 reference: [Serway/Jewett 9e · Problem 4.25](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Launch speed 10.9 m/s; clears wall by 1.13 m; lands 2.79 m beyond wall
-- [ ] b | Launch speed 18.1 m/s; clears wall by 8.13 m; lands 26.8 m beyond wall
-- [x] c | Launch speed 18.1 m/s; clears wall by 1.13 m; lands 2.79 m beyond wall
-explanation: \\(v_x=24/2.20=10.909\\) m/s and \\(v_i=v_x/\\cos53°=18.127\\) m/s. At the wall, y=8.133 m, which is 1.133 m above its 7.00 m top. Solve \\(6=v_i\\sin53°\\,t-4.9t^2\\) for the later (descending) time, then subtract 24 m from \\(v_xt\\), giving 2.791 m onto the roof.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.25
+
 ![Serway/Jewett · Problem 4.25 — complete original problem](assets/lessons/physics/recommended/ch4-p25.webp)
 solution:
 **Plan — we are going to…**
@@ -1362,18 +1581,15 @@ v_y(2.45586)=14.4769-9.80(2.45586)\\approx-9.59\\ \\mathrm{m/s}
 So the chosen root does describe a descending landing on the roof.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p29
 title: Serway/Jewett · Problem 4.29
+question: Serway/Jewett · Problem 4.29
 reference: [Serway/Jewett 9e · Problem 4.29](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: What are the time and velocity of impact?
-- [ ] a | Strikes after 3.19 s at 18.0 m/s, horizontally
-- [x] b | Strikes after 3.19 s at 36.1 m/s, 60.1° below horizontal
-- [ ] c | Strikes after 5.10 s at 53.2 m/s, 70.2° below horizontal
-explanation: Using the origin at the water directly below the cliff: (a) \\((x_0,y_0)=(0,h)\\). (b) \\((v_{x0},v_{y0})=(v_i,0)\\). (c) Vertical motion has constant acceleration −g. (d) Horizontal motion has constant velocity. (e) \\(v_x=v_i,\\ v_y=-gt\\). (f) \\(x=v_it,\\ y=h-gt^2/2\\). (g) \\(t=\\sqrt{2h/g}=3.19\\) s. (h) \\(v=\\sqrt{v_i^2+2gh}=36.1\\) m/s, at \\(\\tan^{-1}(\\sqrt{2gh}/v_i)=60.1°\\) below horizontal.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.29
+
 ![Serway/Jewett · Problem 4.29 — complete original problem](assets/lessons/physics/recommended/ch4-p29.webp)
 solution:
 **Plan — we are going to…**
@@ -1572,18 +1788,15 @@ Vertical fall → time → impact components → speed/direction. Keep the figur
 The fall time depends on height and gravity, not on the horizontal launch speed. Impact speed is greater than 18.0 m/s because the stone has gained a downward component. The impact angle is downward, agreeing with the negative vertical velocity.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p41
 title: Serway/Jewett · Problem 4.41
+question: Serway/Jewett · Problem 4.41
 reference: [Serway/Jewett 9e · Problem 4.41](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 0.741 m/s², directed purely backward
-- [x] b | 1.48 m/s², directed 29.9° backward from the inward radial direction
-- [ ] c | 1.29 m/s², directed purely inward
-explanation: \\(a_t=[(50-90)/3.6]/15=-0.74074\\) m/s². At 50 km/h, \\(a_r=(50/3.6)^2/150=1.2860\\) m/s² inward. The perpendicular components give magnitude 1.4841 m/s² and \\(\\tan^{-1}(|a_t|/a_r)=29.94°\\) toward the backward tangent from inward.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.41
+
 ![Serway/Jewett · Problem 4.41 — complete original problem](assets/lessons/physics/recommended/ch4-p41.webp)
 solution:
 **Plan — we are going to…**
@@ -1705,18 +1918,15 @@ Speed change → tangential acceleration. Current speed/radius → radial accele
 The total magnitude 1.48 m/s squared is larger than either component, but smaller than their direct sum. The backward component agrees with slowing; the inward component agrees with turning.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p42
 title: Serway/Jewett · Problem 4.42
+question: Serway/Jewett · Problem 4.42
 reference: [Serway/Jewett 9e · Problem 4.42](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | Radial acceleration 29.7 m/s²; speed 6.67 m/s; velocity (5.33, 4.01) m/s
-- [ ] b | Radial acceleration 5.86 m/s²; speed 2.97 m/s; velocity (2.37, 1.78) m/s
-- [ ] c | Radial acceleration 30.2 m/s²; speed 6.73 m/s; velocity (−5.38, −4.04) m/s
-explanation: At \\(\\theta=36.9°\\), the inward unit vector is \\((-\\sin\\theta,\\cos\\theta)\\), and the forward tangent is \\((\\cos\\theta,\\sin\\theta)\\). Projecting the given acceleration gives \\(a_r=29.663\\) and \\(a_t=-5.864\\) m/s². For the vector sketch draw radial acceleration up-left and tangential acceleration down-left; their sum is the stated \\((-22.5,20.2)\\). The radial vector is approximately (−17.8,23.7), and the tangential vector (−4.69,−3.53). Speed \\(\\sqrt{a_rR}=6.670\\) m/s, and the forward tangent gives velocity (5.334,4.005) m/s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.42
+
 ![Serway/Jewett · Problem 4.42 — complete original problem](assets/lessons/physics/recommended/ch4-p42.webp)
 solution:
 **Plan — we are going to…**
@@ -1912,18 +2122,15 @@ Find inward/tangent directions → project acceleration → use inward component
 The component vectors add back to approximately negative 22.5 horizontally and positive 20.2 vertically, matching the given acceleration. The velocity is perpendicular to the inward direction. A negative tangential component agrees with slowing even though the ball still moves counterclockwise.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p43
 title: Serway/Jewett · Problem 4.43
+question: Serway/Jewett · Problem 4.43
 reference: [Serway/Jewett 9e · Problem 4.43](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Both are possible
-- [ ] b | Neither is possible
-- [x] c | 6.00 m/s² is possible; 4.00 m/s² is impossible
-explanation: The radial acceleration is fixed at \\(v^2/r=4.50\\) m/s². Total magnitude cannot be smaller than that. A magnitude of 6.00 is possible with tangential magnitude \\(\\sqrt{6^2-4.5^2}=3.97\\) m/s². A magnitude of 4.00 is impossible.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.43
+
 ![Serway/Jewett · Problem 4.43 — complete original problem](assets/lessons/physics/recommended/ch4-p43.webp)
 solution:
 **Plan — we are going to…**
@@ -2032,18 +2239,15 @@ a=\\sqrt{(4.50)^2+(\\sqrt{15.75})^2}=\\sqrt{20.25+15.75}=6.00\\ \\mathrm{m/s^2}
 If speed were momentarily unchanging, the tangential component would be zero and the total would be exactly 4.50 m/s squared, the minimum.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p44
 title: Serway/Jewett · Problem 4.44
+question: Serway/Jewett · Problem 4.44
 reference: [Serway/Jewett 9e · Problem 4.44](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 180 km/h, 45.0° north of west
-- [x] b | 153 km/h, 11.3° north of west
-- [ ] c | 120 km/h due west
-explanation: Vector addition gives ground velocity \\((-150,+30)\\) km/h. Its magnitude is \\(\\sqrt{150^2+30^2}=153\\) km/h and direction is \\(\\tan^{-1}(30/150)=11.3°\\) north of west.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.44
+
 ![Serway/Jewett · Problem 4.44 — complete original problem](assets/lessons/physics/recommended/ch4-p44.webp)
 solution:
 **Plan — we are going to…**
@@ -2136,18 +2340,15 @@ Label frames → add signed components → calculate ground speed and direction.
 The final arrow must point west and north. Its magnitude is slightly larger than 150 km/h because the wind is perpendicular to the airspeed. Adding the two speeds as ordinary numbers would incorrectly give 180 km/h.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p45
 title: Serway/Jewett · Problem 4.45
+question: Serway/Jewett · Problem 4.45
 reference: [Serway/Jewett 9e · Problem 4.45](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | Headwind 1.26 h; tailwind 1.13 h; crosswind 1.19 h
-- [ ] b | Headwind 1.13 h; tailwind 1.26 h; crosswind 1.19 h
-- [ ] c | Headwind 1.26 h; tailwind 1.13 h; crosswind 1.26 h
-explanation: For the headwind, ground speed is 630−35=595 km/h and t=750/595=1.2605 h. With tailwind t=750/665=1.1278 h. For the eastward crosswind, point the plane slightly west of north so its westward airspeed component is 35 km/h. Northward ground speed is \\(\\sqrt{630^2-35^2}\\), giving 1.1923 h.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.45
+
 ![Serway/Jewett · Problem 4.45 — complete original problem](assets/lessons/physics/recommended/ch4-p45.webp)
 solution:
 **Plan — we are going to…**
@@ -2271,18 +2472,15 @@ t_{\\mathrm{no\\ wind}}=\\frac{750}{630}=1.1905\\ \\mathrm{h}.
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p47
 title: Serway/Jewett · Problem 4.47
+question: Serway/Jewett · Problem 4.47
 reference: [Serway/Jewett 9e · Problem 4.47](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Motorist relative to police: 175 km/h east; reverse relative velocity: 175 km/h west; catch-up time 5.14 s
-- [x] b | Motorist relative to police: 15.0 km/h east; reverse relative velocity: 15.0 km/h west; catch-up time 60.0 s
-- [ ] c | Both relative velocities: 15.0 km/h west; catch-up time 60.0 s
-explanation: With east positive, velocities are −80 and −95 km/h. Subtracting gives +15 km/h for the motorist relative to the police, and −15 for the reverse. Closing speed is 15/3.6 m/s; time is \\(250/(15/3.6)=60.0\\) s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.47
+
 ![Serway/Jewett · Problem 4.47 — complete original problem](assets/lessons/physics/recommended/ch4-p47.webp)
 solution:
 **Plan — we are going to…**
@@ -2388,18 +2586,134 @@ Choose signs → object velocity − observer velocity → initial gap ÷ closin
 In 60.0 s the police car travels about 1583 m and the motorist 1333 m. The difference is 250 m, exactly the initial gap. Reversing observer and object reverses the relative velocity's sign.
 :::
 
-:::mcq
+:::exam-question
+id: phys-ch4-p50
+title: Serway/Jewett · Problem 4.50
+question: Serway/Jewett · Problem 4.50
+reference: [Serway/Jewett 9e · Problem 4.50](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.50
+
+![Serway/Jewett · Problem 4.50 — complete original problem](assets/lessons/physics/recommended/ch4-p50.webp)
+solution:
+**Plan — we are going to…**
+
+1. Find the swimmer's speed over the bank upstream and downstream.
+2. Calculate the time for each 1.00 km leg and add the times.
+3. Compare with a 2.00 km swim in still water and explain why the current's effects do not cancel.
+
+**The trick**
+
+**Equal distances do not mean equal times.** The swimmer spends longer upstream. Calculate both times; do not average the two speeds.
+
+**What you need to know**
+
+- **Swimmer:** 1.20 m/s relative to water.
+- **Current:** 0.500 m/s relative to bank.
+- **Upstream:** subtract speeds.
+- **Downstream:** add speeds.
+
+For each constant-speed leg:
+
+\\[
+t=\\frac{d}{u}.
+\\]
+
+**u** = bank-relative speed. Convert each **1.00 km → 1000 m** to match m/s.
+
+**Step-by-step solution**
+
+1. **Find the upstream speed.** The current removes 0.500 m/s from the swimmer's forward progress:
+
+\\[
+u_{\\mathrm{up}}=1.20-0.500=0.700\\ \\mathrm{m/s}.
+\\]
+
+2. **Find the upstream time.**
+
+\\[
+t_{\\mathrm{up}}=\\frac{1000\\ \\mathrm m}{0.700\\ \\mathrm{m/s}}=1428.57\\ \\mathrm s.
+\\]
+
+3. **Find the downstream speed and time.** The current now helps:
+
+\\[
+u_{\\mathrm{down}}=1.20+0.500=1.700\\ \\mathrm{m/s}.
+\\]
+
+\\[
+t_{\\mathrm{down}}=\\frac{1000}{1.700}=588.24\\ \\mathrm s.
+\\]
+
+4. **Part (a): add the two times.**
+
+\\[
+t_{\\mathrm{river}}=1428.57+588.24=2016.81\\ \\mathrm s.
+\\]
+
+Divide by 60 to change seconds to minutes:
+
+\\[
+\\boxed{t_{\\mathrm{river}}=\\frac{2016.81}{60}=33.6\\ \\mathrm{min}}.
+\\]
+
+5. **Part (b): calculate the still-water time.** The total distance is the out-and-back distance, not just one leg:
+
+\\[
+d_{\\mathrm{total}}=1000+1000=2000\\ \\mathrm m.
+\\]
+
+\\[
+t_{\\mathrm{still}}=\\frac{2000}{1.20}=1666.67\\ \\mathrm s.
+\\]
+
+\\[
+\\boxed{t_{\\mathrm{still}}=\\frac{1666.67}{60}=27.8\\ \\mathrm{min}}.
+\\]
+
+6. **Part (c): explain the extra time.** One still-water leg would take:
+
+\\[
+t_{\\mathrm{one\\ still\\ leg}}=\\frac{1000}{1.20}=833.33\\ \\mathrm s.
+\\]
+
+The upstream delay is:
+
+\\[
+1428.57-833.33=595.24\\ \\mathrm s.
+\\]
+
+The downstream saving is:
+
+\\[
+833.33-588.24=245.10\\ \\mathrm s.
+\\]
+
+The delay is larger than the saving. The net extra time is:
+
+\\[
+595.24-245.10=350.14\\ \\mathrm s\\approx5.84\\ \\mathrm{min}.
+\\]
+
+**Use this method again**
+
+Unequal speeds over equal distances → calculate each time separately → add. Equal speed changes do not imply equal time changes.
+
+**Check**
+
+The upstream leg takes more than twice as long as the downstream leg. The total current-assisted round trip is therefore longer than the still-water trip, despite the faster return.
+:::
+
+:::exam-question
 id: phys-ch4-p51
 title: Serway/Jewett · Problem 4.51
+question: Serway/Jewett · Problem 4.51
 reference: [Serway/Jewett 9e · Problem 4.51](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | \\(t=2dc/(c^2-v^2)\\), \\(t_0=2d/c\\); \\(t>t_0\\) for \\(0<v<c\\)
-- [ ] b | \\(t=2d/c\\), \\(t_0=2dc/(c^2-v^2)\\); \\(t<t_0\\)
-- [ ] c | \\(t=2d/(c+v)\\), \\(t_0=2d/c\\); \\(t<t_0\\)
-explanation: Add the two leg times: \\(t=d/(c-v)+d/(c+v)=2dc/(c^2-v^2)\\), assuming c>v. Still-water time is \\(t_0=2d/c\\). Their ratio is \\(1/[1-(v/c)^2]>1\\) for 0<v<c; they are equal for zero current. If v≥c, the swimmer cannot complete the upstream leg.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.51
+
 ![Serway/Jewett · Problem 4.51 — complete original problem](assets/lessons/physics/recommended/ch4-p51.webp)
 solution:
 **Plan — we are going to…**
@@ -2525,18 +2839,15 @@ Define symbols/frames → time for each leg → combine fractions → state allo
 As the current approaches the swimming speed from below, the upstream speed approaches zero and the total time grows without bound. That matches the formula's denominator approaching zero from the positive side.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p54
 title: Serway/Jewett · Problem 4.54
+question: Serway/Jewett · Problem 4.54
 reference: [Serway/Jewett 9e · Problem 4.54](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | Thrown vertically relative to truck at 8.25 m/s; ground initial velocity (9.50, 8.25) m/s
-- [ ] b | Thrown vertically relative to truck at 16.5 m/s; ground initial velocity (9.50, 16.5) m/s
-- [ ] c | Thrown 49.0° from vertical relative to truck at 12.6 m/s; ground initial velocity (0, 8.25) m/s
-explanation: The flight lasts \\(T=16.0/9.50=1.6842\\) s. In the truck frame the can has no horizontal velocity, so (a) launch angle to vertical is zero and (b) vertical speed is gT/2=8.2526 m/s. (c) Its path in that frame is a vertical line. (d) The ground-frame path is a parabola. (e) Initial ground velocity is (9.50,8.25) m/s, magnitude 12.6 m/s, 41.0° above east.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.54
+
 ![Serway/Jewett · Problem 4.54 — complete original problem](assets/lessons/physics/recommended/ch4-p54.webp)
 solution:
 **Plan — we are going to…**
@@ -2670,18 +2981,15 @@ The can's ground horizontal displacement is:
 It stays horizontally alongside the boy for the entire flight, so he can catch it in the same place on the truck.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p55
 title: Serway/Jewett · Problem 4.55
+question: Serway/Jewett · Problem 4.55
 reference: [Serway/Jewett 9e · Problem 4.55](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 13.6 m/s²
-- [ ] b | 6.67 m/s²
-- [x] c | 54.4 m/s²
-explanation: After release, fall time is \\(\\sqrt{2h/g}\\); horizontal speed is \\(v=2.00/\\sqrt{2(1.20)/g}\\). The preceding radial acceleration is \\(v^2/r=54.4\\) m/s².
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.55
+
 ![Serway/Jewett · Problem 4.55 — complete original problem](assets/lessons/physics/recommended/ch4-p55.webp)
 solution:
 **Plan — we are going to…**
@@ -2780,18 +3088,15 @@ Tangent gives release direction → solve projectile motion → use release spee
 The radial acceleration is about 5.55 times g. This is possible for a fast ball moving around a small circle. After the string breaks, the inward circular acceleration disappears; the remaining acceleration is downward gravity.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p60
 title: Serway/Jewett · Problem 4.60
+question: Serway/Jewett · Problem 4.60
 reference: [Serway/Jewett 9e · Problem 4.60](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | 9.80 m/s² downward; launch speed 10.7 m/s
-- [ ] b | Zero at the top; launch speed 10.7 m/s
-- [ ] c | 9.80 m/s² downward; launch speed 8.44 m/s
-explanation: Gravity remains downward at 9.80 m/s² even at the highest point. The trajectory relation is \\(1.05=10\\tan40°-g(10)^2/[2v_i^2\\cos^240°]\\). Solving gives \\(v_i=10.665\\) m/s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.60
+
 ![Serway/Jewett · Problem 4.60 — complete original problem](assets/lessons/physics/recommended/ch4-p60.webp)
 solution:
 **Plan — we are going to…**
@@ -2918,18 +3223,15 @@ Displacements from launch → time from x-motion → substitute into y-motion �
 Using the unrounded speed, the hoop time is about 1.224 s. The vertical rise at that time is about 1.05 m. The vertical velocity is then about −5.14 m/s, so the ball reaches the hoop while descending, as expected for the shot shown.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p62
 title: Serway/Jewett · Problem 4.62
+question: Serway/Jewett · Problem 4.62
 reference: [Serway/Jewett 9e · Problem 4.62](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | \\(t=2h/g\\), \\(v_i=dg/(2h)\\), \\(v_f=v_i\\), angle zero
-- [x] b | \\(t=\\sqrt{2h/g}\\), \\(v_i=d\\sqrt{g/(2h)}\\), \\(v_f=\\sqrt{g(d^2+4h^2)/(2h)}\\), angle \\(\\tan^{-1}(2h/d)\\) below horizontal
-- [ ] c | \\(t=\\sqrt{h/g}\\), \\(v_i=d\\sqrt{g/h}\\), \\(v_f=\\sqrt{g(d^2+h^2)/h}\\), angle \\(\\tan^{-1}(h/d)\\) below horizontal
-explanation: Vertical fall gives \\(h=gt^2/2\\); horizontal motion gives \\(d=v_it\\). At impact, \\(v_x=d\\sqrt{g/(2h)}\\) and \\(v_y=-\\sqrt{2gh}\\). Their squared sum gives the stated speed; \\(|v_y|/v_x=2h/d\\) gives the direction.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.62
+
 ![Serway/Jewett · Problem 4.62 — complete original problem](assets/lessons/physics/recommended/ch4-p62.webp)
 solution:
 **Plan — we are going to…**
@@ -3091,18 +3393,15 @@ Vertical drop → flight time → horizontal launch speed → impact vertical ve
 The final speed is greater than the initial speed because the fall adds a downward component. A taller cliff at the same landing distance gives a steeper impact angle, matching the ratio of twice h to d.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p64
 title: Serway/Jewett · Problem 4.64
+question: Serway/Jewett · Problem 4.64
 reference: [Serway/Jewett 9e · Problem 4.64](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | 122 km/h
-- [ ] b | 58.0 km/h
-- [x] c | 68.6 km/h
-explanation: Car 1 covers 90.0(2.50)=225 km. In the triangle ABL, the included angle at A is 40.0°, so \\(BL=\\sqrt{225^2+80^2-2(225)(80)\\cos40°}=171.602\\) km. Divide by 2.50 h: 68.641 km/h.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.64
+
 ![Serway/Jewett · Problem 4.64 — complete original problem](assets/lessons/physics/recommended/ch4-p64.webp)
 solution:
 **Plan — we are going to…**
@@ -3219,18 +3518,15 @@ y_L=225\\sin40.0^\\circ=144.63\\ \\mathrm{km}.
 From B the horizontal difference is 92.36 km. Pythagoras with 92.36 km and 144.63 km gives 171.60 km, confirming car 2's route length.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p70
 title: Serway/Jewett · Problem 4.70
+question: Serway/Jewett · Problem 4.70
 reference: [Serway/Jewett 9e · Problem 4.70](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Radial 25.0 m/s²; tangential zero; total 25.0 m/s² horizontally inward
-- [ ] b | Radial 9.80 m/s²; tangential 25.0 m/s²; total 26.9 m/s², 68.6° below the inward horizontal
-- [x] c | Radial 25.0 m/s²; tangential 9.80 m/s²; total 26.9 m/s², 21.4° below the inward horizontal
-explanation: At either horizontal endpoint, \\(a_r=v^2/r=25.0\\) m/s² points inward along the cord; \\(a_t=g=9.80\\) m/s² points downward. Draw these perpendicular arrows and their down-and-inward sum. Total magnitude is \\(\\sqrt{25^2+9.8^2}=26.85\\) m/s², at \\(\\tan^{-1}(9.8/25)=21.41°\\) below inward. Thus it is down-left at the right side and down-right at the left side.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.70
+
 ![Serway/Jewett · Problem 4.70 — complete original problem](assets/lessons/physics/recommended/ch4-p70.webp)
 solution:
 **Plan — we are going to…**
@@ -3353,18 +3649,15 @@ Speed/radius → inward acceleration. Speed change → tangential acceleration. 
 The total magnitude, 26.9 m/s², is larger than either component but smaller than their arithmetic sum, 34.8 m/s². Its direction lies closer to inward than downward because the inward component is larger.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p71
 title: Serway/Jewett · Problem 4.71
+question: Serway/Jewett · Problem 4.71
 reference: [Serway/Jewett 9e · Problem 4.71](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [ ] a | Dive speed 46.5 m/s; angle 77.6° below horizontal; mouse fall time 4.34 s
-- [x] b | Dive speed 46.5 m/s; angle 77.6° below horizontal; mouse fall time 6.34 s
-- [ ] c | Dive speed 32.6 m/s; angle 72.2° below horizontal; mouse fall time 6.34 s
-explanation: The mouse falls 197 m, so \\(T=\\sqrt{2(197)/g}=6.34067\\) s. The hawk dives for T−2=4.34067 s. Both have initial horizontal speed 10.0 m/s; to meet, the hawk’s horizontal dive component must remain 10.0 m/s. Its downward component is 197/(T−2)=45.385 m/s. The magnitude is 46.473 m/s and angle \\(\\tan^{-1}(45.385/10)=77.574°\\) below horizontal.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.71
+
 ![Serway/Jewett · Problem 4.71 — complete original problem](assets/lessons/physics/recommended/ch4-p71.webp)
 solution:
 **Plan — we are going to…**
@@ -3507,18 +3800,15 @@ Use one target clock → meeting event → pursuer's start position/time → req
 During the 4.34067 s dive, the hawk moves 43.4067 m forward and 197 m downward. Adding those displacements to its dive-start position gives the mouse's recapture position exactly. The dive time is shorter than the mouse's 6.34 s fall time.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p84
 title: Serway/Jewett · Problem 4.84
+question: Serway/Jewett · Problem 4.84
 reference: [Serway/Jewett 9e · Problem 4.84](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the original problem?
-- [x] a | \\(v_{\\min}=\\sqrt{gR}\\); distance beyond the rock’s edge \\((\\sqrt2-1)R\\)
-- [ ] b | \\(v_{\\min}=\\sqrt{2gR}\\); distance beyond the rock’s edge R
-- [ ] c | \\(v_{\\min}=\\sqrt{gR}\\); distance beyond the rock’s edge \\(\\sqrt2R\\)
-explanation: Near the top, the rock surface is \\(y=\\sqrt{R^2-X^2}\\), whereas the projectile has \\(y=R-gX^2/(2v_i^2)\\). To stay above the surface requires \\(v_i^2\\ge gR\\). At equality, the parabola remains above the circular surface for X>0. Ground is reached after \\(\\sqrt{2R/g}\\), at horizontal distance \\(\\sqrt2R\\) from the center. The requested x in the figure is measured from the rock’s edge, so \\(x=(\\sqrt2-1)R\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.84
+
 ![Serway/Jewett · Problem 4.84 — complete original problem](assets/lessons/physics/recommended/ch4-p84.webp)
 solution:
 **Plan — we are going to…**
@@ -3691,18 +3981,15 @@ y_{\\mathrm{ball}}(R)=R-\\frac{gR^2}{2gR}=\\frac R2>0.
 It clears the edge and lands beyond it because its landing coordinate is greater than R. The units also work: g times R has units of speed squared.
 :::
 
-:::mcq
+:::exam-question
 id: phys-ch4-p86
 title: Serway/Jewett · Problem 4.86
+question: Serway/Jewett · Problem 4.86
 reference: [Serway/Jewett 9e · Problem 4.86](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which launch angle gives the greatest distance up the incline, and what is that distance?
-- [ ] a | \\(\\theta_i=45°-\\phi/2\\), \\(d_{\\max}=v_i^2/[g(1-\\sin\\phi)]\\)
-- [x] b | \\(\\theta_i=45°+\\phi/2\\), \\(d_{\\max}=v_i^2/[g(1+\\sin\\phi)]\\)
-- [ ] c | \\(\\theta_i=45°\\), \\(d_{\\max}=v_i^2/g\\)
-explanation: The inclined plane has y=x tanφ. Substituting \\(x=v_i\\cos\\theta_i\\,t\\), \\(y=v_i\\sin\\theta_i\\,t-gt^2/2\\) gives the nonzero landing time \\(t=2v_i\\sin(\\theta_i-\\phi)/(g\\cos\\phi)\\). Since \\(d=x/\\cos\\phi\\), this proves the printed formula. Use \\(2\\cos\\theta_i\\sin(\\theta_i-\\phi)=\\sin(2\\theta_i-\\phi)-\\sin\\phi\\). Its maximum occurs at \\(2\\theta_i-\\phi=90°\\), giving \\(d_{\\max}=v_i^2(1-\\sin\\phi)/(g\\cos^2\\phi)=v_i^2/[g(1+\\sin\\phi)]\\).
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 4.86
+
 ![Serway/Jewett · Problem 4.86 — complete original problem](assets/lessons/physics/recommended/ch4-p86.webp)
 solution:
 **Plan — we are going to…**
@@ -3915,18 +4202,14 @@ d_{\\max}=\\frac{u^2}{g}.
 For a rising incline the best angle is above 45°, and the maximum travel distance is smaller than the level-ground maximum at the same launch speed.
 :::
 
-:::mcq
+:::exam-question
 id: past-physics-2007-q6
 title: Past paper · IUG PHYSA 1301 2007 final · Q6 · 2007
-kicker: PAST PAPER · PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007)
-reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
 question: A ball is thrown vertically upward from a truck moving at constant speed. Where does it land relative to the truck (neglect air resistance)?
-- [ ] a | In front of the truck
-- [ ] b | Behind the truck
-- [x] c | Back on the truck
-- [ ] d | The result depends on the truck speed
-explanation: Correct answer: Back on the truck
-hint: Review the original paper and the lesson concepts before retrying.
+reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
+answer-label: Show answer
+body:
+A ball is thrown vertically upward from a truck moving at constant speed. Where does it land relative to the truck (neglect air resistance)?
 solution:
 **Plan — we are going to follow the truck and the ball separately.**
 
@@ -3987,18 +4270,14 @@ Vehicle velocity + throw velocity → ground velocity. Compare ball and vehicle 
 In the truck's frame, the ball starts with zero horizontal velocity and experiences zero horizontal acceleration. It goes straight up and down in that frame, which agrees with the road-frame calculation.
 :::
 
-:::mcq
+:::exam-question
 id: past-physics-2007-q7
 title: Past paper · IUG PHYSA 1301 2007 final · Q7 · 2007
-kicker: PAST PAPER · PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007)
-reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
 question: A boat moves 12 m/s at 30° west of north relative to a river flowing 6 m/s east. Its ground velocity is:
-- [ ] a | 30° east of north
-- [x] b | due north
-- [ ] c | 30° west of north
-- [ ] d | 45° east of north
-explanation: Correct answer: due north
-hint: Review the original paper and the lesson concepts before retrying.
+reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
+answer-label: Show answer
+body:
+A boat moves 12 m/s at 30° west of north relative to a river flowing 6 m/s east. Its ground velocity is:
 solution:
 **Plan — we are going to split both velocities into east and north parts, then add matching parts.**
 

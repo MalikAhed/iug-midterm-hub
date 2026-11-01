@@ -1,202 +1,166 @@
-var e={id:`physics-ch2`,title:`Motion in One Dimension`,summary:`Serway/Jewett 9e · Chapter 2 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::mcq
-id: phys-ch2-p9
-title: Serway/Jewett · Problem 2.9
-reference: [Serway/Jewett 9e · Problem 2.9](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | (a) +5.0; (b) −2.5; (c) 0; (d) +5.0 m/s
-- [ ] b | (a) +5.0; (b) +2.5; (c) 0; (d) −5.0 m/s
-- [ ] c | (a) 5.0; (b) 7.5; (c) 5.0; (d) −2.5 m/s
-- [ ] d | (a) 0; (b) 0; (c) 0; (d) 0 m/s
-explanation: Instantaneous velocity is the slope of each straight segment of Figure P2.1. The relevant slopes are \\(10/2=5\\), \\((5-10)/(4-2)=-2.5\\), 0, and \\((0+5)/(8-7)=5\\) m/s.
-hint: Solve all parts using the original statement and diagram.
-example:
-![Serway/Jewett · Problem 2.9 — complete original problem](assets/lessons/physics/recommended/ch2-p9.webp)
+var e={id:`physics-ch2`,title:`Motion in One Dimension`,summary:`Serway/Jewett 9e · Chapter 2 · original textbook exercises and verified practice.`,subjectId:`physics`,reward:0,status:`published`,authoringSource:`:::exam-question
+id: phys-ch2-p1
+title: Serway/Jewett · Problem 2.1
+question: Serway/Jewett · Problem 2.1
+reference: [Serway/Jewett 9e · Problem 2.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.1
 
-![Original shared Figure P2.1](assets/lessons/physics/recommended/figure-ch2-p1.webp)
+![Serway/Jewett · Problem 2.1 — complete original problem](assets/lessons/physics/recommended/ch2-p1.webp)
 solution:
 **Plan — we are going to…**
 
-1. Find which straight piece of the position–time graph contains each requested time.
-2. Read two points on that piece.
-3. Divide the change in position by the change in time, keeping its sign.
+Read the endpoint positions for each interval and divide displacement by elapsed time.
 
 **The trick**
 
-**Graph height = position. Slope = velocity.** Positive position does not necessarily mean positive velocity.
+Average velocity depends on the endpoints, even if the particle changes direction in between.
 
 **What you need to know**
 
-- **Position:** location in meters.
-- **Velocity:** position change per second.
-
-On each straight section of a position–time graph, velocity is constant:
-
-\\[
-v_x=\\frac{x_2-x_1}{t_2-t_1}.
-\\]
-
-- Rising → **positive velocity**.
-- Falling → **negative velocity**.
-- Horizontal → **zero velocity**.
+\\[v_{\\mathrm{avg}}=\\frac{x_f-x_i}{t_f-t_i}.\\]
 
 **Step-by-step solution**
 
-1. **At 1.0 s:** use the rising section from **(0 s, 0 m)** to **(2 s, 10 m)**. Subtract final minus initial:
+1. **Read the graph.** The required positions are:
 
 \\[
-\\Delta x=10-0=10\\ \\mathrm{m}
+x(0)=0,\\quad x(2)=10,\\quad x(4)=5,\\quad x(7)=-5,\\quad x(8)=0\\quad(\\mathrm m).
 \\]
 
-\\[
-\\Delta t=2-0=2\\ \\mathrm{s}
-\\]
+2. **Part (a), 0 to 2 seconds.**
 
-\\[
-v_x=\\frac{10}{2}=+5.0\\ \\mathrm{m/s}.
-\\]
+\\[v_{\\mathrm{avg}}=\\frac{10-0}{2-0}=5.0\\ \\mathrm{m/s}.\\]
 
-2. **At 3.0 s:** use the falling piece between 2 s and 4 s. Its endpoints are 10 m and 5 m:
+3. **Part (b), 0 to 4 seconds.**
 
-\\[
-v_x=\\frac{5-10}{4-2}=\\frac{-5}{2}=-2.5\\ \\mathrm{m/s}.
-\\]
+\\[v_{\\mathrm{avg}}=\\frac{5-0}{4-0}=1.25\\ \\mathrm{m/s}.\\]
 
-The minus sign means the position is decreasing.
+4. **Part (c), 2 to 4 seconds.**
 
-3. **At 4.5 s:** the graph is horizontal from 4 s to 5 s, at 5 m:
+\\[v_{\\mathrm{avg}}=\\frac{5-10}{4-2}=-2.5\\ \\mathrm{m/s}.\\]
 
-\\[
-v_x=\\frac{5-5}{5-4}=0\\ \\mathrm{m/s}.
-\\]
+5. **Part (d), 4 to 7 seconds.**
 
-4. **At 7.5 s:** use the last rising piece, from 7 s at −5 m to 8 s at 0 m:
+\\[v_{\\mathrm{avg}}=\\frac{-5-5}{7-4}=-\\frac{10}{3}\\approx-3.33\\ \\mathrm{m/s}.\\]
 
-\\[
-v_x=\\frac{0-(-5)}{8-7}=\\frac{5}{1}=+5.0\\ \\mathrm{m/s}.
-\\]
+6. **Part (e), 0 to 8 seconds.**
 
-Subtracting a negative position produces a positive change.
+\\[v_{\\mathrm{avg}}=\\frac{0-0}{8-0}=0\\ \\mathrm{m/s}.\\]
 
 **Use this method again**
 
-Read axes → locate the section containing the requested instant → calculate its slope. Do not average across other sections.
+Read two positions, subtract in final-minus-initial order, then divide by the time difference.
 
 **Check**
 
-The four answers are positive, negative, zero, positive—matching the graph rising, falling, flat, rising. Each slope has units of meters divided by seconds.
+The final interval returns to the starting position, so its average velocity is zero although the distance travelled is not zero.
 :::
 
-:::mcq
-id: phys-ch2-p11
-title: Serway/Jewett · Problem 2.11
-reference: [Serway/Jewett 9e · Problem 2.11](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) 200 m; (b) 4 900 s
-- [ ] b | (a) 5.00 m; (b) 5 000 s
-- [ ] c | (a) 25.0 m; (b) 4 875 s
-- [x] d | (a) 5.00 m; (b) 4 875 s (about 4.88 ks)
-explanation: The tortoise takes \\(1000/0.200=5000\\) s. The hare needs 25 s for the last 200 m, during which the tortoise covers 5 m. The hare moves for \\(1000/8=125\\) s, so its rest time is 4875 s.
-hint: Solve all parts using the original statement and diagram.
-example:
-![Serway/Jewett · Problem 2.11 — complete original problem](assets/lessons/physics/recommended/ch2-p11.webp)
+:::exam-question
+id: phys-ch2-p3
+title: Serway/Jewett · Problem 2.3
+question: Serway/Jewett · Problem 2.3
+reference: [Serway/Jewett 9e · Problem 2.3](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.3
+
+![Serway/Jewett · Problem 2.3 — complete original problem](assets/lessons/physics/recommended/ch2-p3.webp)
 solution:
 **Plan — we are going to…**
 
-1. Convert the race distances to meters.
-2. Find the tortoise’s total race time.
-3. Find how long the hare needs for its final run.
-4. Use that same final interval to find the tortoise’s remaining distance, then subtract the hare’s running time from the total time.
+Use equal outward and return distances to find total time, distance and displacement.
 
 **The trick**
 
-**Finish together → same time remaining.** Use this at the hare's restart, even though the remaining distances differ.
+The two speeds cannot be averaged arithmetically: the slower leg takes longer.
 
 **What you need to know**
 
-For steady speed:
-
-\\[
-d=vt,\\qquad t=\\frac{d}{v}.
-\\]
-
-One kilometer is 1 000 meters. Total elapsed time includes both moving and resting.
+\\[\\text{Average speed}=\\frac{\\text{total distance}}{\\text{total time}},\\qquad v_{\\mathrm{avg}}=\\frac{\\Delta x}{\\Delta t}.\\]
 
 **Step-by-step solution**
 
-1. Convert the distances and find the hare’s last distance:
+1. **Call the one-way distance L.** The outward and return times are:
 
-\\[
-d_{\\mathrm{race}}=1.00(1000)=1000\\ \\mathrm{m}
-\\]
+\\[t_1=\\frac{L}{5.00},\\qquad t_2=\\frac{L}{3.00}.\\]
 
-\\[
-d_{\\mathrm{hare,first}}=0.800(1000)=800\\ \\mathrm{m}
-\\]
+2. **Part (a): calculate average speed.**
 
-\\[
-d_{\\mathrm{hare,last}}=1000-800=200\\ \\mathrm{m}.
-\\]
+\\[\\frac{2L}{L/5.00+L/3.00}=\\frac{2}{1/5.00+1/3.00}=3.75\\ \\mathrm{m/s}.\\]
 
-2. The tortoise moves throughout the race at 0.200 m/s. Its total time is:
+3. **Part (b): calculate average velocity.** Returning to A makes the net displacement zero:
 
-\\[
-T=\\frac{1000}{0.200}=5000\\ \\mathrm{s}.
-\\]
-
-3. The hare’s final 200 m, at 8.00 m/s, requires:
-
-\\[
-t_{\\mathrm{last}}=\\frac{200}{8.00}=25.0\\ \\mathrm{s}.
-\\]
-
-4. **Part (a):** the tortoise also has 25.0 s left when the hare restarts. The distance it covers in those last seconds is its distance from the finish at restart:
-
-\\[
-d_{\\mathrm{tortoise,left}}=(0.200)(25.0)=5.00\\ \\mathrm{m}.
-\\]
-
-5. **Part (b):** find the hare’s first running time:
-
-\\[
-t_{\\mathrm{first}}=\\frac{800}{8.00}=100\\ \\mathrm{s}.
-\\]
-
-6. Add both running intervals, then subtract them from the common total race time:
-
-\\[
-t_{\\mathrm{running}}=100+25.0=125\\ \\mathrm{s}
-\\]
-
-\\[
-t_{\\mathrm{stationary}}=5000-125=4875\\ \\mathrm{s}.
-\\]
-
-This is about 4.88 kiloseconds. The 4 875 s value is the unrounded arithmetic result.
+\\[v_{\\mathrm{avg}}=\\frac{0}{t_1+t_2}=0\\ \\mathrm{m/s}.\\]
 
 **Use this method again**
 
-For simultaneous finishes, work backward: **same remaining time** connects the different remaining distances.
+For equal distances at different speeds, calculate each travel time before averaging.
 
 **Check**
 
-The hare restarts at 4 975 s and finishes 25 s later. By 4 975 s the tortoise has traveled 995 m, leaving 5 m. The hare’s 100 s running, 4 875 s resting, and 25 s final run total 5 000 s.
+The average speed lies between 3 and 5 m/s and is closer to the slower speed; average velocity is zero.
 :::
 
-:::mcq
+:::exam-question
+id: phys-ch2-p7
+title: Serway/Jewett · Problem 2.7
+question: Serway/Jewett · Problem 2.7
+reference: [Serway/Jewett 9e · Problem 2.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.7
+
+![Serway/Jewett · Problem 2.7 — complete original problem](assets/lessons/physics/recommended/ch2-p7.webp)
+solution:
+**Plan — we are going to…**
+
+Read two positions, measure the drawn tangent slope, and locate the horizontal tangent.
+
+**The trick**
+
+An average velocity is a secant slope; an instantaneous velocity is a tangent slope. Graph readings are approximate.
+
+**What you need to know**
+
+\\[v_{\\mathrm{avg}}=\\frac{\\Delta x}{\\Delta t},\\qquad v(t)=\\text{slope of the position graph at }t.\\]
+
+**Step-by-step solution**
+
+1. **Part (a): read the endpoints.** From the original graph, the positions at 1.50 s and 4.00 s are approximately 8 m and 2 m:
+
+\\[v_{\\mathrm{avg}}\\approx\\frac{2-8}{4.00-1.50}=-2.4\\ \\mathrm{m/s}.\\]
+
+2. **Part (b): use the green tangent line, not the curved graph.** Two widely separated points on the line give a drop of about 13 m over about 3.5 s:
+
+\\[v(2.00)\\approx\\frac{0-13}{3.5-0}\\approx-3.7\\ \\mathrm{m/s}.\\]
+
+Depending on graphical reading precision, about -3.7 to -3.8 m/s is appropriate; this is an estimate, not an exact formula for the curve.
+
+3. **Part (c): find the horizontal tangent.** At the bottom of the curve the slope is zero:
+
+\\[t\\approx4.0\\ \\mathrm s.\\]
+
+**Use this method again**
+
+Use endpoint positions for an average, the supplied tangent for an instant, and horizontal tangents for zero velocity.
+
+**Check**
+
+Both slopes in (a) and (b) are negative because position is decreasing; at the minimum the slope changes from negative to positive.
+:::
+
+:::exam-question
 id: phys-ch2-p13
 title: Serway/Jewett · Problem 2.13
+question: Serway/Jewett · Problem 2.13
 reference: [Serway/Jewett 9e · Problem 2.13](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) 2.80 h; (b) 251 km
-- [x] b | (a) 2.80 h; (b) 218 km
-- [ ] c | (a) 0.367 h; (b) 32.8 km
-- [ ] d | (a) 2.44 h; (b) 218 km
-explanation: Let total time be T hours. \\(77.8T=89.5(T-22/60)\\), so \\(T=2.80484\\) h and \\(d=77.8T=218.217\\) km. Total trip time includes the stop.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.13
+
 ![Serway/Jewett · Problem 2.13 — complete original problem](assets/lessons/physics/recommended/ch2-p13.webp)
 solution:
 **Plan — we are going to…**
@@ -277,265 +241,61 @@ Total time − stop time = moving time. Write distance using both average speed 
 The moving time is about 2.438 h; multiplying it by 89.5 km/h also gives about 218 km. The whole-trip average speed is lower than the driving speed, as a rest stop requires.
 :::
 
-:::mcq
-id: phys-ch2-p14
-title: Serway/Jewett · Problem 2.14
-reference: [Serway/Jewett 9e · Problem 2.14](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [x] a | \\(1.34\\times10^4\\,\\mathrm{m/s^2}\\)
-- [ ] b | \\(8.57\\times10^2\\,\\mathrm{m/s^2}\\)
-- [ ] c | \\(13.4\\,\\mathrm{m/s^2}\\)
-- [ ] d | \\(6.71\\times10^3\\,\\mathrm{m/s^2}\\)
-explanation: The velocity reverses direction: \\(|\\Delta v|=|-22-25|=47\\) m/s. Divide by \\(3.50\\times10^{-3}\\) s.
-hint: Solve all parts using the original statement and diagram.
-example:
-![Serway/Jewett · Problem 2.14 — complete original problem](assets/lessons/physics/recommended/ch2-p14.webp)
+:::exam-question
+id: phys-ch2-p21
+title: Serway/Jewett · Problem 2.21
+question: Serway/Jewett · Problem 2.21
+reference: [Serway/Jewett 9e · Problem 2.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.21
+
+![Serway/Jewett · Problem 2.21 — complete original problem](assets/lessons/physics/recommended/ch2-p21.webp)
 solution:
 **Plan — we are going to…**
 
-1. Choose the positive direction.
-2. Give the incoming and outgoing velocities opposite signs.
-3. Convert milliseconds to seconds.
-4. Divide velocity change by contact time, then report the magnitude.
+Evaluate the position and differentiate it to obtain velocity and acceleration.
 
 **The trick**
 
-**Rebound → opposite velocity signs.** Subtract signed velocities, not positive speeds. The change includes slowing to zero and reversing.
+Position, velocity and acceleration are different quantities; substitute the time into each of their own formulas.
 
 **What you need to know**
 
-Average acceleration is:
-
-\\[
-a_{\\mathrm{avg}}=\\frac{v_f-v_i}{\\Delta t}.
-\\]
-
-- **Velocity:** signed; includes direction.
-- **Magnitude:** size, never negative.
-- **1 ms:** 0.001 s.
-- **Mass:** not needed here.
+\\[v=\\frac{dx}{dt},\\qquad a=\\frac{dv}{dt}.\\]
 
 **Step-by-step solution**
 
-1. Choose motion toward the wall as positive. The incoming velocity is positive and the rebound velocity is negative:
+1. **Part (a): evaluate position.**
 
-\\[
-v_i=+25.0\\ \\mathrm{m/s},\\qquad v_f=-22.0\\ \\mathrm{m/s}.
-\\]
+\\[x(3.00)=2.00+3.00(3.00)-1.00(3.00)^2=2.00\\ \\mathrm m.\\]
 
-2. Calculate final velocity minus initial velocity:
+2. **Part (b): differentiate first, then evaluate.**
 
-\\[
-\\Delta v=-22.0-(+25.0)=-47.0\\ \\mathrm{m/s}.
-\\]
+\\[v(t)=3.00-2.00t,\\qquad v(3.00)=-3.00\\ \\mathrm{m/s}.\\]
 
-3. Convert the contact time:
+3. **Part (c): differentiate the velocity.**
 
-\\[
-\\Delta t=3.50\\ \\mathrm{ms}=3.50\\times10^{-3}\\ \\mathrm{s}=0.00350\\ \\mathrm{s}.
-\\]
-
-4. Divide the signed velocity change by the elapsed time:
-
-\\[
-a_{\\mathrm{avg}}=\\frac{-47.0}{0.00350}=-13428.6\\ \\mathrm{m/s^2}.
-\\]
-
-5. The question asks for magnitude. Remove the directional minus sign and round to three significant figures:
-
-\\[
-|a_{\\mathrm{avg}}|=1.34\\times10^4\\ \\mathrm{m/s^2}.
-\\]
+\\[a(t)=-2.00\\ \\mathrm{m/s^2}.\\]
 
 **Use this method again**
 
-Draw before/after arrows → assign opposite signs → subtract velocities → convert time → take magnitude only if requested.
+Differentiate the given position once for velocity and twice for acceleration.
 
 **Check**
 
-The change has size 47 m/s, equal to 25 m/s lost toward the wall plus 22 m/s gained away from it. A very short contact time explains the large acceleration.
+The position also has the constant-acceleration form with initial position 2 m, initial velocity 3 m/s, and acceleration -2 m/s².
 :::
 
-:::mcq
-id: phys-ch2-p15
-title: Serway/Jewett · Problem 2.15
-reference: [Serway/Jewett 9e · Problem 2.15](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) constant +1.6 m/s² throughout; (b) +1.60; (c) +1.60 m/s².
-- [ ] b | (a) 0, then −1.6, then 0 m/s²; (b) −1.60; (c) −0.800 m/s².
-- [ ] c | (a) −8, then 0, then +8 m/s²; (b) 0; (c) 0 m/s².
-- [x] d | (a) approximately 0, then +1.6, then 0 m/s² on 0–5, 5–15, 15–20 s; (b) +1.60 m/s²; (c) +0.800 m/s².
-explanation: The acceleration graph is the slope of the velocity graph, with smooth transition regions at its rounded corners. Average accelerations are \\([8-(-8)]/(15-5)=1.60\\) and \\([8-(-8)]/(20-0)=0.800\\) m/s².
-hint: Solve all parts using the original statement and diagram.
-example:
-![Serway/Jewett · Problem 2.15 — complete original problem](assets/lessons/physics/recommended/ch2-p15.webp)
-solution:
-**Plan — we are going to…**
-
-1. Read this as a velocity–time graph.
-2. Sketch acceleration by looking at where the velocity graph is flat, rising, and flattening again.
-3. For each average acceleration, subtract the two endpoint velocities and divide by the interval length.
-
-**The trick**
-
-**Acceleration = velocity-graph slope**, not graph height. Average acceleration also depends on the chosen interval, even for similar velocity changes.
-
-**What you need to know**
-
-On a velocity–time graph:
-
-- **Tangent slope:** acceleration at one instant.
-- **Flat section:** zero acceleration, even if velocity is nonzero.
-- **Average acceleration:** endpoint velocity change ÷ elapsed time.
-
-\\[
-a_{\\mathrm{avg}}=\\frac{v_f-v_i}{t_f-t_i}.
-\\]
-
-The printed graph has rounded joins. The simple values in the answer choices approximate the lower and upper velocities by −8 and +8 m/s.
-
-**Step-by-step solution**
-
-1. **Part (a), first flat portion:** before the rounded bend near 5 s, the velocity stays approximately −8 m/s. Since it is not changing, sketch acceleration at zero.
-
-2. **Part (a), rising section (about 5–15 s):** slope is positive. Sketch acceleration rising smoothly from zero, staying near **+1.6 m/s²** through the nearly straight middle, then falling smoothly to zero at the rounded exit.
-
-3. **Part (a), final flat section:** velocity stays near +8 m/s, so acceleration returns to zero.
-
-**Overall sketch:** zero → positive middle → zero, with smooth transitions.
-
-4. **Part (b):** for the 5–15 s estimate used in the choices, read the endpoints approximately as −8 and +8 m/s. Subtract them:
-
-\\[
-\\Delta v\\approx8-(-8)=16\\ \\mathrm{m/s}.
-\\]
-
-The elapsed time is:
-
-\\[
-\\Delta t=15.0-5.00=10.0\\ \\mathrm{s}.
-\\]
-
-Divide:
-
-\\[
-a_{\\mathrm{avg}}\\approx\\frac{16}{10.0}=+1.60\\ \\mathrm{m/s^2}.
-\\]
-
-**Graph precision:** at exactly 5 and 15 s, rounded joins place velocities slightly inside ±8 m/s. About **1.5 m/s²** is a reasonable reading; the choice **1.60** is an idealized estimate.
-
-5. **Part (c):** at 0 and 20 s the graph is on the flat plateaus. The velocity change is 16 m/s, while the full elapsed time is 20 s:
-
-\\[
-a_{\\mathrm{avg}}=\\frac{8-(-8)}{20.0-0}=\\frac{16}{20.0}=+0.800\\ \\mathrm{m/s^2}.
-\\]
-
-**Use this method again**
-
-- **Acceleration sketch:** translate each section's slope.
-- **Average acceleration:** use only endpoint velocities and elapsed time.
-
-**Check**
-
-The 20 s average is smaller than the 10 s estimate because the longer interval includes time spent at constant velocity. Negative velocity on the first plateau does not mean negative acceleration: its slope is zero.
-:::
-
-:::mcq
-id: phys-ch2-p17
-title: Serway/Jewett · Problem 2.17
-reference: [Serway/Jewett 9e · Problem 2.17](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | (a) 0; (b) zero everywhere; (c) all times; (d) zero everywhere.
-- [x] b | (a) ≈1.3 m/s²; (b) near 3 s, ≈+2 m/s²; (c) at the initial horizontal tangent (t=0), at 6 s, and on the flat part from about 10–11 s onward; (d) near 9 s, ≈−1.5 m/s².
-- [ ] c | (a) ≈8 m/s²; (b) at 6 s, +8 m/s²; (c) only at 0 s; (d) at 12 s, +4 m/s².
-- [ ] d | (a) ≈1.3 m/s²; (b) near 3 s, ≈−2 m/s²; (c) only at 3 s; (d) near 9 s, ≈+1.5 m/s².
-explanation: Average acceleration on 0–6 s is \\((8-0)/6\\approx1.3\\) m/s². Tangent slopes show the largest positive acceleration near 3 s, zero at the initial horizontal tangent, the 6 s maximum, and the later flat segment, and the steepest negative slope near 9 s. Tangent estimates are approximate.
-hint: Solve all parts using the original statement and diagram.
-example:
-![Serway/Jewett · Problem 2.17 — complete original problem](assets/lessons/physics/recommended/ch2-p17.webp)
-solution:
-**Plan — we are going to…**
-
-1. Use the start and 6 s velocities to find the average acceleration.
-2. Find the steepest rising tangent for the largest positive acceleration.
-3. Find horizontal tangents for zero acceleration.
-4. Find the steepest falling tangent for the most negative acceleration.
-
-**The trick**
-
-**Highest point → greatest velocity, zero acceleration** because its tangent is horizontal. Greatest acceleration occurs at the steepest slope.
-
-**What you need to know**
-
-Average acceleration uses two times:
-
-\\[
-a_{\\mathrm{avg}}=\\frac{v_f-v_i}{t_f-t_i}.
-\\]
-
-**Instantaneous acceleration:** tangent slope.
-
-1. Draw a tangent touching the curve at the requested time.
-2. Read two points on that line.
-3. Calculate rise ÷ run.
-
-Printed-graph estimates are approximate.
-
-**Step-by-step solution**
-
-1. **Part (a):** read the graph at the two specified endpoints. At 0 s the motorcyclist is at rest; at 6 s the velocity is about 8 m/s:
-
-\\[
-a_{\\mathrm{avg}}=\\frac{8-0}{6.00-0}=\\frac{8}{6.00}\\approx+1.3\\ \\mathrm{m/s^2}.
-\\]
-
-2. **Part (b): steepest upward tangent**, near 3 s. Read two approximate tangent points: **(2 s, 2 m/s)** and **(4 s, 6 m/s)**. Calculate its slope:
-
-\\[
-a_{\\mathrm{largest,+}}\\approx\\frac{6-2}{4-2}=\\frac{4}{2}\\approx+2\\ \\mathrm{m/s^2}.
-\\]
-
-These are approximate tangent readings. Do not use the entire 0–6 s interval for this instantaneous value.
-
-3. **Part (c): horizontal tangent → zero acceleration.** This occurs:
-
-- At **0 s**, the initial endpoint.
-- Near **6 s**, the velocity maximum.
-- From about **10–11 s onward**, the flat section.
-
-4. **Part (d): steepest downward tangent**, near 9 s. Approximate tangent points: **(8 s, 6.4 m/s)** and **(10 s, 3.4 m/s)**. Its slope is:
-
-\\[
-a_{\\mathrm{most,-}}\\approx\\frac{3.4-6.4}{10-8}=\\frac{-3.0}{2}\\approx-1.5\\ \\mathrm{m/s^2}.
-\\]
-
-The negative sign means velocity decreases. The motorcyclist still moves forward because the velocity remains above zero.
-
-**Use this method again**
-
-Mark horizontal tangents, then steepest rising/falling tangents. Use endpoints for an interval average; tangents for an instant.
-
-**Check**
-
-The motorcyclist speeds up before 6 s, slows down after 6 s, and later maintains about 4 m/s. Positive, negative, then zero acceleration agrees with those three behaviors.
-:::
-
-:::mcq
+:::exam-question
 id: phys-ch2-p35
 title: Serway/Jewett · Problem 2.35
+question: Serway/Jewett · Problem 2.35
 reference: [Serway/Jewett 9e · Problem 2.35](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
-kicker: PHYSA1301 · assigned textbook problem
-question: Which result matches the complete original problem?
-- [ ] a | 11.8 m/s
-- [x] b | 3.10 m/s
-- [ ] c | 26.6 m/s
-- [ ] d | 14.9 m/s
-explanation: For constant acceleration, \\(\\Delta x=v_ft-\\tfrac12at^2\\). Hence \\(v_f=62.4/4.20+(-5.60)(4.20)/2=3.097\\) m/s.
-hint: Solve all parts using the original statement and diagram.
-example:
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.35
+
 ![Serway/Jewett · Problem 2.35 — complete original problem](assets/lessons/physics/recommended/ch2-p35.webp)
 solution:
 **Plan — we are going to…**
@@ -626,18 +386,367 @@ Known displacement/time/acceleration → solve displacement equation for initial
 For constant acceleration the average velocity is the mean of the endpoint velocities. Their mean is about 14.857 m/s; multiplied by 4.20 s, it gives the required 62.4 m. The impact speed is smaller than the initial speed but greater than zero.
 :::
 
-:::mcq
+:::exam-question
+id: phys-ch2-p37
+title: Serway/Jewett · Problem 2.37
+question: Serway/Jewett · Problem 2.37
+reference: [Serway/Jewett 9e · Problem 2.37](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.37
+
+![Serway/Jewett · Problem 2.37 — complete original problem](assets/lessons/physics/recommended/ch2-p37.webp)
+solution:
+**Plan — we are going to…**
+
+Choose coordinates, identify constant acceleration, and find acceleration and travel time.
+
+**The trick**
+
+The acceleration is constant, so a formula without time determines it directly.
+
+**What you need to know**
+
+\\[v_f^2=v_i^2+2a\\Delta x,\\qquad v_f=v_i+a\\Delta t.\\]
+
+**Step-by-step solution**
+
+1. **Part (a): draw coordinates.** Draw a horizontal x-axis with its positive arrow in the boat’s direction. Put the start at x=0 and the finish at x=200 m. Mark the initial and final velocities along the positive arrow as 20.0 m/s and 30.0 m/s.
+
+2. **Part (b): choose the model.** Treat the boat as a particle under constant acceleration.
+
+3. **Part (c): select an equation.** The given displacement and velocities fit:
+
+\\[v_f^2=v_i^2+2a\\Delta x.\\]
+
+4. **Part (d): solve symbolically.**
+
+\\[a=\\frac{v_f^2-v_i^2}{2\\Delta x}.\\]
+
+5. **Part (e): substitute.**
+
+\\[a=\\frac{30.0^2-20.0^2}{2(200)}=1.25\\ \\mathrm{m/s^2}.\\]
+
+6. **Part (f): find the elapsed time.**
+
+\\[\\Delta t=\\frac{v_f-v_i}{a}=\\frac{30.0-20.0}{1.25}=8.00\\ \\mathrm s.\\]
+
+**Use this method again**
+
+Choose the constant-acceleration equation that contains the given quantities and the desired unknown.
+
+**Check**
+
+The average velocity is 25.0 m/s; multiplying by 8.00 s reproduces 200 m.
+:::
+
+:::exam-question
+id: phys-ch2-p38
+title: Serway/Jewett · Problem 2.38
+question: Serway/Jewett · Problem 2.38
+reference: [Serway/Jewett 9e · Problem 2.38](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.38
+
+![Serway/Jewett · Problem 2.38 — complete original problem](assets/lessons/physics/recommended/ch2-p38.webp)
+solution:
+**Plan — we are going to…**
+
+Find the turning time from zero velocity, then find the later return time.
+
+**The trick**
+
+Returning to the initial position is not the same event as changing direction.
+
+**What you need to know**
+
+\\[x=2+3t-4t^2,\\qquad v=\\frac{dx}{dt}=3-8t.\\]
+
+**Step-by-step solution**
+
+1. **Part (a): find the turning time.**
+
+\\[3-8t=0\\quad\\Longrightarrow\\quad t=\\frac38\\ \\mathrm s.\\]
+
+Acceleration is -8 m/s², so the velocity changes from positive to negative there.
+
+\\[x\\!\\left(\\frac38\\right)=2+\\frac98-\\frac9{16}=\\frac{41}{16}=2.5625\\ \\mathrm m.\\]
+
+2. **Part (b): find the later return to x(0)=2 m.**
+
+\\[2+3t-4t^2=2\\quad\\Longrightarrow\\quad t(3-4t)=0.\\]
+
+The zero root is the initial instant. The return occurs at:
+
+\\[t=\\frac34\\ \\mathrm s,\\qquad v=3-8\\!\\left(\\frac34\\right)=-3.00\\ \\mathrm{m/s}.\\]
+
+**Use this method again**
+
+Use v=0 for a turning point; use x(t)=x(0) and the later root for a return.
+
+**Check**
+
+The return speed equals the initial speed in magnitude, but its direction is reversed.
+:::
+
+:::exam-question
+id: phys-ch2-p41
+title: Serway/Jewett · Problem 2.41
+question: Serway/Jewett · Problem 2.41
+reference: [Serway/Jewett 9e · Problem 2.41](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.41
+
+![Serway/Jewett · Problem 2.41 — complete original problem](assets/lessons/physics/recommended/ch2-p41.webp)
+solution:
+**Plan — we are going to…**
+
+Calculate displacement for each initial velocity, then split the reversing motion to calculate distance.
+
+**The trick**
+
+Displacement is signed. Distance counts both legs positively when the object reverses.
+
+**What you need to know**
+
+\\[\\Delta x=\\frac{v_f^2-v_i^2}{2a},\\qquad a=4.00\\ \\mathrm{m/s^2}.\\]
+
+**Step-by-step solution**
+
+1. **Part (a): use initial velocity +6.00 m/s.**
+
+\\[\\Delta x=\\frac{12.0^2-6.00^2}{2(4.00)}=13.5\\ \\mathrm m.\\]
+
+2. **Part (b): find distance.** Velocity stays positive, so no reversal occurs. The distance is also 13.5 m.
+
+3. **Part (c): use initial velocity -6.00 m/s.**
+
+\\[\\Delta x=\\frac{12.0^2-(-6.00)^2}{2(4.00)}=13.5\\ \\mathrm m.\\]
+
+4. **Part (d): split at v=0.** The initial negative-direction displacement is:
+
+\\[\\Delta x_1=\\frac{0-(-6.00)^2}{8.00}=-4.50\\ \\mathrm m.\\]
+
+The positive-direction displacement from the turning point is:
+
+\\[\\Delta x_2=\\frac{12.0^2-0}{8.00}=18.0\\ \\mathrm m.\\]
+
+\\[\\text{Distance}=4.50+18.0=22.5\\ \\mathrm m.\\]
+
+**Use this method again**
+
+Check for a change in the sign of velocity before treating displacement as distance.
+
+**Check**
+
+The signed sum -4.50+18.0 gives the same 13.5 m displacement as part (c).
+:::
+
+:::exam-question
+id: phys-ch2-p49
+title: Serway/Jewett · Problem 2.49
+question: Serway/Jewett · Problem 2.49
+reference: [Serway/Jewett 9e · Problem 2.49](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.49
+
+![Serway/Jewett · Problem 2.49 — complete original problem](assets/lessons/physics/recommended/ch2-p49.webp)
+solution:
+**Plan — we are going to…**
+
+Find the maximum height using zero speed at the top, then double the ascent time.
+
+**The trick**
+
+The total flight time includes both ascent and descent to the launch height.
+
+**What you need to know**
+
+\\[a=-g,\\qquad g=9.80\\ \\mathrm{m/s^2},\\qquad v_0=100\\ \\mathrm{m/s}.\\]
+
+**Step-by-step solution**
+
+1. **Part (a): use zero velocity at the top.**
+
+\\[0=v_0^2-2gh\\quad\\Longrightarrow\\quad h=\\frac{100^2}{2(9.80)}\\approx510\\ \\mathrm m.\\]
+
+2. **Part (b): find ascent time and total time.**
+
+\\[0=v_0-gt_{\\mathrm{up}}\\quad\\Longrightarrow\\quad t_{\\mathrm{up}}=\\frac{100}{9.80}\\approx10.2\\ \\mathrm s.\\]
+
+Returning to the launch height takes an equal descent time:
+
+\\[T=2t_{\\mathrm{up}}\\approx20.4\\ \\mathrm s.\\]
+
+**Use this method again**
+
+For an upward launch, use v=0 at maximum height. Double the ascent time only when landing at the launch height.
+
+**Check**
+
+Substituting T=2v₀/g into y=v₀T-gT²/2 gives zero net vertical displacement.
+:::
+
+:::exam-question
+id: phys-ch2-p51
+title: Serway/Jewett · Problem 2.51
+question: Serway/Jewett · Problem 2.51
+reference: [Serway/Jewett 9e · Problem 2.51](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.51
+
+![Serway/Jewett · Problem 2.51 — complete original problem](assets/lessons/physics/recommended/ch2-p51.webp)
+solution:
+**Plan — we are going to…**
+
+Choose downward as positive and solve the displacement equation for time.
+
+**The trick**
+
+The ball already has downward speed at release; it is not dropped from rest.
+
+**What you need to know**
+
+\\[\\Delta y=v_0t+\\frac12at^2.\\]
+
+**Step-by-step solution**
+
+1. **Insert the downward-positive quantities.**
+
+\\[30.0=8.00t+4.90t^2.\\]
+
+2. **Solve the quadratic.**
+
+\\[4.90t^2+8.00t-30.0=0.\\]
+
+\\[t=\\frac{-8.00\\pm\\sqrt{8.00^2+4(4.90)(30.0)}}{9.80}.\\]
+
+The positive root describes a time after release:
+
+\\[\\boxed{t\\approx1.79\\ \\mathrm s}.\\]
+
+The negative root is outside the physical interval after the throw.
+
+**Use this method again**
+
+Choose a direction, use consistent signs, and retain the root matching the physical time interval.
+
+**Check**
+
+At 1.789 s, the displacement is approximately \\[8.00(1.789)+4.90(1.789)^2\\approx30.0\\ \\mathrm m.\\]
+:::
+
+:::exam-question
+id: phys-ch2-p53
+title: Serway/Jewett · Problem 2.53
+question: Serway/Jewett · Problem 2.53
+reference: [Serway/Jewett 9e · Problem 2.53](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.53
+
+![Serway/Jewett · Problem 2.53 — complete original problem](assets/lessons/physics/recommended/ch2-p53.webp)
+solution:
+**Plan — we are going to…**
+
+Use the known height and catch time to find launch velocity, then evaluate the velocity at the catch.
+
+**The trick**
+
+Being above the starting point does not mean the keys are still moving upward.
+
+**What you need to know**
+
+\\[\\Delta y=v_0t-\\frac12gt^2,\\qquad v=v_0-gt.\\]
+
+**Step-by-step solution**
+
+1. **Part (a): choose upward as positive and solve for launch velocity.**
+
+\\[4.00=v_0(1.50)-\\frac12(9.80)(1.50)^2.\\]
+
+\\[v_0=\\frac{4.00+4.90(1.50)^2}{1.50}\\approx10.0\\ \\mathrm{m/s}\\quad\\text{upward}.\\]
+
+2. **Part (b): use the unrounded initial velocity.**
+
+\\[v=10.0167-9.80(1.50)\\approx-4.68\\ \\mathrm{m/s}.\\]
+
+The keys are moving downward when caught.
+
+**Use this method again**
+
+Solve position versus time for the missing initial velocity, then use velocity versus time.
+
+**Check**
+
+The highest point occurs at about 1.02 s, before the 1.50 s catch, confirming the downward final velocity.
+:::
+
+:::exam-question
+id: phys-ch2-p65
+title: Serway/Jewett · Problem 2.65
+question: Serway/Jewett · Problem 2.65
+reference: [Serway/Jewett 9e · Problem 2.65](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+answer-label: Show answer
+body:
+Serway/Jewett · Problem 2.65
+
+![Serway/Jewett · Problem 2.65 — complete original problem](assets/lessons/physics/recommended/ch2-p65.webp)
+solution:
+**Plan — we are going to…**
+
+Solve the first constant-acceleration stage, then use its final speed as the initial speed of the second stage.
+
+**The trick**
+
+The two planes have different accelerations. Take the positive direction along the motion on each plane.
+
+**What you need to know**
+
+\\[v_f^2=v_i^2+2a\\Delta x,\\qquad v_f=v_i+at.\\]
+
+**Step-by-step solution**
+
+1. **Part (a): find the speed at the bottom.**
+
+\\[v^2=0+2(0.500)(9.00)=9.00\\quad\\Longrightarrow\\quad v=3.00\\ \\mathrm{m/s}.\\]
+
+2. **Part (b): find the first-stage time.**
+
+\\[t=\\frac{3.00-0}{0.500}=6.00\\ \\mathrm s.\\]
+
+3. **Part (c): find the second-plane acceleration.** Its initial speed is 3.00 m/s and it stops after 15.0 m:
+
+\\[0=3.00^2+2a_2(15.0)\\quad\\Longrightarrow\\quad a_2=-0.300\\ \\mathrm{m/s^2}.\\]
+
+4. **Part (d): find the speed after 8.00 m on the second plane.**
+
+\\[v^2=3.00^2+2(-0.300)(8.00)=4.20.\\]
+
+\\[v=\\sqrt{4.20}\\approx2.05\\ \\mathrm{m/s}.\\]
+
+**Use this method again**
+
+Carry the speed at the boundary into the next stage, but calculate each stage with its own acceleration.
+
+**Check**
+
+The second stage has negative acceleration and the speed at 8 m is between its initial 3.00 m/s and its final zero speed.
+:::
+
+:::exam-question
 id: phys-quiz-ch2-1-1-1
 title: IUG Chapter 2 Quiz · 1.1.1
+question: IUG Chapter 2 Quiz · 1.1.1
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.1.1](../../../books/54811-1.pdf#page=1)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | gram
-- [ ] b | pound
-- [x] c | kilogram
-explanation: The SI base unit of mass is the kilogram. The original repeats the same correct option; the selectable responses are deduplicated.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.1.1
+
 ![Original IUG PHYSA1301 quiz question 1.1.1](assets/lessons/physics/recommended/quiz-ch2-1-1-1.webp)
 solution:
 **Plan — we are going to…**
@@ -673,19 +782,15 @@ Underline both the system name and quantity before recalling the unit. SI mass a
 Kilogram is a mass unit. Meter and second would describe different quantities.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-1-2
 title: IUG Chapter 2 Quiz · 1.1.2
+question: IUG Chapter 2 Quiz · 1.1.2
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.1.2](../../../books/54811-1.pdf#page=1)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | kilometer
-- [x] b | meter
-- [ ] c | foot
-- [ ] d | centimeter
-explanation: The SI base unit of length is the meter.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.1.2
+
 ![Original IUG PHYSA1301 quiz question 1.1.2](assets/lessons/physics/recommended/quiz-ch2-1-1-2.webp)
 solution:
 **Plan — we are going to…**
@@ -719,19 +824,15 @@ For a base-unit question, distinguish the base name from prefixed versions of th
 An ordinary ruler can measure a distance in centimeters, but converting its result into SI base length units gives meters.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-1-3
 title: IUG Chapter 2 Quiz · 1.1.3
+question: IUG Chapter 2 Quiz · 1.1.3
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.1.3](../../../books/54811-1.pdf#page=1)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [x] a | centimeter
-- [ ] b | meter
-- [ ] c | foot
-- [ ] d | kilometer
-explanation: The cgs base unit of length is the centimeter.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.1.3
+
 ![Original IUG PHYSA1301 quiz question 1.1.3](assets/lessons/physics/recommended/quiz-ch2-1-1-3.webp)
 solution:
 **Plan — we are going to…**
@@ -849,19 +950,15 @@ A unit must match both the physical quantity and the specified unit system. Chec
 Centimeter matches Gaussian length. Meter matches SI length, while foot, mile, and inch belong to other conventional length systems.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-2-1
 title: IUG Chapter 2 Quiz · 1.2.1
+question: IUG Chapter 2 Quiz · 1.2.1
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.2.1](../../../books/54811-1.pdf#page=1)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | m·s
-- [x] b | m/s
-- [ ] c | m
-- [ ] d | m/s²
-explanation: From x = vt, [v] = [x]/[t] = m/s.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.2.1
+
 ![Original IUG PHYSA1301 quiz question 1.2.1](assets/lessons/physics/recommended/quiz-ch2-1-2-1.webp)
 solution:
 **Plan — we are going to…**
@@ -916,19 +1013,15 @@ Multiplying the result by seconds gives the required position unit:
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-2-2
 title: IUG Chapter 2 Quiz · 1.2.2
+question: IUG Chapter 2 Quiz · 1.2.2
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.2.2](../../../books/54811-1.pdf#page=1)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [x] a | m/s²
-- [ ] b | m
-- [ ] c | m/s
-- [ ] d | m·s
-explanation: From x = at² + b, [a] = [x]/[t]² = m/s².
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.2.2
+
 ![Original IUG PHYSA1301 quiz question 1.2.2](assets/lessons/physics/recommended/quiz-ch2-1-2-2.webp)
 solution:
 **Plan — we are going to…**
@@ -980,19 +1073,15 @@ The reconstructed term has length units:
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-2-3
 title: IUG Chapter 2 Quiz · 1.2.3
+question: IUG Chapter 2 Quiz · 1.2.3
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.2.3](../../../books/54811-1.pdf#page=1)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | m/s
-- [ ] b | m/s²
-- [ ] c | m·s
-- [x] d | m
-explanation: The two terms at² and b must each have the same unit as x: meters.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.2.3
+
 ![Original IUG PHYSA1301 quiz question 1.2.3](assets/lessons/physics/recommended/quiz-ch2-1-2-3.webp)
 solution:
 **Plan — we are going to…**
@@ -1036,19 +1125,15 @@ For a constant added directly to a quantity, give the constant the same units as
 At zero time, the time-squared term vanishes and the equation gives position equal to b. Therefore b must be a position.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-2-4
 title: IUG Chapter 2 Quiz · 1.2.4
+question: IUG Chapter 2 Quiz · 1.2.4
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.2.4](../../../books/54811-1.pdf#page=1)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | m/s²
-- [ ] b | None of these
-- [x] c | m/s
-- [ ] d | m
-explanation: The constant b is added to a velocity, so its unit is m/s.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.2.4
+
 ![Original IUG PHYSA1301 quiz question 1.2.4](assets/lessons/physics/recommended/quiz-ch2-1-2-4.webp)
 solution:
 **Plan — we are going to…**
@@ -1092,19 +1177,15 @@ For unit questions with similar-looking equations, identify whether the left sid
 At zero time, the equation says velocity equals b. Thus b is the initial velocity and needs velocity units.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-2-5
 title: IUG Chapter 2 Quiz · 1.2.5
+question: IUG Chapter 2 Quiz · 1.2.5
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.2.5](../../../books/54811-1.pdf#page=2)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | None of these
-- [x] b | m/s²
-- [ ] c | m
-- [ ] d | m/s
-explanation: In v = at + b, [a] = [v]/[t] = m/s².
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.2.5
+
 ![Original IUG PHYSA1301 quiz question 1.2.5](assets/lessons/physics/recommended/quiz-ch2-1-2-5.webp)
 solution:
 **Plan — we are going to…**
@@ -1156,19 +1237,15 @@ Multiplication restores velocity units:
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-2-6
 title: IUG Chapter 2 Quiz · 1.2.6
+question: IUG Chapter 2 Quiz · 1.2.6
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.2.6](../../../books/54811-1.pdf#page=2)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [x] a | Adding them
-- [ ] b | Multiplying them
-- [ ] c | Dividing them
-- [ ] d | None of these
-explanation: Quantities must be expressed in compatible units before they can be added.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.2.6
+
 ![Original IUG PHYSA1301 quiz question 1.2.6](assets/lessons/physics/recommended/quiz-ch2-1-2-6.webp)
 solution:
 **Plan — we are going to…**
@@ -1211,19 +1288,15 @@ Ask whether the operation combines measurements of the same quantity or construc
 Adding 2 meters to 3 seconds has no physical meaning, while dividing 2 meters by 3 seconds does.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-2-7
 title: IUG Chapter 2 Quiz · 1.2.7
+question: IUG Chapter 2 Quiz · 1.2.7
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.2.7](../../../books/54811-1.pdf#page=2)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | Adding them only
-- [ ] b | Subtracting them only
-- [ ] c | Equating them only
-- [x] d | All of the listed operations
-explanation: Addition, subtraction and equality all require matching dimensions.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.2.7
+
 ![Original IUG PHYSA1301 quiz question 1.2.7](assets/lessons/physics/recommended/quiz-ch2-1-2-7.webp)
 solution:
 **Plan — we are going to…**
@@ -1260,19 +1333,15 @@ Check each operation independently before selecting “all.” Remember that uni
 You may equate 1 meter to 100 centimeters because both are lengths. You cannot equate 1 meter to 100 seconds.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-1
 title: IUG Chapter 2 Quiz · 1.3.1
+question: IUG Chapter 2 Quiz · 1.3.1
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.1](../../../books/54811-1.pdf#page=2)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [x] a | Distance divided by elapsed time
-- [ ] b | Magnitude of average velocity
-- [ ] c | Acceleration multiplied by elapsed time
-- [ ] d | Displacement divided by elapsed time
-explanation: Average speed equals total distance traveled divided by elapsed time.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.1
+
 ![Original IUG PHYSA1301 quiz question 1.3.1](assets/lessons/physics/recommended/quiz-ch2-1-3-1.webp)
 solution:
 **Plan — we are going to…**
@@ -1312,19 +1381,15 @@ Underline “speed” or “velocity” before choosing a numerator: speed uses 
 Average speed cannot be negative. A round trip can have a positive average speed even though it has zero average velocity.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-2
 title: IUG Chapter 2 Quiz · 1.3.2
+question: IUG Chapter 2 Quiz · 1.3.2
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.2](../../../books/54811-1.pdf#page=2)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | Distance divided by elapsed time
-- [ ] b | Half the sum of initial and final speeds
-- [ ] c | Acceleration multiplied by elapsed time
-- [x] d | Displacement divided by elapsed time
-explanation: Average velocity equals vector displacement divided by elapsed time.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.2
+
 ![Original IUG PHYSA1301 quiz question 1.3.2](assets/lessons/physics/recommended/quiz-ch2-1-3-2.webp)
 solution:
 **Plan — we are going to…**
@@ -1369,19 +1434,15 @@ For average velocity, write the two endpoint positions first. The details of the
 If the start and finish positions coincide, the numerator is zero, so the average velocity is zero regardless of the path traveled.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-3
 title: IUG Chapter 2 Quiz · 1.3.3
+question: IUG Chapter 2 Quiz · 1.3.3
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.3](../../../books/54811-1.pdf#page=2)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | Both are scalars
-- [ ] b | Distance is always strictly greater than displacement magnitude
-- [x] c | Displacement depends only on the initial and final positions
-- [ ] d | Both are vectors
-explanation: Displacement is final position minus initial position. Distance can equal displacement magnitude on a direct path, so the word always makes that option false.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.3
+
 ![Original IUG PHYSA1301 quiz question 1.3.3](assets/lessons/physics/recommended/quiz-ch2-1-3-3.webp)
 solution:
 **Plan — we are going to…**
@@ -1429,19 +1490,15 @@ Test statements containing “always” with a simple straight trip and with a r
 Two people can take different routes between the same endpoints and have different distances but identical displacements.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-4
 title: IUG Chapter 2 Quiz · 1.3.4
+question: IUG Chapter 2 Quiz · 1.3.4
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.4](../../../books/54811-1.pdf#page=2)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | The particle moves in +x without reversing
-- [x] b | The particle moves in +x and then reverses direction
-- [ ] c | Under no conditions
-- [ ] d | The particle moves in −x without reversing
-explanation: A reversal makes path length greater than the magnitude of the net displacement, so average speed exceeds average-velocity magnitude.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.4
+
 ![Original IUG PHYSA1301 quiz question 1.3.4](assets/lessons/physics/recommended/quiz-ch2-1-3-4.webp)
 solution:
 **Plan — we are going to…**
@@ -1495,19 +1552,15 @@ When comparing these averages over one interval, compare distance with displacem
 The chosen example has a longer traveled path than net separation. The inequality has the required direction.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-5
 title: IUG Chapter 2 Quiz · 1.3.5
+question: IUG Chapter 2 Quiz · 1.3.5
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.5](../../../books/54811-1.pdf#page=3)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [x] a | Under no conditions
-- [ ] b | The particle moves in −x without reversing
-- [ ] c | The particle moves in +x and then reverses direction
-- [ ] d | The particle moves in +x without reversing
-explanation: Displacement magnitude never exceeds total distance, so average-velocity magnitude never exceeds average speed.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.5
+
 ![Original IUG PHYSA1301 quiz question 1.3.5](assets/lessons/physics/recommended/quiz-ch2-1-3-5.webp)
 solution:
 **Plan — we are going to…**
@@ -1561,19 +1614,15 @@ Use the basic distance inequality to compare the averages. It applies without kn
 A round trip gives zero average-velocity magnitude and positive average speed, while a direct trip gives equality. Neither case violates the inequality.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-6
 title: IUG Chapter 2 Quiz · 1.3.6
+question: IUG Chapter 2 Quiz · 1.3.6
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.6](../../../books/54811-1.pdf#page=3)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 80 km/h
-- [ ] b | 160 km/h
-- [ ] c | 40 km/h
-- [x] d | 0 km/h
-explanation: The round trip ends at the starting point. Displacement and average velocity are zero.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.6
+
 ![Original IUG PHYSA1301 quiz question 1.3.6](assets/lessons/physics/recommended/quiz-ch2-1-3-6.webp)
 solution:
 **Plan — we are going to…**
@@ -1621,19 +1670,15 @@ For a complete round trip, endpoint positions coincide, so average velocity is z
 The positive distance traveled does not enter the average-velocity numerator. It would enter average speed instead.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-8
 title: IUG Chapter 2 Quiz · 1.3.8
+question: IUG Chapter 2 Quiz · 1.3.8
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.8](../../../books/54811-1.pdf#page=3)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 0.33 m/s
-- [x] b | 2.3 m/s
-- [ ] c | 1.7 m/s
-- [ ] d | 1.6 m/s
-explanation: Total distance is 3.0 + 4.0 = 7.0 m; 7.0/3.0 = 2.33 m/s.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.8
+
 ![Original IUG PHYSA1301 quiz question 1.3.8](assets/lessons/physics/recommended/quiz-ch2-1-3-8.webp)
 solution:
 **Plan — we are going to…**
@@ -1681,19 +1726,15 @@ For a multileg average speed, add distances first and times second. Take only on
 An average speed of about 2.33 m/s for 3 s produces the 7 m traveled. The opposite directions do not reduce this distance.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-9
 title: IUG Chapter 2 Quiz · 1.3.9
+question: IUG Chapter 2 Quiz · 1.3.9
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.9](../../../books/54811-1.pdf#page=3)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [x] a | 0.33 m/s
-- [ ] b | 1.7 m/s
-- [ ] c | 2.3 m/s
-- [ ] d | 1.6 m/s
-explanation: Net displacement is 1.0 m west in 3.0 s, giving average-velocity magnitude 0.333 m/s.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.9
+
 ![Original IUG PHYSA1301 quiz question 1.3.9](assets/lessons/physics/recommended/quiz-ch2-1-3-9.webp)
 solution:
 **Plan — we are going to…**
@@ -1746,19 +1787,15 @@ For average velocity with a reversal, use signed displacements. If the question 
 The particle finishes west of where it started, so westward average velocity is sensible. Its magnitude is smaller than the 2.3 m/s average speed for the same trip.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-10
 title: IUG Chapter 2 Quiz · 1.3.10
+question: IUG Chapter 2 Quiz · 1.3.10
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.10](../../../books/54811-1.pdf#page=3)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [x] a | 12 m/s
-- [ ] b | 16 m/s
-- [ ] c | 6 m/s
-- [ ] d | 10 m/s
-explanation: For x = 3t² + 4, v = dx/dt = 6t; at t = 2 s, v = 12 m/s.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.10
+
 ![Original IUG PHYSA1301 quiz question 1.3.10](assets/lessons/physics/recommended/quiz-ch2-1-3-10.webp)
 solution:
 **Plan — we are going to…**
@@ -1810,19 +1847,15 @@ When given position as a time function, differentiate once for instantaneous vel
 The positive slope means position is increasing. The constant 4 shifts the starting position but does not change velocity.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-3-11
 title: IUG Chapter 2 Quiz · 1.3.11
+question: IUG Chapter 2 Quiz · 1.3.11
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.3.11](../../../books/54811-1.pdf#page=3)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 6 m/s
-- [ ] b | 4 m/s
-- [ ] c | 10 m/s
-- [x] d | 8 m/s
-explanation: For x = 2t³ + 4, x(2) − x(0) = 16 m; dividing by 2 s gives 8 m/s.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.3.11
+
 ![Original IUG PHYSA1301 quiz question 1.3.11](assets/lessons/physics/recommended/quiz-ch2-1-3-11.webp)
 solution:
 **Plan — we are going to…**
@@ -1892,19 +1925,15 @@ For average velocity from a position function, evaluate both endpoint positions 
 The particle advances 16 m in 2 s, so the interval average is 8 m/s. The 4 m initial offset cancels when positions are subtracted.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-4-1
 title: IUG Chapter 2 Quiz · 1.4.1
+question: IUG Chapter 2 Quiz · 1.4.1
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.4.1](../../../books/54811-1.pdf#page=3)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 0 m/s²
-- [ ] b | 6 m/s²
-- [ ] c | 16 m/s²
-- [x] d | 12 m/s²
-explanation: For x = 2t³ + 4, v = 6t² and a = 12t; at t = 1 s, a = 12 m/s².
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.4.1
+
 ![Original IUG PHYSA1301 quiz question 1.4.1](assets/lessons/physics/recommended/quiz-ch2-1-4-1.webp)
 solution:
 **Plan — we are going to…**
@@ -1964,19 +1993,15 @@ Write the chain position → velocity → acceleration. Move one step along that
 Acceleration has units of meters per second squared. Substituting into the position function directly would give meters and answer a different question.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-4-2
 title: IUG Chapter 2 Quiz · 1.4.2
+question: IUG Chapter 2 Quiz · 1.4.2
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.4.2](../../../books/54811-1.pdf#page=4)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 6 m/s²
-- [ ] b | 16 m/s²
-- [x] c | 12 m/s²
-- [ ] d | 0 m/s²
-explanation: v(t) = 6t², so [v(2) − v(0)]/2 = 24/2 = 12 m/s².
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.4.2
+
 ![Original IUG PHYSA1301 quiz question 1.4.2](assets/lessons/physics/recommended/quiz-ch2-1-4-2.webp)
 solution:
 **Plan — we are going to…**
@@ -2040,19 +2065,15 @@ For average acceleration from a position function, first obtain velocity, then e
 Velocity increases by 24 m/s over 2 s. The average rate of increase is therefore 12 m/s each second.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-4-3
 title: IUG Chapter 2 Quiz · 1.4.3
+question: IUG Chapter 2 Quiz · 1.4.3
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.4.3](../../../books/54811-1.pdf#page=4)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | Neither eastward nor westward
-- [x] b | Westward
-- [ ] c | Eastward
-- [ ] d | Eastward then westward
-explanation: Slowing down requires acceleration opposite the eastward velocity: westward.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.4.3
+
 ![Original IUG PHYSA1301 quiz question 1.4.3](assets/lessons/physics/recommended/quiz-ch2-1-4-3.webp)
 solution:
 **Plan — we are going to…**
@@ -2163,19 +2184,15 @@ When a statement says “constant,” check the special case zero. Also separate
 The zero-acceleration counterexample disproves the original universal wording. The corrected nonzero-acceleration statement agrees with the velocity equation.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-4-5
 title: IUG Chapter 2 Quiz · 1.4.5
+question: IUG Chapter 2 Quiz · 1.4.5
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.4.5](../../../books/54811-1.pdf#page=4)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 0.4 m/s²
-- [ ] b | 1.3 m/s²
-- [ ] c | 4.9 m/s²
-- [x] d | 2.5 m/s²
-explanation: Starting at rest, Δx = ½at², so a = 2(20)/4² = 2.5 m/s².
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.4.5
+
 ![Original IUG PHYSA1301 quiz question 1.4.5](assets/lessons/physics/recommended/quiz-ch2-1-4-5.webp)
 solution:
 **Plan — we are going to…**
@@ -2239,19 +2256,15 @@ Substitution reproduces the distance:
 \\]
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-4-6
 title: IUG Chapter 2 Quiz · 1.4.6
+question: IUG Chapter 2 Quiz · 1.4.6
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.4.6](../../../books/54811-1.pdf#page=4)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 5.0 s
-- [ ] b | 8.0 s
-- [x] c | 2.0 s
-- [ ] d | 4.0 s
-explanation: Constant acceleration gives average velocity (10 + 50)/2 = 30 m/s; t = 60/30 = 2.0 s.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.4.6
+
 ![Original IUG PHYSA1301 quiz question 1.4.6](assets/lessons/physics/recommended/quiz-ch2-1-4-6.webp)
 solution:
 **Plan — we are going to…**
@@ -2303,19 +2316,15 @@ If constant acceleration, initial velocity, final velocity, and distance are kno
 An average of 30 m/s for 2 s gives 60 m. The mean velocity lies between the initial 10 and final 50 m/s.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-4-7
 title: IUG Chapter 2 Quiz · 1.4.7
+question: IUG Chapter 2 Quiz · 1.4.7
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.4.7](../../../books/54811-1.pdf#page=4)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 36 m
-- [x] b | 54 m
-- [ ] c | 12 m
-- [ ] d | 24 m
-explanation: Both velocity and acceleration point west: distance = 12(3) + ½(4)(3²) = 54 m.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.4.7
+
 ![Original IUG PHYSA1301 quiz question 1.4.7](assets/lessons/physics/recommended/quiz-ch2-1-4-7.webp)
 solution:
 **Plan — we are going to…**
@@ -2382,19 +2391,15 @@ Choose a positive direction explicitly. When initial velocity and acceleration p
 The final velocity is 24 m/s west, so the mean speed is 18 m/s. Over 3 s this produces the same 54 m.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-4-9
 title: IUG Chapter 2 Quiz · 1.4.9
+question: IUG Chapter 2 Quiz · 1.4.9
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.4.9](../../../books/54811-1.pdf#page=4)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 1 m/s
-- [ ] b | 12.5 m/s
-- [ ] c | 50 m/s
-- [x] d | 25 m/s
-explanation: v = v₀ + at = 0 + 5(5) = 25 m/s.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.4.9
+
 ![Original IUG PHYSA1301 quiz question 1.4.9](assets/lessons/physics/recommended/quiz-ch2-1-4-9.webp)
 solution:
 **Plan — we are going to…**
@@ -2448,19 +2453,15 @@ For final velocity with known initial velocity, acceleration, and time, use init
 Acceleration adds 5 m/s every second. After 5 s, a car starting from zero has gained 25 m/s.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-5-1
 title: IUG Chapter 2 Quiz · 1.5.1
+question: IUG Chapter 2 Quiz · 1.5.1
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.5.1](../../../books/54811-1.pdf#page=4)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | Upward during ascent, downward during descent
-- [ ] b | Downward except zero at the top
-- [x] c | Downward during both ascent and descent
-- [ ] d | Downward during ascent, upward during descent
-explanation: Near Earth, free-fall acceleration is downward throughout the motion, including the top.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.5.1
+
 ![Original IUG PHYSA1301 quiz question 1.5.1](assets/lessons/physics/recommended/quiz-ch2-1-5-1.webp)
 solution:
 **Plan — we are going to…**
@@ -2504,19 +2505,15 @@ For ideal vertical flight, draw one downward acceleration arrow and keep it unch
 The ball’s motion turns from upward to downward because its acceleration stays downward through the turning point.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-5-2
 title: IUG Chapter 2 Quiz · 1.5.2
+question: IUG Chapter 2 Quiz · 1.5.2
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.5.2](../../../books/54811-1.pdf#page=5)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | Decreases and then increases
-- [x] b | Stays constant
-- [ ] c | Increases
-- [ ] d | Decreases
-explanation: In the near-surface, no-air-resistance model used by the quiz, acceleration remains constant at g downward.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.5.2
+
 ![Original IUG PHYSA1301 quiz question 1.5.2](assets/lessons/physics/recommended/quiz-ch2-1-5-2.webp)
 solution:
 **Plan — we are going to…**
@@ -2610,19 +2607,15 @@ When an “increases/decreases” velocity statement is ambiguous, choose a sign
 Changing the coordinate direction changes the signs but not the physical motion. A correct physical explanation must remain consistent under either coordinate choice.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-5-4
 title: IUG Chapter 2 Quiz · 1.5.4
+question: IUG Chapter 2 Quiz · 1.5.4
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.5.4](../../../books/54811-1.pdf#page=5)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | Zero
-- [ ] b | 9.8 m/s² upward
-- [ ] c | 19.6 m/s² downward
-- [x] d | 9.8 m/s² downward
-explanation: At the top the instantaneous velocity is zero, but gravity still produces 9.8 m/s² downward acceleration.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.5.4
+
 ![Original IUG PHYSA1301 quiz question 1.5.4](assets/lessons/physics/recommended/quiz-ch2-1-5-4.webp)
 solution:
 **Plan — we are going to…**
@@ -2664,19 +2657,15 @@ At a turning point, set the relevant velocity component to zero. Keep the accele
 A downward acceleration at the top starts the ball’s downward motion. Zero acceleration would not explain the immediate reversal in velocity.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-5-5
 title: IUG Chapter 2 Quiz · 1.5.5
+question: IUG Chapter 2 Quiz · 1.5.5
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.5.5](../../../books/54811-1.pdf#page=5)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | Both downward
-- [ ] b | Velocity downward and acceleration upward
-- [x] c | Velocity upward and acceleration downward
-- [ ] d | Both upward
-explanation: While rising, velocity points upward while gravitational acceleration points downward.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.5.5
+
 ![Original IUG PHYSA1301 quiz question 1.5.5](assets/lessons/physics/recommended/quiz-ch2-1-5-5.webp)
 solution:
 **Plan — we are going to…**
@@ -2715,19 +2704,15 @@ Answer motion-direction questions with two separate arrows: one for velocity and
 The stated directions explain slowing ascent. Two upward arrows would instead describe increasing upward speed.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-5-6
 title: IUG Chapter 2 Quiz · 1.5.6
+question: IUG Chapter 2 Quiz · 1.5.6
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.5.6](../../../books/54811-1.pdf#page=5)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 1.2 s
-- [x] b | 1.8 s
-- [ ] c | 0.6 s
-- [ ] d | 2.4 s
-explanation: Taking upward as positive, v₀ = +6 and v = −12 m/s: t = (−12 − 6)/(−9.8) = 1.84 s.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.5.6
+
 ![Original IUG PHYSA1301 quiz question 1.5.6](assets/lessons/physics/recommended/quiz-ch2-1-5-6.webp)
 solution:
 **Plan — we are going to…**
@@ -2787,19 +2772,15 @@ For a vertical trip described by endpoint speeds, attach signs using direction f
 Time is positive. The downward final speed exceeds the upward launch speed, which is consistent with landing below the launch point; equal launch and landing heights were not stated.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-5-7
 title: IUG Chapter 2 Quiz · 1.5.7
+question: IUG Chapter 2 Quiz · 1.5.7
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.5.7](../../../books/54811-1.pdf#page=5)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [x] a | 127.5 m
-- [ ] b | 125 m
-- [ ] c | 245 m
-- [ ] d | 250 m
-explanation: Distance downward = 1.0(5.0) + ½(9.8)(5.0²) = 127.5 m.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.5.7
+
 ![Original IUG PHYSA1301 quiz question 1.5.7](assets/lessons/physics/recommended/quiz-ch2-1-5-7.webp)
 solution:
 **Plan — we are going to…**
@@ -2865,19 +2846,15 @@ Before setting initial velocity to zero, check whether the wording says “dropp
 Without the initial downward speed, gravity alone gives 122.5 m. The throw adds 5.0 m, so the total must be larger.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-5-8
 title: IUG Chapter 2 Quiz · 1.5.8
+question: IUG Chapter 2 Quiz · 1.5.8
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.5.8](../../../books/54811-1.pdf#page=5)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 84 m/s upward
-- [ ] b | 84 m/s downward
-- [ ] c | 14 m/s upward
-- [x] d | 14 m/s downward
-explanation: With upward positive, v = 35 − 9.8(5) = −14 m/s, or 14 m/s downward.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.5.8
+
 ![Original IUG PHYSA1301 quiz question 1.5.8](assets/lessons/physics/recommended/quiz-ch2-1-5-8.webp)
 solution:
 **Plan — we are going to…**
@@ -2932,19 +2909,15 @@ Choose a sign convention, calculate the signed velocity, and interpret the sign 
 The time to the top is about 3.57 s, so at 5.0 s the ball has already started descending. The downward result agrees.
 :::
 
-:::mcq
+:::exam-question
 id: phys-quiz-ch2-1-5-9
 title: IUG Chapter 2 Quiz · 1.5.9
+question: IUG Chapter 2 Quiz · 1.5.9
 reference: [IUG PHYSA1301 Chapter 2 Quiz · 1.5.9](../../../books/54811-1.pdf#page=5)
-kicker: PHYSA1301 · university quiz
-question: Choose the correct response to the original quiz question.
-- [ ] a | 9.8 m
-- [ ] b | 38.8 m
-- [x] c | 19.4 m
-- [ ] d | 4.9 m
-explanation: At maximum height v = 0, so h = v₀²/(2g) = 19.5²/19.6 = 19.4 m.
-hint: Use the definition or motion equation stated in the original question.
-example:
+answer-label: Show answer
+body:
+IUG Chapter 2 Quiz · 1.5.9
+
 ![Original IUG PHYSA1301 quiz question 1.5.9](assets/lessons/physics/recommended/quiz-ch2-1-5-9.webp)
 solution:
 **Plan — we are going to…**
@@ -3008,18 +2981,14 @@ For maximum height without a given time, set final vertical velocity to zero and
 The height is positive. Doubling launch speed would quadruple the rise because launch speed appears squared.
 :::
 
-:::mcq
+:::exam-question
 id: past-physics-2007-q1
 title: Past paper · IUG PHYSA 1301 2007 final · Q1 · 2007
-kicker: PAST PAPER · PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007)
-reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
 question: If F=−bv, what are the SI units of the constant b?
-- [x] a | kg/s
-- [ ] b | N·m
-- [ ] c | N/m
-- [ ] d | N·m/s
-explanation: Correct answer: kg/s
-hint: Review the original paper and the lesson concepts before retrying.
+reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
+answer-label: Show answer
+body:
+If F=−bv, what are the SI units of the constant b?
 solution:
 **Plan — we are going to…**
 
@@ -3090,18 +3059,14 @@ Multiply the obtained unit by a velocity unit:
 The result is a force, as the original equation requires.
 :::
 
-:::mcq
+:::exam-question
 id: past-physics-2007-q4
 title: Past paper · IUG PHYSA 1301 2007 final · Q4 · 2007
-kicker: PAST PAPER · PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007)
-reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
 question: A particle has x(t)=12−3t² metres. What is its acceleration?
-- [ ] a | 6 m/s²
-- [x] b | −6 m/s²
-- [ ] c | 12 m/s²
-- [ ] d | −12 m/s²
-explanation: Correct answer: −6 m/s²
-hint: Review the original paper and the lesson concepts before retrying.
+reference: [PHYSA 1301 Final Exam, Islamic University of Gaza (8 Jan 2007), p. 1](https://studyres.com/doc/10675286/final-exam)
+answer-label: Show answer
+body:
+A particle has x(t)=12−3t² metres. What is its acceleration?
 solution:
 **Plan — we are going to…**
 

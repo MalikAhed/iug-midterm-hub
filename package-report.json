@@ -4,7 +4,7 @@
       "file": "395945.pdf",
       "pages": 24,
       "before": 895876,
-      "after": 837744
+      "after": 837745
     },
     {
       "file": "395948.pdf",
@@ -28,7 +28,7 @@
       "file": "147397.pdf",
       "pages": 24,
       "before": 887370,
-      "after": 251266
+      "after": 251265
     },
     {
       "file": "151718.pdf",
@@ -73,12 +73,6 @@
       "after": 554525
     },
     {
-      "file": "157252.pdf",
-      "pages": 32,
-      "before": 846848,
-      "after": 285203
-    },
-    {
       "file": "396723.pdf",
       "pages": 22,
       "before": 628006,
@@ -88,7 +82,13 @@
       "file": "396728.pdf",
       "pages": 25,
       "before": 438211,
-      "after": 374770
+      "after": 374769
+    },
+    {
+      "file": "157252.pdf",
+      "pages": 32,
+      "before": 846848,
+      "after": 285203
     },
     {
       "file": "392357.pdf",
@@ -159,10 +159,10 @@
   ],
   "pdfEngine": "pymupdf",
   "images": {
-    "before": 11131158,
-    "after": 9326678,
-    "optimized": 643
+    "before": 11416118,
+    "after": 9584790,
+    "optimized": 657
   },
-  "files": 809,
-  "totalBytes": 39222610
+  "files": 822,
+  "totalBytes": 39441643
 }
