@@ -142,7 +142,7 @@ hint: Recall the chapter definition, then trace the code carefully.
 id: prog-extra-ch3-01
 title: Chapter 3 · slicing
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 165](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 165](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is \`s = 'computer'; s[2:6]\`?
 - [x] a | 'mput'
 - [ ] b | 'comp'
@@ -156,7 +156,7 @@ hint: Remember that a slice stops immediately before its end index.
 id: prog-extra-ch3-02
 title: Chapter 3 · string immutability
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 174](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 174](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What happens after \`s = 'IUG'; s[0] = 'X'\`?
 - [x] a | A TypeError is raised
 - [ ] b | s becomes 'XUG'
@@ -170,7 +170,7 @@ hint: A string operation must create a new string instead of changing a characte
 id: prog-extra-ch3-03
 title: Chapter 3 · math function
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 153](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 153](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is \`math.floor(-2.1)\`?
 - [x] a | -3
 - [ ] b | -2
@@ -184,7 +184,7 @@ hint: Flooring a negative number is different from truncating it.
 id: prog-extra-ch3-04
 title: Chapter 3 · method result
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 177](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 177](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What does \`'banana'.find('na')\` return?
 - [x] a | 2
 - [ ] b | 1
@@ -198,7 +198,7 @@ hint: Count from index zero and return the first matching start.
 id: prog-extra-ch3-05
 title: Chapter 3 · format precision
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 182](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 182](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What does \`'{:.2f}'.format(3.456)\` produce?
 - [x] a | '3.46'
 - [ ] b | '3.45'
@@ -212,7 +212,7 @@ hint: The result is text, and the precision is two digits after the decimal poin
 id: prog-extra-ch3-06
 title: Chapter 3 · membership case
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 203](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 203](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 3 slides · local PDF](../books/392343.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is the result of \`'Py' in 'Python'\`?
 - [x] a | True
 - [ ] b | False

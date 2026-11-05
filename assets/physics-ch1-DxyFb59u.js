@@ -2,7 +2,7 @@ var e={id:`physics-ch1`,title:`Physics and Measurement`,summary:`Serway/Jewett 9
 id: phys-ch1-p1
 title: Serway/Jewett · Problem 1.1
 question: Serway/Jewett · Problem 1.1
-reference: [Serway/Jewett 9e · Problem 1.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.1](../books/136372.pdf#page=51)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.1
@@ -107,7 +107,7 @@ The units cancel to kilograms. A value near surface-granite density would not re
 id: phys-ch1-p3
 title: Serway/Jewett · Problem 1.3
 question: Serway/Jewett · Problem 1.3
-reference: [Serway/Jewett 9e · Problem 1.3](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.3](../books/136372.pdf#page=51)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.3
@@ -213,7 +213,7 @@ The denser gold model must be heavier, not lighter, than the iron model.
 id: phys-ch1-p7
 title: Serway/Jewett · Problem 1.7
 question: Serway/Jewett · Problem 1.7
-reference: [Serway/Jewett 9e · Problem 1.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.7](../books/136372.pdf#page=51)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.7
@@ -307,7 +307,7 @@ The answer is smaller than the side length 0.200 nm. The value 0.283 nm would be
 id: phys-ch1-p13
 title: Serway/Jewett · Problem 1.13
 question: Serway/Jewett · Problem 1.13
-reference: [Serway/Jewett 9e · Problem 1.13](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.13](../books/136372.pdf#page=52)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.13
@@ -415,7 +415,7 @@ The final dimension is length, as required for position.
 id: phys-ch1-p21
 title: Serway/Jewett · Problem 1.21
 question: Serway/Jewett · Problem 1.21
-reference: [Serway/Jewett 9e · Problem 1.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.21](../books/136372.pdf#page=52)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.21
@@ -489,7 +489,7 @@ Even one block weighs about 5 000 lb. Multiplying by 2 million must produce a nu
 id: phys-ch1-p35
 title: Serway/Jewett · Problem 1.35
 question: Serway/Jewett · Problem 1.35
-reference: [Serway/Jewett 9e · Problem 1.35](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.35](../books/136372.pdf#page=53)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.35
@@ -601,7 +601,7 @@ Compared with the central 208.74 cm², the deviations are +4.11 cm² and −4.07
 id: phys-ch1-p37
 title: Serway/Jewett · Problem 1.37
 question: Serway/Jewett · Problem 1.37
-reference: [Serway/Jewett 9e · Problem 1.37](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.37](../books/136372.pdf#page=53)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.37
@@ -685,7 +685,7 @@ A year contains about 3.16 × 10⁷ s. A result of only 8 766 or 525 949 would s
 id: phys-ch1-p38
 title: Serway/Jewett · Problem 1.38
 question: Serway/Jewett · Problem 1.38
-reference: [Serway/Jewett 9e · Problem 1.38](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.38](../books/136372.pdf#page=53)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.38
@@ -774,7 +774,7 @@ The rounded results stay close to their calculator values. Reporting 796.03 or 1
 id: phys-ch1-p41
 title: Serway/Jewett · Problem 1.41
 question: Serway/Jewett · Problem 1.41
-reference: [Serway/Jewett 9e · Problem 1.41](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.41](../books/136372.pdf#page=53)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.41
@@ -858,7 +858,7 @@ This reproduces the actual payment.
 id: phys-ch1-p49
 title: Serway/Jewett · Problem 1.49
 question: Serway/Jewett · Problem 1.49
-reference: [Serway/Jewett 9e · Problem 1.49](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.49](../books/136372.pdf#page=53)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.49
@@ -975,7 +975,7 @@ Choose q = 1 and r = 1. Then p = 3, s = 3, and the third equation becomes 1.5 + 
 id: phys-ch1-p51
 title: Serway/Jewett · Problem 1.51
 question: Serway/Jewett · Problem 1.51
-reference: [Serway/Jewett 9e · Problem 1.51](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.51](../books/136372.pdf#page=54)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.51
@@ -1096,7 +1096,7 @@ At area 600 cm², this slope predicts about 0.31 g, consistent with the rightmos
 id: phys-ch1-p53
 title: Serway/Jewett · Problem 1.53
 question: Serway/Jewett · Problem 1.53
-reference: [Serway/Jewett 9e · Problem 1.53](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.53](../books/136372.pdf#page=54)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.53
@@ -1279,7 +1279,7 @@ The sidewalk area is 58 m² and its thickness is slightly less than 0.1 m, so it
 id: phys-ch1-p65
 title: Serway/Jewett · Problem 1.65
 question: Serway/Jewett · Problem 1.65
-reference: [Serway/Jewett 9e · Problem 1.65](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 1.65](../books/136372.pdf#page=55)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 1.65

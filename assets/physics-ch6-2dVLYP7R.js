@@ -2,7 +2,7 @@ var e={id:`physics-ch6`,title:`Circular Motion and Other Applications of Newton�
 id: phys-ch6-p1
 title: Serway/Jewett · Problem 6.1
 question: Serway/Jewett · Problem 6.1
-reference: [Serway/Jewett 9e · Problem 6.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.1](../books/136372.pdf#page=205)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.1
@@ -84,7 +84,7 @@ This equals the string’s supported-load limit. A smaller speed gives a smaller
 id: phys-ch6-p8
 title: Serway/Jewett · Problem 6.8
 question: Serway/Jewett · Problem 6.8
-reference: [Serway/Jewett 9e · Problem 6.8](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.8](../books/136372.pdf#page=205)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.8
@@ -164,7 +164,7 @@ Then speed squared divided by radius returns 0.857 m/s². Also the tension is sl
 id: phys-ch6-p9
 title: Serway/Jewett · Problem 6.9
 question: Serway/Jewett · Problem 6.9
-reference: [Serway/Jewett 9e · Problem 6.9](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.9](../books/136372.pdf#page=206)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.9
@@ -244,7 +244,7 @@ A slightly greater speed would demand more friction than this surface can supply
 id: phys-ch6-p10
 title: Serway/Jewett · Problem 6.10
 question: Serway/Jewett · Problem 6.10
-reference: [Serway/Jewett 9e · Problem 6.10](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.10](../books/136372.pdf#page=206)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.10
@@ -340,7 +340,7 @@ This demonstrates that reduced gravity really can satisfy both equations.
 id: phys-ch6-p11
 title: Serway/Jewett · Problem 6.11
 question: Serway/Jewett · Problem 6.11
-reference: [Serway/Jewett 9e · Problem 6.11](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.11](../books/136372.pdf#page=206)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.11
@@ -418,7 +418,7 @@ The result has speed units because gravity times radius has units of speed squar
 id: phys-ch6-p15
 title: Serway/Jewett · Problem 6.15
 question: Serway/Jewett · Problem 6.15
-reference: [Serway/Jewett 9e · Problem 6.15](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.15](../books/136372.pdf#page=206)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.15
@@ -496,7 +496,7 @@ If the speed tends to zero, the total chain tension tends to the weight, giving 
 id: phys-ch6-p16
 title: Serway/Jewett · Problem 6.16
 question: Serway/Jewett · Problem 6.16
-reference: [Serway/Jewett 9e · Problem 6.16](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.16](../books/136372.pdf#page=206)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.16
@@ -572,7 +572,7 @@ At A, the upward net force is 24900 minus 4900, or 20000 N. Dividing by 500 kg g
 id: phys-ch6-p17
 title: Serway/Jewett · Problem 6.17
 question: Serway/Jewett · Problem 6.17
-reference: [Serway/Jewett 9e · Problem 6.17](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.17](../books/136372.pdf#page=206)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.17
@@ -656,7 +656,7 @@ The actual 13.0 m/s is below this value, independently confirming the contact pr
 id: phys-ch6-p18
 title: Serway/Jewett · Problem 6.18
 question: Serway/Jewett · Problem 6.18
-reference: [Serway/Jewett 9e · Problem 6.18](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.18](../books/136372.pdf#page=206)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.18
@@ -746,7 +746,7 @@ Dividing by 0.500 kg gives 32.0 m/s². The tangential force is 1.6759 N, giving 
 id: phys-ch6-p21
 title: Serway/Jewett · Problem 6.21
 question: Serway/Jewett · Problem 6.21
-reference: [Serway/Jewett 9e · Problem 6.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.21](../books/136372.pdf#page=207)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.21
@@ -816,7 +816,7 @@ Using the unrounded result, the tension’s vertical component is 4.90 N, exactl
 id: phys-ch6-p23
 title: Serway/Jewett · Problem 6.23
 question: Serway/Jewett · Problem 6.23
-reference: [Serway/Jewett 9e · Problem 6.23](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.23](../books/136372.pdf#page=207)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.23
@@ -904,7 +904,7 @@ Both reproduce the measurements. True weight remains 491 N in each case.
 id: phys-ch6-p37
 title: Serway/Jewett · Problem 6.37
 question: Serway/Jewett · Problem 6.37
-reference: [Serway/Jewett 9e · Problem 6.37](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.37](../books/136372.pdf#page=208)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.37
@@ -954,7 +954,7 @@ At both locations the chosen velocity and acceleration directions are perpendicu
 id: phys-ch6-p39
 title: Serway/Jewett · Problem 6.39
 question: Serway/Jewett · Problem 6.39
-reference: [Serway/Jewett 9e · Problem 6.39](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.39](../books/136372.pdf#page=208)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.39
@@ -1036,7 +1036,7 @@ This agrees with the mass-based calculation.
 id: phys-ch6-p40
 title: Serway/Jewett · Problem 6.40
 question: Serway/Jewett · Problem 6.40
-reference: [Serway/Jewett 9e · Problem 6.40](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.40](../books/136372.pdf#page=208)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.40
@@ -1112,7 +1112,7 @@ The weight is 17640 N. Subtracting the unrounded normal force of 11512.55 N give
 id: phys-ch6-p42
 title: Serway/Jewett · Problem 6.42
 question: Serway/Jewett · Problem 6.42
-reference: [Serway/Jewett 9e · Problem 6.42](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.42](../books/136372.pdf#page=208)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.42
@@ -1196,7 +1196,7 @@ Meanwhile the force equations give the same acceleration as the horizontal norma
 id: phys-ch6-p45
 title: Serway/Jewett · Problem 6.45
 question: Serway/Jewett · Problem 6.45
-reference: [Serway/Jewett 9e · Problem 6.45](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.45](../books/136372.pdf#page=209)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.45
@@ -1270,7 +1270,7 @@ At the top, the unrounded tension plus weight is 6.05324 plus 2.695, or 8.74824 
 id: phys-ch6-p54
 title: Serway/Jewett · Problem 6.54
 question: Serway/Jewett · Problem 6.54
-reference: [Serway/Jewett 9e · Problem 6.54](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.54](../books/136372.pdf#page=210)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.54
@@ -1346,7 +1346,7 @@ For the change in motion, a central string force has no turning effect about the
 id: phys-ch6-p57
 title: Serway/Jewett · Problem 6.57
 question: Serway/Jewett · Problem 6.57
-reference: [Serway/Jewett 9e · Problem 6.57](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.57](../books/136372.pdf#page=210)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.57
@@ -1428,7 +1428,7 @@ Using the loaded tension, the inward component is approximately 260.5 N. The rad
 id: phys-ch6-p59
 title: Serway/Jewett · Problem 6.59
 question: Serway/Jewett · Problem 6.59
-reference: [Serway/Jewett 9e · Problem 6.59](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.59](../books/136372.pdf#page=211)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.59
@@ -1510,7 +1510,7 @@ Thus the maximum friction is exactly enough to support the person. Increasing th
 id: phys-ch6-p61
 title: Serway/Jewett · Problem 6.61
 question: Serway/Jewett · Problem 6.61
-reference: [Serway/Jewett 9e · Problem 6.61](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.61](../books/136372.pdf#page=211)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.61
@@ -1626,7 +1626,7 @@ Finally, at zero speed the ordinary incline condition is friction at least weigh
 id: phys-ch6-p68
 title: Serway/Jewett · Problem 6.68
 question: Serway/Jewett · Problem 6.68
-reference: [Serway/Jewett 9e · Problem 6.68](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 6.68](../books/136372.pdf#page=212)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 6.68

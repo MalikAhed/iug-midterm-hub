@@ -142,7 +142,7 @@ hint: Label the circuit quantities before selecting an answer.
 id: circ-extra-ch3-01
 title: Chapter 3 · nodal calculation
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 64](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 64](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: A node is connected to ground through 2 Ω and to a 6 V source through 4 Ω. What nodal equation applies?
 - [x] a | V/2 + (V-6)/4 = 0
 - [ ] b | 2V + 4(V-6) = 0
@@ -156,7 +156,7 @@ hint: Express each branch current as voltage difference divided by resistance.
 id: circ-extra-ch3-02
 title: Chapter 3 · nodal result
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 67](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 67](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: Solving \`V/2 + (V-6)/4 = 0\` gives V=…
 - [x] a | 2 V
 - [ ] b | 3 V
@@ -170,7 +170,7 @@ hint: Clear the denominators before solving.
 id: circ-extra-ch3-03
 title: Chapter 3 · supernode constraint
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 70](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 70](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: A 5 V source connects node a to node b with its positive terminal at a. Which constraint is correct?
 - [x] a | Va − Vb = 5 V
 - [ ] b | Va + Vb = 5 V
@@ -184,7 +184,7 @@ hint: Read the plus and minus labels on the source.
 id: circ-extra-ch3-04
 title: Chapter 3 · mesh equation
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 74](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 74](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: Two clockwise meshes share a 4 Ω resistor. If the resistor carries i1−i2 in mesh 1, its mesh-1 drop is…
 - [x] a | 4(i1−i2)
 - [ ] b | 4(i1+i2)
@@ -198,7 +198,7 @@ hint: Use the difference of mesh currents when they oppose on the shared branch.
 id: circ-extra-ch3-05
 title: Chapter 3 · supermesh constraint
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 79](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 79](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: A 2 A current source lies between clockwise mesh currents i1 and i2, directed from mesh 1 toward mesh 2. The constraint is…
 - [x] a | i1 − i2 = 2 A
 - [ ] b | i1 + i2 = 2 A
@@ -212,7 +212,7 @@ hint: Trace the assumed mesh arrows through the current-source branch.
 id: circ-extra-ch3-06
 title: Chapter 3 · source transformation
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 88](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 88](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395315.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: A 12 V ideal voltage source in series with 3 Ω is equivalent to a Norton source of…
 - [x] a | 4 A in parallel with 3 Ω
 - [ ] b | 36 A in series with 3 Ω

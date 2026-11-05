@@ -142,7 +142,7 @@ hint: Label the circuit quantities before selecting an answer.
 id: circ-extra-ch2-01
 title: Chapter 2 · Ohm-law calculation
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 29](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 29](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: A 6 Ω resistor carries 2 A. Its voltage drop is…
 - [x] a | 12 V
 - [ ] b | 3 V
@@ -156,7 +156,7 @@ hint: Multiply current by resistance.
 id: circ-extra-ch2-02
 title: Chapter 2 · series current
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 32](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 32](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: A 10 V source drives 2 Ω and 3 Ω in series. The current magnitude is…
 - [x] a | 2 A
 - [ ] b | 5 A
@@ -170,7 +170,7 @@ hint: Add series resistances before applying Ohm's law.
 id: circ-extra-ch2-03
 title: Chapter 2 · parallel current
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 35](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 35](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: Two resistors 6 Ω and 3 Ω are in parallel across 12 V. The current in the 3 Ω branch is…
 - [x] a | 4 A
 - [ ] b | 2 A
@@ -184,7 +184,7 @@ hint: Use the common voltage of parallel elements.
 id: circ-extra-ch2-04
 title: Chapter 2 · KCL
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 43](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 43](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: At a node, 5 A enters and 2 A leaves through one branch. The current leaving through the remaining branch is…
 - [x] a | 3 A
 - [ ] b | 7 A
@@ -198,7 +198,7 @@ hint: Set algebraic current sum to zero.
 id: circ-extra-ch2-05
 title: Chapter 2 · KVL
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 46](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 46](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: A loop contains a 9 V rise and drops of 4 V and Vx. What is Vx?
 - [x] a | 5 V
 - [ ] b | 13 V
@@ -212,7 +212,7 @@ hint: Choose one traversal direction and keep all signs consistent.
 id: circ-extra-ch2-06
 title: Chapter 2 · divider
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 50](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 50](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395313.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: A 15 V source feeds 5 Ω and 10 Ω in series. The voltage across 5 Ω is…
 - [x] a | 5 V
 - [ ] b | 10 V

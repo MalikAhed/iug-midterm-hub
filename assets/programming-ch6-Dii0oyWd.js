@@ -142,7 +142,7 @@ hint: Recall the chapter definition, then trace the code carefully.
 id: prog-extra-ch6-01
 title: Chapter 6 · return trace
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 332](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 332](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What does \`def f(x): return x*2; f(3)\` return?
 - [x] a | 6
 - [ ] b | 3
@@ -156,7 +156,7 @@ hint: A return expression becomes the value of the call.
 id: prog-extra-ch6-02
 title: Chapter 6 · default argument
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 342](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 342](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is returned by \`def add(x, y=5): return x+y; add(4)\`?
 - [x] a | 9
 - [ ] b | 4
@@ -170,7 +170,7 @@ hint: Only the argument without a supplied value uses the default.
 id: prog-extra-ch6-03
 title: Chapter 6 · local scope
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 348](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 348](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: If \`x=10\` globally and \`def f(): x=3; return x\`, what does \`f()\` return?
 - [x] a | 3
 - [ ] b | 10
@@ -184,7 +184,7 @@ hint: Look for the nearest binding in the function scope.
 id: prog-extra-ch6-04
 title: Chapter 6 · multiple return values
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 365](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 365](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What are \`a, b\` after \`def pair(): return 2, 5; a,b = pair()\`?
 - [x] a | a=2 and b=5
 - [ ] b | a=5 and b=2
@@ -198,7 +198,7 @@ hint: Match returned positions to assignment positions.
 id: prog-extra-ch6-05
 title: Chapter 6 · recursion trace
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 358](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 358](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What does \`fact(0)\` return if \`fact(n)\` returns 1 when n==0 and otherwise n*fact(n-1)?
 - [x] a | 1
 - [ ] b | 0
@@ -212,7 +212,7 @@ hint: Evaluate the base case before making another call.
 id: prog-extra-ch6-06
 title: Chapter 6 · side effect versus return
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 353](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 353](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 6 slides · local PDF](../books/392363.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is printed and returned by \`def show(x): print(x); show(4)\`?
 - [x] a | It prints 4 and returns None
 - [ ] b | It prints nothing and returns 4

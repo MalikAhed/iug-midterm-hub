@@ -2,7 +2,7 @@ var e={id:`physics-ch5`,title:`The Laws of Motion`,summary:`Serway/Jewett 9e · 
 id: phys-ch5-p15
 title: Serway/Jewett · Problem 5.15
 question: Serway/Jewett · Problem 5.15
-reference: [Serway/Jewett 9e · Problem 5.15](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.15](../books/136372.pdf#page=176)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.15
@@ -121,7 +121,7 @@ This independently reproduces the displacement. Both velocity and displacement p
 id: phys-ch5-p21
 title: Serway/Jewett · Problem 5.21
 question: Serway/Jewett · Problem 5.21
-reference: [Serway/Jewett 9e · Problem 5.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.21](../books/136372.pdf#page=176)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.21
@@ -213,7 +213,7 @@ This exceeds the lighter block's 15.0-lb weight, confirming upward lift and zero
 id: phys-ch5-p23
 title: Serway/Jewett · Problem 5.23
 question: Serway/Jewett · Problem 5.23
-reference: [Serway/Jewett 9e · Problem 5.23](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.23](../books/136372.pdf#page=176)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.23
@@ -309,7 +309,7 @@ This matches traction, while the car alone still has the smaller 2150-N net forc
 id: phys-ch5-p28
 title: Serway/Jewett · Problem 5.28
 question: Serway/Jewett · Problem 5.28
-reference: [Serway/Jewett 9e · Problem 5.28](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.28](../books/136372.pdf#page=177)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.28
@@ -391,7 +391,7 @@ In part (d), the reading is half the weight because sine of 30° is one half.
 id: phys-ch5-p29
 title: Serway/Jewett · Problem 5.29
 question: Serway/Jewett · Problem 5.29
-reference: [Serway/Jewett 9e · Problem 5.29](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.29](../books/136372.pdf#page=177)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.29
@@ -463,7 +463,7 @@ All three separate block equations therefore give the same acceleration.
 id: phys-ch5-p31
 title: Serway/Jewett · Problem 5.31
 question: Serway/Jewett · Problem 5.31
-reference: [Serway/Jewett 9e · Problem 5.31](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.31](../books/136372.pdf#page=177)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.31
@@ -539,7 +539,7 @@ Two such vertical contributions supply the 9.80-N weight. The large horizontal c
 id: phys-ch5-p33
 title: Serway/Jewett · Problem 5.33
 question: Serway/Jewett · Problem 5.33
-reference: [Serway/Jewett 9e · Problem 5.33](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.33](../books/136372.pdf#page=177)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.33
@@ -635,7 +635,7 @@ The vertical components add to the load:
 id: phys-ch5-p40
 title: Serway/Jewett · Problem 5.40
 question: Serway/Jewett · Problem 5.40
-reference: [Serway/Jewett 9e · Problem 5.40](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.40](../books/136372.pdf#page=178)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.40
@@ -715,7 +715,7 @@ Tension is positive and less than the 88.2-N weight, as downward acceleration re
 id: phys-ch5-p42
 title: Serway/Jewett · Problem 5.42
 question: Serway/Jewett · Problem 5.42
-reference: [Serway/Jewett 9e · Problem 5.42](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.42](../books/136372.pdf#page=178)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.42
@@ -811,7 +811,7 @@ The hanging mass has upward net force of 7.14 N, equal to its mass times the sam
 id: phys-ch5-p43
 title: Serway/Jewett · Problem 5.43
 question: Serway/Jewett · Problem 5.43
-reference: [Serway/Jewett 9e · Problem 5.43](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.43](../books/136372.pdf#page=178)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.43
@@ -891,7 +891,7 @@ It is still safely below 85.0 N while the upper string is exactly at its limit.
 id: phys-ch5-p44
 title: Serway/Jewett · Problem 5.44
 question: Serway/Jewett · Problem 5.44
-reference: [Serway/Jewett 9e · Problem 5.44](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.44](../books/136372.pdf#page=178)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.44
@@ -983,7 +983,7 @@ Those are exactly the weights each string supports. Free-fall zero tension also 
 id: phys-ch5-p45
 title: Serway/Jewett · Problem 5.45
 question: Serway/Jewett · Problem 5.45
-reference: [Serway/Jewett 9e · Problem 5.45](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.45](../books/136372.pdf#page=178)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.45
@@ -1096,7 +1096,7 @@ At zero applied force, the taut solution gives negative acceleration, correctly 
 id: phys-ch5-p46
 title: Serway/Jewett · Problem 5.46
 question: Serway/Jewett · Problem 5.46
-reference: [Serway/Jewett 9e · Problem 5.46](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.46](../books/136372.pdf#page=179)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.46
@@ -1200,7 +1200,7 @@ The hanging acceleration is less than gravitational acceleration for positive ma
 id: phys-ch5-p47
 title: Serway/Jewett · Problem 5.47
 question: Serway/Jewett · Problem 5.47
-reference: [Serway/Jewett 9e · Problem 5.47](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.47](../books/136372.pdf#page=179)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.47
@@ -1286,7 +1286,7 @@ This agrees without reusing the squared-speed equation.
 id: phys-ch5-p49
 title: Serway/Jewett · Problem 5.49
 question: Serway/Jewett · Problem 5.49
-reference: [Serway/Jewett 9e · Problem 5.49](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.49](../books/136372.pdf#page=179)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.49
@@ -1365,7 +1365,7 @@ The tension lies between the two downhill weight components, allowing the lighte
 id: phys-ch5-p55
 title: Serway/Jewett · Problem 5.55
 question: Serway/Jewett · Problem 5.55
-reference: [Serway/Jewett 9e · Problem 5.55](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.55](../books/136372.pdf#page=180)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.55
@@ -1453,7 +1453,7 @@ The static coefficient exceeds the kinetic coefficient, consistent with the grea
 id: phys-ch5-p60
 title: Serway/Jewett · Problem 5.60
 question: Serway/Jewett · Problem 5.60
-reference: [Serway/Jewett 9e · Problem 5.60](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.60](../books/136372.pdf#page=180)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.60
@@ -1539,7 +1539,7 @@ This confirms the result without using the rounded angle.
 id: phys-ch5-p63
 title: Serway/Jewett · Problem 5.63
 question: Serway/Jewett · Problem 5.63
-reference: [Serway/Jewett 9e · Problem 5.63](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.63](../books/136372.pdf#page=180)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.63
@@ -1627,7 +1627,7 @@ The acceleration is smaller than the frictionless value of 6.30 m/s², and the t
 id: phys-ch5-p64
 title: Serway/Jewett · Problem 5.64
 question: Serway/Jewett · Problem 5.64
-reference: [Serway/Jewett 9e · Problem 5.64](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.64](../books/136372.pdf#page=180)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.64
@@ -1735,7 +1735,7 @@ The left tension is below the descending mass's weight; the right tension exceed
 id: phys-ch5-p65
 title: Serway/Jewett · Problem 5.65
 question: Serway/Jewett · Problem 5.65
-reference: [Serway/Jewett 9e · Problem 5.65](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.65](../books/136372.pdf#page=181)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.65
@@ -1817,7 +1817,7 @@ The force balance agrees for each block.
 id: phys-ch5-p66
 title: Serway/Jewett · Problem 5.66
 question: Serway/Jewett · Problem 5.66
-reference: [Serway/Jewett 9e · Problem 5.66](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.66](../books/136372.pdf#page=181)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.66
@@ -1927,7 +1927,7 @@ At 13°, the downward-friction capacity per newton of push exceeds the upward co
 id: phys-ch5-p70
 title: Serway/Jewett · Problem 5.70
 question: Serway/Jewett · Problem 5.70
-reference: [Serway/Jewett 9e · Problem 5.70](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.70](../books/136372.pdf#page=181)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.70
@@ -2013,7 +2013,7 @@ Only the 10.0-kg block accelerates, so this equals its mass times 0.580 m/s², n
 id: phys-ch5-p83
 title: Serway/Jewett · Problem 5.83
 question: Serway/Jewett · Problem 5.83
-reference: [Serway/Jewett 9e · Problem 5.83](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.83](../books/136372.pdf#page=183)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.83
@@ -2113,7 +2113,7 @@ The resultant forces add to the applied 18.0 N.
 id: phys-ch5-p85
 title: Serway/Jewett · Problem 5.85
 question: Serway/Jewett · Problem 5.85
-reference: [Serway/Jewett 9e · Problem 5.85](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.85](../books/136372.pdf#page=183)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.85
@@ -2203,7 +2203,7 @@ This independently confirms the less obvious ceiling-support tension.
 id: phys-ch5-p88
 title: Serway/Jewett · Problem 5.88
 question: Serway/Jewett · Problem 5.88
-reference: [Serway/Jewett 9e · Problem 5.88](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.88](../books/136372.pdf#page=183)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.88
@@ -2381,7 +2381,7 @@ This agrees with the incline-system result. Setting the friction coefficient to 
 id: phys-ch5-p89
 title: Serway/Jewett · Problem 5.89
 question: Serway/Jewett · Problem 5.89
-reference: [Serway/Jewett 9e · Problem 5.89](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.89](../books/136372.pdf#page=183)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.89
@@ -2489,7 +2489,7 @@ As the downward angle increases toward the critical angle, the denominator tends
 id: phys-ch5-p93
 title: Serway/Jewett · Problem 5.93
 question: Serway/Jewett · Problem 5.93
-reference: [Serway/Jewett 9e · Problem 5.93](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.93](../books/136372.pdf#page=184)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.93
@@ -2585,7 +2585,7 @@ which reproduces the whole-system result. If the hanging mass tends to zero, the
 id: phys-ch5-p101
 title: Serway/Jewett · Problem 5.101
 question: Serway/Jewett · Problem 5.101
-reference: [Serway/Jewett 9e · Problem 5.101](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.101](../books/136372.pdf#page=185)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.101
@@ -2708,7 +2708,7 @@ Both agree with the two-stage solution.
 id: phys-ch5-p103
 title: Serway/Jewett · Problem 5.103
 question: Serway/Jewett · Problem 5.103
-reference: [Serway/Jewett 9e · Problem 5.103](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 5.103](../books/136372.pdf#page=185)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 5.103

@@ -2,7 +2,7 @@ var e={id:`physics-ch2`,title:`Motion in One Dimension`,summary:`Serway/Jewett 9
 id: phys-ch2-p1
 title: Serway/Jewett · Problem 2.1
 question: Serway/Jewett · Problem 2.1
-reference: [Serway/Jewett 9e · Problem 2.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.1](../books/136372.pdf#page=87)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.1
@@ -62,7 +62,7 @@ The final interval returns to the starting position, so its average velocity is 
 id: phys-ch2-p3
 title: Serway/Jewett · Problem 2.3
 question: Serway/Jewett · Problem 2.3
-reference: [Serway/Jewett 9e · Problem 2.3](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.3](../books/136372.pdf#page=87)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.3
@@ -108,7 +108,7 @@ The average speed lies between 3 and 5 m/s and is closer to the slower speed; av
 id: phys-ch2-p7
 title: Serway/Jewett · Problem 2.7
 question: Serway/Jewett · Problem 2.7
-reference: [Serway/Jewett 9e · Problem 2.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.7](../books/136372.pdf#page=87)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.7
@@ -156,7 +156,7 @@ Both slopes in (a) and (b) are negative because position is decreasing; at the m
 id: phys-ch2-p13
 title: Serway/Jewett · Problem 2.13
 question: Serway/Jewett · Problem 2.13
-reference: [Serway/Jewett 9e · Problem 2.13](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.13](../books/136372.pdf#page=88)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.13
@@ -245,7 +245,7 @@ The moving time is about 2.438 h; multiplying it by 89.5 km/h also gives about 2
 id: phys-ch2-p21
 title: Serway/Jewett · Problem 2.21
 question: Serway/Jewett · Problem 2.21
-reference: [Serway/Jewett 9e · Problem 2.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.21](../books/136372.pdf#page=88)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.21
@@ -291,7 +291,7 @@ The position also has the constant-acceleration form with initial position 2 m, 
 id: phys-ch2-p35
 title: Serway/Jewett · Problem 2.35
 question: Serway/Jewett · Problem 2.35
-reference: [Serway/Jewett 9e · Problem 2.35](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.35](../books/136372.pdf#page=89)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.35
@@ -390,7 +390,7 @@ For constant acceleration the average velocity is the mean of the endpoint veloc
 id: phys-ch2-p37
 title: Serway/Jewett · Problem 2.37
 question: Serway/Jewett · Problem 2.37
-reference: [Serway/Jewett 9e · Problem 2.37](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.37](../books/136372.pdf#page=89)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.37
@@ -444,7 +444,7 @@ The average velocity is 25.0 m/s; multiplying by 8.00 s reproduces 200 m.
 id: phys-ch2-p38
 title: Serway/Jewett · Problem 2.38
 question: Serway/Jewett · Problem 2.38
-reference: [Serway/Jewett 9e · Problem 2.38](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.38](../books/136372.pdf#page=90)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.38
@@ -494,7 +494,7 @@ The return speed equals the initial speed in magnitude, but its direction is rev
 id: phys-ch2-p41
 title: Serway/Jewett · Problem 2.41
 question: Serway/Jewett · Problem 2.41
-reference: [Serway/Jewett 9e · Problem 2.41](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.41](../books/136372.pdf#page=90)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.41
@@ -548,7 +548,7 @@ The signed sum -4.50+18.0 gives the same 13.5 m displacement as part (c).
 id: phys-ch2-p49
 title: Serway/Jewett · Problem 2.49
 question: Serway/Jewett · Problem 2.49
-reference: [Serway/Jewett 9e · Problem 2.49](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.49](../books/136372.pdf#page=91)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.49
@@ -594,7 +594,7 @@ Substituting T=2v₀/g into y=v₀T-gT²/2 gives zero net vertical displacement.
 id: phys-ch2-p51
 title: Serway/Jewett · Problem 2.51
 question: Serway/Jewett · Problem 2.51
-reference: [Serway/Jewett 9e · Problem 2.51](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.51](../books/136372.pdf#page=91)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.51
@@ -644,7 +644,7 @@ At 1.789 s, the displacement is approximately \\[8.00(1.789)+4.90(1.789)^2\\appr
 id: phys-ch2-p53
 title: Serway/Jewett · Problem 2.53
 question: Serway/Jewett · Problem 2.53
-reference: [Serway/Jewett 9e · Problem 2.53](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.53](../books/136372.pdf#page=91)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.53
@@ -690,7 +690,7 @@ The highest point occurs at about 1.02 s, before the 1.50 s catch, confirming th
 id: phys-ch2-p65
 title: Serway/Jewett · Problem 2.65
 question: Serway/Jewett · Problem 2.65
-reference: [Serway/Jewett 9e · Problem 2.65](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 2.65](../books/136372.pdf#page=92)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 2.65

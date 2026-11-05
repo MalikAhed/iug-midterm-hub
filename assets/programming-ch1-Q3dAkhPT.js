@@ -142,7 +142,7 @@ hint: Recall the chapter definition, then trace the code carefully.
 id: prog-extra-ch1-01
 title: Chapter 1 · expression type
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 28](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 28](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is the type of the value produced by \`7 / 2\` in Python 3?
 - [x] a | float
 - [ ] b | int
@@ -156,7 +156,7 @@ hint: Distinguish \`/\` from \`//\` before evaluating.
 id: prog-extra-ch1-02
 title: Chapter 1 · precedence trace
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 42](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 42](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What does \`2 ** 3 * 2\` evaluate to?
 - [x] a | 16
 - [ ] b | 64
@@ -170,7 +170,7 @@ hint: Apply exponentiation before multiplication.
 id: prog-extra-ch1-03
 title: Chapter 1 · input conversion
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 36](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 36](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: If \`age = input()\` and the user enters \`19\`, what is the type of \`age\`?
 - [x] a | str
 - [ ] b | int
@@ -184,7 +184,7 @@ hint: The characters typed by the user are not automatically numeric.
 id: prog-extra-ch1-04
 title: Chapter 1 · syntax versus runtime
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 46](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 46](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What kind of error is raised by evaluating \`10 / 0\` after the program has parsed successfully?
 - [x] a | ZeroDivisionError
 - [ ] b | SyntaxError
@@ -198,7 +198,7 @@ hint: Separate malformed grammar from a valid operation with invalid data.
 id: prog-extra-ch1-05
 title: Chapter 1 · floor division
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 44](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 44](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is the value of \`-7 // 3\` in Python?
 - [x] a | -3
 - [ ] b | -2
@@ -212,7 +212,7 @@ hint: Python \`//\` is floor division, not truncation toward zero.
 id: prog-extra-ch1-06
 title: Chapter 1 · Boolean expression
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 49](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 49](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 1 slides · local PDF](../books/392329.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is the value of \`(3 < 5) and (2 == 4)\`?
 - [x] a | False
 - [ ] b | True

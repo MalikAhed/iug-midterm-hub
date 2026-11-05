@@ -28,7 +28,7 @@
       "file": "147397.pdf",
       "pages": 24,
       "before": 887370,
-      "after": 251265
+      "after": 251266
     },
     {
       "file": "151718.pdf",
@@ -82,7 +82,7 @@
       "file": "396728.pdf",
       "pages": 25,
       "before": 438211,
-      "after": 374769
+      "after": 374770
     },
     {
       "file": "157252.pdf",
@@ -159,10 +159,10 @@
   ],
   "pdfEngine": "pymupdf",
   "images": {
-    "before": 11416118,
-    "after": 9584790,
+    "before": 11368944,
+    "after": 9543044,
     "optimized": 657
   },
-  "files": 822,
-  "totalBytes": 39441643
+  "files": 823,
+  "totalBytes": 95070950
 }

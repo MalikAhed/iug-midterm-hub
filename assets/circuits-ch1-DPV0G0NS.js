@@ -142,7 +142,7 @@ hint: Label the circuit quantities before selecting an answer.
 id: circ-extra-ch1-01
 title: Chapter 1 · passive sign convention
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 5](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 5](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: Under the passive sign convention, an element absorbs power when current enters its terminal marked…
 - [x] a | positive voltage
 - [ ] b | negative voltage
@@ -156,7 +156,7 @@ hint: Draw the voltage polarity and current arrow before assigning the sign.
 id: circ-extra-ch1-02
 title: Chapter 1 · power balance
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 8](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 8](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: A circuit has 12 W delivered by sources and 7 W absorbed by resistors. The remaining absorption is…
 - [x] a | 5 W
 - [ ] b | 19 W
@@ -170,7 +170,7 @@ hint: Sum delivered and absorbed powers with consistent signs.
 id: circ-extra-ch1-03
 title: Chapter 1 · ideal source
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 11](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 11](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: An ideal voltage source maintains its specified voltage regardless of…
 - [x] a | the current drawn by the connected circuit
 - [ ] b | its voltage
@@ -184,7 +184,7 @@ hint: Contrast an ideal voltage source with an ideal current source.
 id: circ-extra-ch1-04
 title: Chapter 1 · open circuit
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 16](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 16](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: An ideal open circuit has…
 - [x] a | zero current and unconstrained voltage
 - [ ] b | zero voltage and arbitrary current
@@ -198,7 +198,7 @@ hint: Open means no current path, not necessarily zero voltage.
 id: circ-extra-ch1-05
 title: Chapter 1 · short circuit
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 18](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 18](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: An ideal short circuit has…
 - [x] a | zero voltage and potentially large current
 - [ ] b | zero current and large voltage
@@ -212,7 +212,7 @@ hint: A short fixes voltage, while the network determines current.
 id: circ-extra-ch1-06
 title: Chapter 1 · node voltage
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395310.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: Two points joined by an ideal wire have…
 - [x] a | the same voltage
 - [ ] b | the same current through every branch

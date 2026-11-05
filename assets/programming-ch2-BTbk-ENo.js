@@ -142,7 +142,7 @@ hint: Recall the chapter definition, then trace the code carefully.
 id: prog-extra-ch2-01
 title: Chapter 2 · assignment trace
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 94](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 94](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: After \`x = 4; y = x + 3; x = y * 2\`, what are \`(x, y)\`?
 - [x] a | (14, 7)
 - [ ] b | (7, 14)
@@ -156,7 +156,7 @@ hint: Execute assignments in order; an assignment does not change older variable
 id: prog-extra-ch2-02
 title: Chapter 2 · remainder trace
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 106](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 106](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What does \`38 % 7\` return?
 - [x] a | 3
 - [ ] b | 5
@@ -170,7 +170,7 @@ hint: Write the dividend as quotient × divisor + remainder.
 id: prog-extra-ch2-03
 title: Chapter 2 · formatted output
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 118](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 118](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is printed by \`print(f"{5/2:.1f}")\`?
 - [x] a | 2.5
 - [ ] b | 2.50
@@ -184,7 +184,7 @@ hint: Evaluate the expression before applying the format specification.
 id: prog-extra-ch2-04
 title: Chapter 2 · integer conversion
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 102](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 102](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What value does \`int(6.9)\` produce?
 - [x] a | 6
 - [ ] b | 7
@@ -198,7 +198,7 @@ hint: \`int()\` truncates toward zero for a finite float.
 id: prog-extra-ch2-05
 title: Chapter 2 · simultaneous assignment
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 143](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 143](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: After \`a, b = 2, 5; a, b = b - a, a + b\`, what is \`(a, b)\`?
 - [x] a | (3, 7)
 - [ ] b | (5, 7)
@@ -212,7 +212,7 @@ hint: Both right-hand expressions see the original pair.
 id: prog-extra-ch2-06
 title: Chapter 2 · numeric function
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 137](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 137](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 2 slides · local PDF](../books/392334.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: For \`math.ceil(3.01)\`, which value is returned?
 - [x] a | 4
 - [ ] b | 3

@@ -2,7 +2,7 @@ var e={id:`physics-ch3`,title:`Vectors`,summary:`Serway/Jewett 9e · Chapter 3 �
 id: phys-ch3-p15
 title: Serway/Jewett · Problem 3.15
 question: Serway/Jewett · Problem 3.15
-reference: [Serway/Jewett 9e · Problem 3.15](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.15](../books/136372.pdf#page=109)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.15
@@ -96,7 +96,7 @@ Both the values and their signs match the original vector. The length also excee
 id: phys-ch3-p19
 title: Serway/Jewett · Problem 3.19
 question: Serway/Jewett · Problem 3.19
-reference: [Serway/Jewett 9e · Problem 3.19](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.19](../books/136372.pdf#page=109)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.19
@@ -212,7 +212,7 @@ Rounding the components explains the small last-digit differences. Each reconstr
 id: phys-ch3-p21
 title: Serway/Jewett · Problem 3.21
 question: Serway/Jewett · Problem 3.21
-reference: [Serway/Jewett 9e · Problem 3.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.21](../books/136372.pdf#page=109)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.21
@@ -317,7 +317,7 @@ Northward travel totals 137.5 m, while southward travel is 150 m, leaving 12.5 m
 id: phys-ch3-p23
 title: Serway/Jewett · Problem 3.23
 question: Serway/Jewett · Problem 3.23
-reference: [Serway/Jewett 9e · Problem 3.23](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.23](../books/136372.pdf#page=109)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.23
@@ -437,7 +437,7 @@ The sum's negative y component agrees with its quadrant-IV angle.
 id: phys-ch3-p26
 title: Serway/Jewett · Problem 3.26
 question: Serway/Jewett · Problem 3.26
-reference: [Serway/Jewett 9e · Problem 3.26](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.26](../books/136372.pdf#page=109)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.26
@@ -558,7 +558,7 @@ C points right/up and D left/up, agreeing with the reported polar quadrants.
 id: phys-ch3-p31
 title: Serway/Jewett · Problem 3.31
 question: Serway/Jewett · Problem 3.31
-reference: [Serway/Jewett 9e · Problem 3.31](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.31](../books/136372.pdf#page=110)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.31
@@ -667,7 +667,7 @@ D has signs (+,−), matching 315°. E has signs (−,+), matching 116.6°. Both
 id: phys-ch3-p36
 title: Serway/Jewett · Problem 3.36
 question: Serway/Jewett · Problem 3.36
-reference: [Serway/Jewett 9e · Problem 3.36](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.36](../books/136372.pdf#page=110)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.36
@@ -790,7 +790,7 @@ Each calculated length exceeds the magnitude of each of its own components, as r
 id: phys-ch3-p37
 title: Serway/Jewett · Problem 3.37
 question: Serway/Jewett · Problem 3.37
-reference: [Serway/Jewett 9e · Problem 3.37](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.37](../books/136372.pdf#page=110)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.37
@@ -911,7 +911,7 @@ Both components vanish, so the full vector equation is satisfied.
 id: phys-ch3-p41
 title: Serway/Jewett · Problem 3.41
 question: Serway/Jewett · Problem 3.41
-reference: [Serway/Jewett 9e · Problem 3.41](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.41](../books/136372.pdf#page=110)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.41
@@ -1021,7 +1021,7 @@ E points right/up, F left/up, and G left/down. All three reconstructed lengths a
 id: phys-ch3-p45
 title: Serway/Jewett · Problem 3.45
 question: Serway/Jewett · Problem 3.45
-reference: [Serway/Jewett 9e · Problem 3.45](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.45](../books/136372.pdf#page=111)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.45
@@ -1124,7 +1124,7 @@ The plane is 12.06 km horizontally away and 7.60 km high, so its straight-line d
 id: phys-ch3-p57
 title: Serway/Jewett · Problem 3.57
 question: Serway/Jewett · Problem 3.57
-reference: [Serway/Jewett 9e · Problem 3.57](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.57](../books/136372.pdf#page=112)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.57
@@ -1222,7 +1222,7 @@ The largest component is along z, so the smallest angle should be to z. Also the
 id: phys-ch3-p59
 title: Serway/Jewett · Problem 3.59
 question: Serway/Jewett · Problem 3.59
-reference: [Serway/Jewett 9e · Problem 3.59](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 3.59](../books/136372.pdf#page=112)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 3.59
@@ -1329,7 +1329,7 @@ Taking the positive square root gives the required length ratio 100. The small p
 id: phys-ch7-p7
 title: Serway/Jewett · Problem 7.7
 question: Serway/Jewett · Problem 7.7
-reference: [Serway/Jewett 9e · Problem 7.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 7.7](../books/136372.pdf#page=241)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 7.7
@@ -1420,7 +1420,7 @@ If both vectors lie along x only, the formula reduces to the product of their x 
 id: phys-ch7-p9
 title: Serway/Jewett · Problem 7.9
 question: Serway/Jewett · Problem 7.9
-reference: [Serway/Jewett 9e · Problem 7.9](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 7.9](../books/136372.pdf#page=241)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 7.9
@@ -1525,7 +1525,7 @@ The distributive form provides a second check:
 id: phys-ch7-p12
 title: Serway/Jewett · Problem 7.12
 question: Serway/Jewett · Problem 7.12
-reference: [Serway/Jewett 9e · Problem 7.12](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 7.12](../books/136372.pdf#page=241)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 7.12
@@ -1648,7 +1648,7 @@ The positive dot products in (a) and (c) give acute angles. The negative dot pro
 id: phys-ch7-p13
 title: Serway/Jewett · Problem 7.13
 question: Serway/Jewett · Problem 7.13
-reference: [Serway/Jewett 9e · Problem 7.13](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 7.13](../books/136372.pdf#page=241)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 7.13
@@ -1789,7 +1789,7 @@ C is closer to B's 60° direction, so its dot product with B should be larger. U
 id: phys-ch11-p1
 title: Serway/Jewett · Problem 11.1
 question: Serway/Jewett · Problem 11.1
-reference: [Serway/Jewett 9e · Problem 11.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 11.1](../books/136372.pdf#page=391)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 11.1
@@ -1893,7 +1893,7 @@ Both checks pass.
 id: phys-ch11-p3
 title: Serway/Jewett · Problem 11.3
 question: Serway/Jewett · Problem 11.3
-reference: [Serway/Jewett 9e · Problem 11.3](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 11.3](../books/136372.pdf#page=391)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 11.3
@@ -2007,7 +2007,7 @@ AB\\sin\\theta=\\sqrt{65}\\sin60.3^\\circ\\approx7.
 id: phys-ch11-p7
 title: Serway/Jewett · Problem 11.7
 question: Serway/Jewett · Problem 11.7
-reference: [Serway/Jewett 9e · Problem 11.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 11.7](../books/136372.pdf#page=391)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 11.7
@@ -2098,7 +2098,7 @@ Thus both sides have the same positive value.
 id: phys-ch11-p10
 title: Serway/Jewett · Problem 11.10
 question: Serway/Jewett · Problem 11.10
-reference: [Serway/Jewett 9e · Problem 11.10](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 11.10](../books/136372.pdf#page=391)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 11.10

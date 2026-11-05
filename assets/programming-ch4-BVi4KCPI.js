@@ -142,7 +142,7 @@ hint: Recall the chapter definition, then trace the code carefully.
 id: prog-extra-ch4-01
 title: Chapter 4 · branch trace
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 214](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 214](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: If \`score = 72\`, which branch runs in \`if score >= 90: A elif score >= 60: B else: C\`?
 - [x] a | B
 - [ ] b | A
@@ -156,7 +156,7 @@ hint: Check conditions from top to bottom.
 id: prog-extra-ch4-02
 title: Chapter 4 · logical precedence
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 226](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 226](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is the value of \`not (2 > 1 and 4 < 3)\`?
 - [x] a | True
 - [ ] b | False
@@ -170,7 +170,7 @@ hint: Evaluate the parenthesized expression before applying \`not\`.
 id: prog-extra-ch4-03
 title: Chapter 4 · leap-year pattern
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 238](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 238](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: Which condition correctly identifies a leap year \`y\` under the Gregorian rule?
 - [x] a | y % 400 == 0 or (y % 4 == 0 and y % 100 != 0)
 - [ ] b | y % 4 == 0 and y % 100 == 0
@@ -184,7 +184,7 @@ hint: Keep the century exception inside the non-400 branch.
 id: prog-extra-ch4-04
 title: Chapter 4 · conditional expression
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 243](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 243](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is the value of \`'pass' if mark >= 50 else 'fail'\` when \`mark = 49\`?
 - [x] a | 'fail'
 - [ ] b | 'pass'
@@ -198,7 +198,7 @@ hint: A conditional expression has the form true-value if condition else false-v
 id: prog-extra-ch4-05
 title: Chapter 4 · range selection
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 255](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 255](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: Which test accepts an integer \`n\` in the inclusive range 10 through 20?
 - [x] a | 10 <= n <= 20
 - [ ] b | 10 < n < 20
@@ -212,7 +212,7 @@ hint: Use \`<=\` when the boundary values are valid.
 id: prog-extra-ch4-06
 title: Chapter 4 · truthy strings
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 249](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 249](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 4 slides · local PDF](../books/392349.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What does \`if ''\` do in Python?
 - [x] a | It skips the branch because the empty string is false
 - [ ] b | It always enters the branch

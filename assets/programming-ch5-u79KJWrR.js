@@ -142,7 +142,7 @@ hint: Recall the chapter definition, then trace the code carefully.
 id: prog-extra-ch5-01
 title: Chapter 5 · loop trace
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 277](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 277](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is the final value of \`s\` after \`s=0; for k in range(1,5): s += k\`?
 - [x] a | 10
 - [ ] b | 15
@@ -156,7 +156,7 @@ hint: \`range(1,5)\` stops before 5.
 id: prog-extra-ch5-02
 title: Chapter 5 · while update
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 273](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 273](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: How many times does \`n=16; while n>1: n//=2\` execute?
 - [x] a | 4
 - [ ] b | 3
@@ -170,7 +170,7 @@ hint: List the value at the start of each iteration.
 id: prog-extra-ch5-03
 title: Chapter 5 · nested-loop count
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 303](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 303](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: How many \`*\` characters are printed by \`for i in range(3): for j in range(2): print('*')\`?
 - [x] a | 6
 - [ ] b | 5
@@ -184,7 +184,7 @@ hint: Multiply the independent iteration counts.
 id: prog-extra-ch5-04
 title: Chapter 5 · continue
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 297](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 297](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What values are added by \`for n in range(1,6): if n%2==0: continue; total += n\`?
 - [x] a | 1, 3, and 5
 - [ ] b | 2 and 4
@@ -198,7 +198,7 @@ hint: Find the values that survive the \`continue\` condition.
 id: prog-extra-ch5-05
 title: Chapter 5 · break
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 292](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 292](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: What is \`x\` after \`for x in range(10): if x == 3: break\`?
 - [x] a | 3
 - [ ] b | 2
@@ -212,7 +212,7 @@ hint: The loop variable keeps the value that triggered \`break\`.
 id: prog-extra-ch5-06
 title: Chapter 5 · loop else
 kicker: Choose the correct answer
-reference: [Liang Python textbook · local PDF p. 321](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
+reference: [Liang Python textbook · local PDF p. 321](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=392320) · [Chapter 5 slides · local PDF](../books/392357.pdf#page=1) · [MIT OCW 6.0001 assignments](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/) · [Berkeley CS 61A exams](https://cs61a.org/exams/)
 question: When does \`for item in items: ... else: ...\` execute its \`else\` suite?
 - [x] a | After normal completion without \`break\`
 - [ ] b | Whenever an item is found

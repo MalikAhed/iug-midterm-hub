@@ -30,7 +30,7 @@ hint: Label the circuit quantities before selecting an answer.
 id: circ-extra-ch4l-05
 title: Chapter 4 · linear scaling
 kicker: Choose the correct answer
-reference: [Electric Circuits I textbook · local PDF p. 126](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395314.pdf) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
+reference: [Electric Circuits I textbook · local PDF p. 126](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=395309) · [Chapter slides · local PDF](../books/395314.pdf#page=1) · [MIT OCW 6.002 exams](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/pages/exams/)
 question: If a linear circuit's input source changes from 3 V to 9 V, a response of 2 mA becomes…
 - [x] a | 6 mA
 - [ ] b | 2 mA

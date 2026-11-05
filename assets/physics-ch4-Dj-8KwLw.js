@@ -2,7 +2,7 @@ var e={id:`physics-ch4`,title:`Motion in Two Dimensions`,summary:`Serway/Jewett 
 id: phys-ch4-p1
 title: Serway/Jewett · Problem 4.1
 question: Serway/Jewett · Problem 4.1
-reference: [Serway/Jewett 9e · Problem 4.1](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.1](../books/136372.pdf#page=137)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.1
@@ -176,7 +176,7 @@ The trip ends west and south of the start, matching both negative components. Th
 id: phys-ch4-p3
 title: Serway/Jewett · Problem 4.3
 question: Serway/Jewett · Problem 4.3
-reference: [Serway/Jewett 9e · Problem 4.3](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.3](../books/136372.pdf#page=137)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.3
@@ -346,7 +346,7 @@ At 4 seconds the vertical velocity is 1.00 m/s. The interval average of 0.750 m/
 id: phys-ch4-p4
 title: Serway/Jewett · Problem 4.4
 question: Serway/Jewett · Problem 4.4
-reference: [Serway/Jewett 9e · Problem 4.4](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.4](../books/136372.pdf#page=137)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.4
@@ -529,7 +529,7 @@ At the bottom of a circle centred above the particle, inward acceleration must p
 id: phys-ch4-p7
 title: Serway/Jewett · Problem 4.7
 question: Serway/Jewett · Problem 4.7
-reference: [Serway/Jewett 9e · Problem 4.7](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.7](../books/136372.pdf#page=138)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.7
@@ -659,7 +659,7 @@ The particle stays on the vertical line through x = 3.00 m. Starting with zero v
 id: phys-ch4-p9
 title: Serway/Jewett · Problem 4.9
 question: Serway/Jewett · Problem 4.9
-reference: [Serway/Jewett 9e · Problem 4.9](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.9](../books/136372.pdf#page=138)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.9
@@ -821,7 +821,7 @@ Substituting 20.0 seconds into the velocity equations reproduces the given final
 id: phys-ch4-p18
 title: Serway/Jewett · Problem 4.18
 question: Serway/Jewett · Problem 4.18
-reference: [Serway/Jewett 9e · Problem 4.18](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.18](../books/136372.pdf#page=138)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.18
@@ -986,7 +986,7 @@ A steep launch should give a large height compared with its range, so an angle n
 id: phys-ch4-p19
 title: Serway/Jewett · Problem 4.19
 question: Serway/Jewett · Problem 4.19
-reference: [Serway/Jewett 9e · Problem 4.19](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.19](../books/136372.pdf#page=139)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.19
@@ -1150,7 +1150,7 @@ The top speed is u, exactly one-half this value, as required.
 id: phys-ch4-p21
 title: Serway/Jewett · Problem 4.21
 question: Serway/Jewett · Problem 4.21
-reference: [Serway/Jewett 9e · Problem 4.21](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.21](../books/136372.pdf#page=139)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.21
@@ -1263,7 +1263,7 @@ The negative result means the stream has fallen below nozzle height by the wall.
 id: phys-ch4-p23
 title: Serway/Jewett · Problem 4.23
 question: Serway/Jewett · Problem 4.23
-reference: [Serway/Jewett 9e · Problem 4.23](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.23](../books/136372.pdf#page=139)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.23
@@ -1390,7 +1390,7 @@ The ball reaches the goal later, at 2.99 seconds, confirming that it is descendi
 id: phys-ch4-p25
 title: Serway/Jewett · Problem 4.25
 question: Serway/Jewett · Problem 4.25
-reference: [Serway/Jewett 9e · Problem 4.25](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.25](../books/136372.pdf#page=139)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.25
@@ -1585,7 +1585,7 @@ So the chosen root does describe a descending landing on the roof.
 id: phys-ch4-p29
 title: Serway/Jewett · Problem 4.29
 question: Serway/Jewett · Problem 4.29
-reference: [Serway/Jewett 9e · Problem 4.29](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.29](../books/136372.pdf#page=140)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.29
@@ -1792,7 +1792,7 @@ The fall time depends on height and gravity, not on the horizontal launch speed.
 id: phys-ch4-p41
 title: Serway/Jewett · Problem 4.41
 question: Serway/Jewett · Problem 4.41
-reference: [Serway/Jewett 9e · Problem 4.41](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.41](../books/136372.pdf#page=141)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.41
@@ -1922,7 +1922,7 @@ The total magnitude 1.48 m/s squared is larger than either component, but smalle
 id: phys-ch4-p42
 title: Serway/Jewett · Problem 4.42
 question: Serway/Jewett · Problem 4.42
-reference: [Serway/Jewett 9e · Problem 4.42](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.42](../books/136372.pdf#page=141)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.42
@@ -2126,7 +2126,7 @@ The component vectors add back to approximately negative 22.5 horizontally and p
 id: phys-ch4-p43
 title: Serway/Jewett · Problem 4.43
 question: Serway/Jewett · Problem 4.43
-reference: [Serway/Jewett 9e · Problem 4.43](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.43](../books/136372.pdf#page=141)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.43
@@ -2243,7 +2243,7 @@ If speed were momentarily unchanging, the tangential component would be zero and
 id: phys-ch4-p44
 title: Serway/Jewett · Problem 4.44
 question: Serway/Jewett · Problem 4.44
-reference: [Serway/Jewett 9e · Problem 4.44](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.44](../books/136372.pdf#page=141)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.44
@@ -2344,7 +2344,7 @@ The final arrow must point west and north. Its magnitude is slightly larger than
 id: phys-ch4-p45
 title: Serway/Jewett · Problem 4.45
 question: Serway/Jewett · Problem 4.45
-reference: [Serway/Jewett 9e · Problem 4.45](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.45](../books/136372.pdf#page=141)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.45
@@ -2476,7 +2476,7 @@ t_{\\mathrm{no\\ wind}}=\\frac{750}{630}=1.1905\\ \\mathrm{h}.
 id: phys-ch4-p47
 title: Serway/Jewett · Problem 4.47
 question: Serway/Jewett · Problem 4.47
-reference: [Serway/Jewett 9e · Problem 4.47](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.47](../books/136372.pdf#page=141)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.47
@@ -2590,7 +2590,7 @@ In 60.0 s the police car travels about 1583 m and the motorist 1333 m. The diffe
 id: phys-ch4-p50
 title: Serway/Jewett · Problem 4.50
 question: Serway/Jewett · Problem 4.50
-reference: [Serway/Jewett 9e · Problem 4.50](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.50](../books/136372.pdf#page=142)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.50
@@ -2709,7 +2709,7 @@ The upstream leg takes more than twice as long as the downstream leg. The total 
 id: phys-ch4-p51
 title: Serway/Jewett · Problem 4.51
 question: Serway/Jewett · Problem 4.51
-reference: [Serway/Jewett 9e · Problem 4.51](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.51](../books/136372.pdf#page=142)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.51
@@ -2843,7 +2843,7 @@ As the current approaches the swimming speed from below, the upstream speed appr
 id: phys-ch4-p54
 title: Serway/Jewett · Problem 4.54
 question: Serway/Jewett · Problem 4.54
-reference: [Serway/Jewett 9e · Problem 4.54](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.54](../books/136372.pdf#page=142)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.54
@@ -2985,7 +2985,7 @@ It stays horizontally alongside the boy for the entire flight, so he can catch i
 id: phys-ch4-p55
 title: Serway/Jewett · Problem 4.55
 question: Serway/Jewett · Problem 4.55
-reference: [Serway/Jewett 9e · Problem 4.55](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.55](../books/136372.pdf#page=142)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.55
@@ -3092,7 +3092,7 @@ The radial acceleration is about 5.55 times g. This is possible for a fast ball 
 id: phys-ch4-p60
 title: Serway/Jewett · Problem 4.60
 question: Serway/Jewett · Problem 4.60
-reference: [Serway/Jewett 9e · Problem 4.60](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.60](../books/136372.pdf#page=143)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.60
@@ -3227,7 +3227,7 @@ Using the unrounded speed, the hoop time is about 1.224 s. The vertical rise at 
 id: phys-ch4-p62
 title: Serway/Jewett · Problem 4.62
 question: Serway/Jewett · Problem 4.62
-reference: [Serway/Jewett 9e · Problem 4.62](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.62](../books/136372.pdf#page=143)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.62
@@ -3397,7 +3397,7 @@ The final speed is greater than the initial speed because the fall adds a downwa
 id: phys-ch4-p64
 title: Serway/Jewett · Problem 4.64
 question: Serway/Jewett · Problem 4.64
-reference: [Serway/Jewett 9e · Problem 4.64](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.64](../books/136372.pdf#page=143)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.64
@@ -3522,7 +3522,7 @@ From B the horizontal difference is 92.36 km. Pythagoras with 92.36 km and 144.6
 id: phys-ch4-p70
 title: Serway/Jewett · Problem 4.70
 question: Serway/Jewett · Problem 4.70
-reference: [Serway/Jewett 9e · Problem 4.70](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.70](../books/136372.pdf#page=144)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.70
@@ -3653,7 +3653,7 @@ The total magnitude, 26.9 m/s², is larger than either component but smaller tha
 id: phys-ch4-p71
 title: Serway/Jewett · Problem 4.71
 question: Serway/Jewett · Problem 4.71
-reference: [Serway/Jewett 9e · Problem 4.71](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.71](../books/136372.pdf#page=144)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.71
@@ -3804,7 +3804,7 @@ During the 4.34067 s dive, the hawk moves 43.4067 m forward and 197 m downward. 
 id: phys-ch4-p84
 title: Serway/Jewett · Problem 4.84
 question: Serway/Jewett · Problem 4.84
-reference: [Serway/Jewett 9e · Problem 4.84](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.84](../books/136372.pdf#page=145)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.84
@@ -3985,7 +3985,7 @@ It clears the edge and lands beyond it because its landing coordinate is greater
 id: phys-ch4-p86
 title: Serway/Jewett · Problem 4.86
 question: Serway/Jewett · Problem 4.86
-reference: [Serway/Jewett 9e · Problem 4.86](https://moodle.iugaza.edu.ps/mod/resource/view.php?id=136372)
+reference: [Serway/Jewett 9e · Problem 4.86](../books/136372.pdf#page=146)
 answer-label: Show answer
 body:
 Serway/Jewett · Problem 4.86
